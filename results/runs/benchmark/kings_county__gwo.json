@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 2129,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 50.186,
+ "best_val_loss": 0.3130104834333165,
+ "best_at_units": 9540.0,
+ "handoff_units": null,
+ "train_loss": 0.2521961236228953,
+ "train_rmse": 0.5021913217319623,
+ "train_r2": 0.7478038763771049,
+ "val_loss": 0.3130104834333165,
+ "val_rmse": 0.5594733983249932,
+ "val_r2": 0.7222508381866157,
+ "test_loss": 0.3285392361312846,
+ "test_rmse": 0.5731834227638519,
+ "test_r2": 0.7171844206849263,
+ "experiment": "benchmark",
+ "dataset": "kings_county",
+ "task": "regression",
+ "data_id": 44989,
+ "config_index": null,
+ "seed": 0
+}

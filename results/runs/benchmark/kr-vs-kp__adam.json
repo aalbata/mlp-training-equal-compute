@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 658,
+ "budget": 10000,
+ "units_used": 10000.002,
+ "stop_reason": "budget",
+ "seconds": 74.482,
+ "best_val_loss": 0.01176123806170788,
+ "best_at_units": 160.002,
+ "handoff_units": null,
+ "train_loss": 0.0024743252250207966,
+ "train_accuracy": 0.9994783515910276,
+ "val_loss": 0.01176123806170788,
+ "val_accuracy": 0.9953051643192489,
+ "test_loss": 0.014435106333818958,
+ "test_accuracy": 0.9921875,
+ "experiment": "benchmark",
+ "dataset": "kr-vs-kp",
+ "task": "classification",
+ "data_id": 3,
+ "config_index": null,
+ "seed": 0
+}

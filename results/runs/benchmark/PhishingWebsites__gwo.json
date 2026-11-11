@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 28.904,
+ "best_val_loss": 0.14852116436201052,
+ "best_at_units": 9460.0,
+ "handoff_units": null,
+ "train_loss": 0.14136109523054896,
+ "train_accuracy": 0.938,
+ "val_loss": 0.14852116436201052,
+ "val_accuracy": 0.9402985074626866,
+ "test_loss": 0.15089058640474629,
+ "test_accuracy": 0.9393939393939394,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,30 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 50,
+  "mutation_rate": 0.0010998246818925794,
+  "mutation_scale": 0.18649923124373916,
+  "init_scale": 0.31047254650942424
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 31.291,
+ "best_val_loss": 0.4533619100604834,
+ "best_at_units": 9960.0,
+ "handoff_units": null,
+ "train_loss": 0.4618827859608602,
+ "train_accuracy": 0.7844,
+ "val_loss": 0.4533619100604834,
+ "val_accuracy": 0.7852,
+ "test_loss": 0.47089978654289355,
+ "test_accuracy": 0.7714884696016772,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 9,
+ "seed": 0
+}

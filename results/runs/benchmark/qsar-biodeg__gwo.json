@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 706,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.318,
+ "best_val_loss": 0.31166487329846,
+ "best_at_units": 5700.0,
+ "handoff_units": null,
+ "train_loss": 0.28427077403882717,
+ "train_accuracy": 0.8894154818325435,
+ "val_loss": 0.31166487329846,
+ "val_accuracy": 0.8862559241706162,
+ "test_loss": 0.6778903457026589,
+ "test_accuracy": 0.8341232227488151,
+ "experiment": "benchmark",
+ "dataset": "qsar-biodeg",
+ "task": "classification",
+ "data_id": 1494,
+ "config_index": null,
+ "seed": 0
+}

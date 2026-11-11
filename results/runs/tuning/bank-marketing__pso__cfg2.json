@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 80,
+  "inertia": 0.4801610190544125,
+  "c1": 1.1611447993371122,
+  "c2": 1.3719690180127833,
+  "init_scale": 0.4372864473397193,
+  "vmax": 0.05
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 56.818,
+ "best_val_loss": 0.29748707417768455,
+ "best_at_units": 10000.0,
+ "handoff_units": null,
+ "train_loss": 0.286228103517001,
+ "train_accuracy": 0.886,
+ "val_loss": 0.29748707417768455,
+ "val_accuracy": 0.8816,
+ "test_loss": 0.28623837788174705,
+ "test_accuracy": 0.8856574145748093,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 2,
+ "seed": 0
+}

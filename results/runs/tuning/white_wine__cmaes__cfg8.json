@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.21893006148958363,
+  "popsize_factor": 2
+ },
+ "hidden": "16",
+ "n_params": 209,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.714,
+ "best_val_loss": 0.8155889050502039,
+ "best_at_units": 8400.0,
+ "handoff_units": null,
+ "train_loss": 0.6684258534582176,
+ "train_rmse": 0.8175731486895944,
+ "train_r2": 0.3315741465417822,
+ "val_loss": 0.8155889050502039,
+ "val_rmse": 0.9030996097054875,
+ "val_r2": 0.2828753349079395,
+ "test_loss": 0.7202127579359292,
+ "test_rmse": 0.8486534969797327,
+ "test_r2": 0.28664547790234784,
+ "experiment": "tuning",
+ "dataset": "white_wine",
+ "task": "regression",
+ "data_id": 44971,
+ "config_index": 8,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 2738,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 223.217,
+ "best_val_loss": 0.13163037325440605,
+ "best_at_units": 40.037,
+ "handoff_units": null,
+ "train_loss": 0.09600266570683877,
+ "train_accuracy": 0.9656,
+ "val_loss": 0.13163037325440605,
+ "val_accuracy": 0.9496,
+ "test_loss": 0.13214519402730796,
+ "test_accuracy": 0.9505295227041927,
+ "experiment": "benchmark",
+ "dataset": "nomao",
+ "task": "classification",
+ "data_id": 1486,
+ "config_index": null,
+ "seed": 0
+}

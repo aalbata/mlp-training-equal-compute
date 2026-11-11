@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 129,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.187,
+ "best_val_loss": 0.3925695960050137,
+ "best_at_units": 1130.059,
+ "handoff_units": 501.118,
+ "train_loss": 0.308478059397824,
+ "train_rmse": 0.555408011643534,
+ "train_r2": 0.691521940602176,
+ "val_loss": 0.3925695960050137,
+ "val_rmse": 0.6265537455039382,
+ "val_r2": 0.5643491679524766,
+ "test_loss": 0.28760416158671703,
+ "test_rmse": 0.5362873871225362,
+ "test_r2": 0.6518619017080653,
+ "experiment": "benchmark",
+ "dataset": "QSAR_fish_toxicity",
+ "task": "regression",
+ "data_id": 44970,
+ "config_index": null,
+ "seed": 0
+}

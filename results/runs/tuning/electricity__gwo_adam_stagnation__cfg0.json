@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 94.884,
+ "best_val_loss": 0.4365365204541223,
+ "best_at_units": 1020.035,
+ "handoff_units": 580.0,
+ "train_loss": 0.42092759274153907,
+ "train_accuracy": 0.804,
+ "val_loss": 0.4365365204541223,
+ "val_accuracy": 0.8068,
+ "test_loss": 0.45173280885678957,
+ "test_accuracy": 0.7816396336753835,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 0,
+ "seed": 0
+}

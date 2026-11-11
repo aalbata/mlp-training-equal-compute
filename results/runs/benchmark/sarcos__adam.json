@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 149.401,
+ "best_val_loss": 0.03459017141277179,
+ "best_at_units": 8970.019,
+ "handoff_units": null,
+ "train_loss": 0.025376982176309987,
+ "train_rmse": 0.15930154480202,
+ "train_r2": 0.97462301782369,
+ "val_loss": 0.03459017141277179,
+ "val_rmse": 0.1859843310947774,
+ "val_r2": 0.9652491823733724,
+ "test_loss": 0.03688232808238229,
+ "test_rmse": 0.19204772345014218,
+ "test_r2": 0.9630546431508237,
+ "experiment": "benchmark",
+ "dataset": "sarcos",
+ "task": "regression",
+ "data_id": 44976,
+ "config_index": null,
+ "seed": 0
+}

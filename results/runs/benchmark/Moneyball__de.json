@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 1073,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.24,
+ "best_val_loss": 0.06840370199130151,
+ "best_at_units": 9550.0,
+ "handoff_units": null,
+ "train_loss": 0.06017185567971708,
+ "train_rmse": 0.24529952237971658,
+ "train_r2": 0.9398281443202829,
+ "val_loss": 0.06840370199130151,
+ "val_rmse": 0.2615410139754404,
+ "val_r2": 0.9267908030532956,
+ "test_loss": 0.07153464683511969,
+ "test_rmse": 0.2674596172043916,
+ "test_r2": 0.9164698439143274,
+ "experiment": "benchmark",
+ "dataset": "Moneyball",
+ "task": "regression",
+ "data_id": 41021,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 694,
+ "budget": 10000,
+ "units_used": 10000.045,
+ "stop_reason": "budget",
+ "seconds": 67.643,
+ "best_val_loss": 0.2883098812484384,
+ "best_at_units": 280.045,
+ "handoff_units": null,
+ "train_loss": 0.23065065442006835,
+ "train_accuracy": 0.9110938310005184,
+ "val_loss": 0.2883098812484384,
+ "val_accuracy": 0.8810264385692068,
+ "test_loss": 0.3240665148800408,
+ "test_accuracy": 0.8748055987558321,
+ "experiment": "benchmark",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

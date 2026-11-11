@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.065,
+ "stop_reason": "budget",
+ "seconds": 11.516,
+ "best_val_loss": 0.12135855361335565,
+ "best_at_units": 10000.065,
+ "handoff_units": null,
+ "train_loss": 0.0912622871374814,
+ "train_rmse": 0.3020964864699379,
+ "train_r2": 0.9087377128625186,
+ "val_loss": 0.12135855361335565,
+ "val_rmse": 0.348365545961933,
+ "val_r2": 0.893681490091845,
+ "test_loss": 0.09425585770429276,
+ "test_rmse": 0.3070111686963404,
+ "test_r2": 0.8912026403400299,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

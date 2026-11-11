@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 129,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 8.797,
+ "best_val_loss": 0.4098983943168697,
+ "best_at_units": 8480.0,
+ "handoff_units": null,
+ "train_loss": 0.2979111282115224,
+ "train_rmse": 0.5458123562283309,
+ "train_r2": 0.7020888717884775,
+ "val_loss": 0.4098983943168697,
+ "val_rmse": 0.6402330781183285,
+ "val_r2": 0.681209507405834,
+ "test_loss": 0.2997674321115443,
+ "test_rmse": 0.5475102118787779,
+ "test_r2": 0.6775321349671117,
+ "experiment": "benchmark",
+ "dataset": "space_ga",
+ "task": "regression",
+ "data_id": 45402,
+ "config_index": null,
+ "seed": 0
+}

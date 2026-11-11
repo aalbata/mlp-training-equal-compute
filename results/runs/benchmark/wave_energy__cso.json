@@ -1,0 +1,32 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 801,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 19.876,
+ "best_val_loss": 0.14351949939987013,
+ "best_at_units": 9490.0,
+ "handoff_units": null,
+ "train_loss": 0.1459294083463025,
+ "train_rmse": 0.3820070789217164,
+ "train_r2": 0.8540705916536975,
+ "val_loss": 0.14351949939987013,
+ "val_rmse": 0.3788396750604009,
+ "val_r2": 0.8535716120251556,
+ "test_loss": 0.14377634962733618,
+ "test_rmse": 0.37917851946983516,
+ "test_r2": 0.8560814687635617,
+ "experiment": "benchmark",
+ "dataset": "wave_energy",
+ "task": "regression",
+ "data_id": 44975,
+ "config_index": null,
+ "seed": 0
+}

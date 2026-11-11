@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.043,
+ "stop_reason": "budget",
+ "seconds": 11.037,
+ "best_val_loss": 0.44298568050921866,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.45015193623978067,
+ "train_accuracy": 0.7913043478260869,
+ "val_loss": 0.44298568050921866,
+ "val_accuracy": 0.7857142857142857,
+ "test_loss": 0.4707366043205465,
+ "test_accuracy": 0.7532467532467533,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

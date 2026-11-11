@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.011,
+ "stop_reason": "budget",
+ "seconds": 79.458,
+ "best_val_loss": 0.13337082651090557,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.10545653740093866,
+ "train_accuracy": 0.9532894736842106,
+ "val_loss": 0.13337082651090557,
+ "val_accuracy": 0.9467455621301775,
+ "test_loss": 0.17343169245103543,
+ "test_accuracy": 0.9428007889546351,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.0010993393233046018,
+  "momentum": 0.9,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 70.704,
+ "best_val_loss": 0.4353822393888842,
+ "best_at_units": 3590.035,
+ "handoff_units": null,
+ "train_loss": 0.40717487680456943,
+ "train_accuracy": 0.8156,
+ "val_loss": 0.4353822393888842,
+ "val_accuracy": 0.7988,
+ "test_loss": 0.4561021972944278,
+ "test_accuracy": 0.7860531832726471,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 1,
+ "seed": 0
+}

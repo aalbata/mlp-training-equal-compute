@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.599,
+ "best_val_loss": 0.7234840422582134,
+ "best_at_units": 9730.0,
+ "handoff_units": null,
+ "train_loss": 0.692154961542371,
+ "train_rmse": 0.8319585095077584,
+ "train_r2": 0.307845038457629,
+ "val_loss": 0.7234840422582134,
+ "val_rmse": 0.8505786514239664,
+ "val_r2": 0.2993425946063394,
+ "test_loss": 0.6981869606217166,
+ "test_rmse": 0.8355758257762826,
+ "test_r2": 0.30927791786236625,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

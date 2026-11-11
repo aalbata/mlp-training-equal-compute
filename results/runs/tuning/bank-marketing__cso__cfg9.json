@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 59.713,
+ "best_val_loss": 0.2307202177297274,
+ "best_at_units": 9810.0,
+ "handoff_units": null,
+ "train_loss": 0.214897536823303,
+ "train_accuracy": 0.903,
+ "val_loss": 0.2307202177297274,
+ "val_accuracy": 0.894,
+ "test_loss": 0.22988986953054802,
+ "test_accuracy": 0.8963839433816212,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 9,
+ "seed": 0
+}

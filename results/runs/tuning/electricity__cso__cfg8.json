@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 200,
+  "phi": 0.1,
+  "init_scale": 0.06836574215067809
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 31.252,
+ "best_val_loss": 0.4659650637449726,
+ "best_at_units": 9910.0,
+ "handoff_units": null,
+ "train_loss": 0.4803307275913327,
+ "train_accuracy": 0.7716,
+ "val_loss": 0.4659650637449726,
+ "val_accuracy": 0.7824,
+ "test_loss": 0.48642985635935065,
+ "test_accuracy": 0.7690610173231822,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 8,
+ "seed": 0
+}

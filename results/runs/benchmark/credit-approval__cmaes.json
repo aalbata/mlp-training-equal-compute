@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 722,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 44.334,
+ "best_val_loss": 0.30864035927233074,
+ "best_at_units": 1450.0,
+ "handoff_units": null,
+ "train_loss": 0.3122208333154609,
+ "train_accuracy": 0.8792270531400966,
+ "val_loss": 0.30864035927233074,
+ "val_accuracy": 0.8913043478260869,
+ "test_loss": 0.28596428164076687,
+ "test_accuracy": 0.8840579710144928,
+ "experiment": "benchmark",
+ "dataset": "credit-approval",
+ "task": "classification",
+ "data_id": 29,
+ "config_index": null,
+ "seed": 0
+}

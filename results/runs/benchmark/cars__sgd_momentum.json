@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 305,
+ "budget": 10000,
+ "units_used": 10000.593,
+ "stop_reason": "budget",
+ "seconds": 3.125,
+ "best_val_loss": 0.04938678814056972,
+ "best_at_units": 440.39,
+ "handoff_units": null,
+ "train_loss": 0.03358151513150626,
+ "train_rmse": 0.18325259924897724,
+ "train_r2": 0.9664184848684938,
+ "val_loss": 0.04938678814056972,
+ "val_rmse": 0.22223138423852226,
+ "val_r2": 0.9628763843364923,
+ "test_loss": 0.04969223892807051,
+ "test_rmse": 0.22291756083375422,
+ "test_r2": 0.9466753751943526,
+ "experiment": "benchmark",
+ "dataset": "cars",
+ "task": "regression",
+ "data_id": 44994,
+ "config_index": null,
+ "seed": 0
+}

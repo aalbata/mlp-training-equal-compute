@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 706,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.305,
+ "best_val_loss": 0.30979995490007467,
+ "best_at_units": 9980.0,
+ "handoff_units": null,
+ "train_loss": 0.18187269866456848,
+ "train_accuracy": 0.9289099526066351,
+ "val_loss": 0.30979995490007467,
+ "val_accuracy": 0.8957345971563981,
+ "test_loss": 0.6290294657696669,
+ "test_accuracy": 0.8530805687203792,
+ "experiment": "benchmark",
+ "dataset": "qsar-biodeg",
+ "task": "classification",
+ "data_id": 1494,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 5
+ },
+ "hidden": "16",
+ "n_params": 209,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 6.124,
+ "best_val_loss": 0.7187903906611864,
+ "best_at_units": 120.0,
+ "handoff_units": null,
+ "train_loss": 0.5901721059461082,
+ "train_rmse": 0.7682265980465063,
+ "train_r2": 0.40982789405389164,
+ "val_loss": 0.7187903906611864,
+ "val_rmse": 0.8478150686683897,
+ "val_r2": 0.367987579303123,
+ "test_loss": 0.6574470861320432,
+ "test_rmse": 0.8108311082661069,
+ "test_r2": 0.3488134627379933,
+ "experiment": "tuning",
+ "dataset": "white_wine",
+ "task": "regression",
+ "data_id": 44971,
+ "config_index": 2,
+ "seed": 0
+}

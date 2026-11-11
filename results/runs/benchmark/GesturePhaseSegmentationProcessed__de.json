@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 32.68,
+ "best_val_loss": 1.294704226665022,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 1.2730584928507194,
+ "train_accuracy": 0.4736,
+ "val_loss": 1.294704226665022,
+ "val_accuracy": 0.46936708860759496,
+ "test_loss": 1.2944036603863869,
+ "test_accuracy": 0.47544303797468357,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

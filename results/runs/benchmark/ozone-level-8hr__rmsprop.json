@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.011,
+ "stop_reason": "budget",
+ "seconds": 41.224,
+ "best_val_loss": 0.13033594559768608,
+ "best_at_units": 100.011,
+ "handoff_units": null,
+ "train_loss": 0.10226865963723272,
+ "train_accuracy": 0.9546052631578947,
+ "val_loss": 0.13033594559768608,
+ "val_accuracy": 0.9566074950690335,
+ "test_loss": 0.15881354923521832,
+ "test_accuracy": 0.9428007889546351,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 257,
+ "budget": 10000,
+ "units_used": 10000.01,
+ "stop_reason": "budget",
+ "seconds": 125.451,
+ "best_val_loss": 0.00016960530415182314,
+ "best_at_units": 9590.008,
+ "handoff_units": 501.011,
+ "train_loss": 0.00016534303085608896,
+ "train_rmse": 0.012858578103977475,
+ "train_r2": 0.9998346569691439,
+ "val_loss": 0.00016960530415182314,
+ "val_rmse": 0.013023260119947814,
+ "val_r2": 0.999829750465341,
+ "test_loss": 0.0001721399961799578,
+ "test_rmse": 0.013120213267319925,
+ "test_r2": 0.9998297155252153,
+ "experiment": "benchmark",
+ "dataset": "naval_propulsion_plant",
+ "task": "regression",
+ "data_id": 44969,
+ "config_index": null,
+ "seed": 0
+}

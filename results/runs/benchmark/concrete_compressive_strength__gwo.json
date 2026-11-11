@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.483,
+ "best_val_loss": 0.15347173517382023,
+ "best_at_units": 7250.0,
+ "handoff_units": null,
+ "train_loss": 0.17272929127387388,
+ "train_rmse": 0.4156071357350279,
+ "train_r2": 0.8272707087261262,
+ "val_loss": 0.15347173517382023,
+ "val_rmse": 0.39175468749438114,
+ "val_r2": 0.8119946409456045,
+ "test_loss": 0.1722322679543369,
+ "test_rmse": 0.4150087564791096,
+ "test_r2": 0.816528171291404,
+ "experiment": "benchmark",
+ "dataset": "concrete_compressive_strength",
+ "task": "regression",
+ "data_id": 44959,
+ "config_index": null,
+ "seed": 0
+}

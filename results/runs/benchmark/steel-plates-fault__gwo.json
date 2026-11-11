@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.47,
+ "best_val_loss": 0.9929036552649144,
+ "best_at_units": 8050.0,
+ "handoff_units": null,
+ "train_loss": 0.8517248998711178,
+ "train_accuracy": 0.6606529209621993,
+ "val_loss": 0.9929036552649144,
+ "val_accuracy": 0.6005154639175257,
+ "test_loss": 0.8337298023630072,
+ "test_accuracy": 0.6426735218508998,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

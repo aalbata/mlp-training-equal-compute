@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 1073,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 7.389,
+ "best_val_loss": 0.0575307015867497,
+ "best_at_units": 9980.0,
+ "handoff_units": null,
+ "train_loss": 0.04089239022202438,
+ "train_rmse": 0.2022186693211692,
+ "train_r2": 0.9591076097779756,
+ "val_loss": 0.0575307015867497,
+ "val_rmse": 0.23985558485628325,
+ "val_r2": 0.9384276531775718,
+ "test_loss": 0.06307473256225778,
+ "test_rmse": 0.2511468346650178,
+ "test_r2": 0.926348385165986,
+ "experiment": "benchmark",
+ "dataset": "Moneyball",
+ "task": "regression",
+ "data_id": 41021,
+ "config_index": null,
+ "seed": 0
+}

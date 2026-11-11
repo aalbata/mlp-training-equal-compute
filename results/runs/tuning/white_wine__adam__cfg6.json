@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 209,
+ "budget": 10000,
+ "units_used": 10000.013,
+ "stop_reason": "budget",
+ "seconds": 46.153,
+ "best_val_loss": 0.7159483244210271,
+ "best_at_units": 350.026,
+ "handoff_units": null,
+ "train_loss": 0.5528304743730199,
+ "train_rmse": 0.7435257052537053,
+ "train_r2": 0.44716952562698,
+ "val_loss": 0.7159483244210271,
+ "val_rmse": 0.8461372964365931,
+ "val_r2": 0.3704865291883207,
+ "test_loss": 0.6681225964866419,
+ "test_rmse": 0.8173876659741336,
+ "test_r2": 0.3382396100767623,
+ "experiment": "tuning",
+ "dataset": "white_wine",
+ "task": "regression",
+ "data_id": 44971,
+ "config_index": 6,
+ "seed": 0
+}

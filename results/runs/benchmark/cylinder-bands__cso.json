@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.424,
+ "best_val_loss": 0.6038309491234882,
+ "best_at_units": 2170.0,
+ "handoff_units": null,
+ "train_loss": 0.5564100967136413,
+ "train_accuracy": 0.7191358024691358,
+ "val_loss": 0.6038309491234882,
+ "val_accuracy": 0.6481481481481481,
+ "test_loss": 0.5713175209142559,
+ "test_accuracy": 0.6759259259259259,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

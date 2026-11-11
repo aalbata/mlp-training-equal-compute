@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.002523218752815263,
+  "momentum": 0.9,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 74.719,
+ "best_val_loss": 0.22710055887985878,
+ "best_at_units": 370.075,
+ "handoff_units": null,
+ "train_loss": 0.20021678420890826,
+ "train_accuracy": 0.9148,
+ "val_loss": 0.22710055887985878,
+ "val_accuracy": 0.8972,
+ "test_loss": 0.22343150009947205,
+ "test_accuracy": 0.9006966714585868,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 8,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 562,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 29.958,
+ "best_val_loss": 0.058714236609789444,
+ "best_at_units": 200.036,
+ "handoff_units": null,
+ "train_loss": 0.05752669927891933,
+ "train_accuracy": 0.9792311091471498,
+ "val_loss": 0.058714236609789444,
+ "val_accuracy": 0.980106100795756,
+ "test_loss": 0.07950313935493117,
+ "test_accuracy": 0.9748344370860927,
+ "experiment": "benchmark",
+ "dataset": "sick",
+ "task": "classification",
+ "data_id": 38,
+ "config_index": null,
+ "seed": 0
+}

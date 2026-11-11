@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64,
+  "starts": 8,
+  "explore_fraction": 0.1
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.028,
+ "stop_reason": "budget",
+ "seconds": 53.495,
+ "best_val_loss": 0.31756701764467393,
+ "best_at_units": 1720.028,
+ "handoff_units": 1001.034,
+ "train_loss": 0.13633633145351937,
+ "train_accuracy": 0.9523373052245646,
+ "val_loss": 0.31756701764467393,
+ "val_accuracy": 0.9083409715857012,
+ "test_loss": 0.2886726207329989,
+ "test_accuracy": 0.9102564102564102,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 0,
+ "seed": 0
+}

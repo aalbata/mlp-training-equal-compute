@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.939,
+ "best_val_loss": 0.8591862094331448,
+ "best_at_units": 4860.0,
+ "handoff_units": null,
+ "train_loss": 0.8226001454728196,
+ "train_rmse": 0.9069730676667415,
+ "train_r2": 0.17739985452718043,
+ "val_loss": 0.8591862094331448,
+ "val_rmse": 0.926922979234599,
+ "val_r2": 0.26395025903170466,
+ "test_loss": 0.49282283588285664,
+ "test_rmse": 0.7020134157427881,
+ "test_r2": 0.02646996800691903,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

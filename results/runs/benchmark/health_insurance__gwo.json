@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.203,
+ "best_val_loss": 0.6226122807448277,
+ "best_at_units": 9150.0,
+ "handoff_units": null,
+ "train_loss": 0.6173939533386124,
+ "train_rmse": 0.7857442035030309,
+ "train_r2": 0.382606046661388,
+ "val_loss": 0.6226122807448277,
+ "val_rmse": 0.7890578437255583,
+ "val_r2": 0.37222760604924976,
+ "test_loss": 0.6415355204933639,
+ "test_rmse": 0.8009591253574454,
+ "test_r2": 0.3682223615108745,
+ "experiment": "benchmark",
+ "dataset": "health_insurance",
+ "task": "regression",
+ "data_id": 44993,
+ "config_index": null,
+ "seed": 0
+}

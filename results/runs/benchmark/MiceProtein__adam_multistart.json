@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.074,
+ "stop_reason": "budget",
+ "seconds": 30.13,
+ "best_val_loss": 0.04823174443333604,
+ "best_at_units": 850.074,
+ "handoff_units": 501.037,
+ "train_loss": 0.0013894509737204315,
+ "train_accuracy": 1.0,
+ "val_loss": 0.04823174443333604,
+ "val_accuracy": 0.9861111111111112,
+ "test_loss": 0.04473163720913139,
+ "test_accuracy": 0.9907407407407407,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

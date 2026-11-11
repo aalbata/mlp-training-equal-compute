@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "explore_fraction": 0.1
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.16,
+ "stop_reason": "budget",
+ "seconds": 23.737,
+ "best_val_loss": 0.570814138277613,
+ "best_at_units": 1850.12,
+ "handoff_units": 1000.0,
+ "train_loss": 0.5484809738767064,
+ "train_accuracy": 0.7633333333333333,
+ "val_loss": 0.570814138277613,
+ "val_accuracy": 0.7725,
+ "test_loss": 0.6291220493625738,
+ "test_accuracy": 0.7075,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 0,
+ "seed": 0
+}

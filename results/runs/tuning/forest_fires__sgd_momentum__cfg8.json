@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.002523218752815263,
+  "momentum": 0.9,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10000.239,
+ "stop_reason": "budget",
+ "seconds": 2.104,
+ "best_val_loss": 4.733779196121161,
+ "best_at_units": 310.239,
+ "handoff_units": null,
+ "train_loss": 0.8410291395996984,
+ "train_rmse": 0.9170764088121002,
+ "train_r2": 0.15897086040030095,
+ "val_loss": 4.733779196121161,
+ "val_rmse": 2.1757249817293456,
+ "val_r2": 0.0061153893022829475,
+ "test_loss": 0.22458842348723912,
+ "test_rmse": 0.4739076107082889,
+ "test_r2": -1.3056407962524403,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 8,
+ "seed": 0
+}

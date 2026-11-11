@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 32.095,
+ "best_val_loss": 0.5930315445927434,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.42913719616342516,
+ "train_accuracy": 0.8433333333333334,
+ "val_loss": 0.5930315445927434,
+ "val_accuracy": 0.69,
+ "test_loss": 0.7136046455085838,
+ "test_accuracy": 0.58,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

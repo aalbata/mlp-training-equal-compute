@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 714,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 84.879,
+ "best_val_loss": 2.2436731864718613,
+ "best_at_units": 9970.0,
+ "handoff_units": null,
+ "train_loss": 2.2394212130087734,
+ "train_accuracy": 0.3462,
+ "val_loss": 2.2436731864718613,
+ "val_accuracy": 0.354,
+ "test_loss": 2.255990092228453,
+ "test_accuracy": 0.34125,
+ "experiment": "benchmark",
+ "dataset": "letter",
+ "task": "classification",
+ "data_id": 6,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 30.478,
+ "best_val_loss": 0.8021104821474917,
+ "best_at_units": 4820.0,
+ "handoff_units": null,
+ "train_loss": 0.612041355612792,
+ "train_accuracy": 0.7620274914089347,
+ "val_loss": 0.8021104821474917,
+ "val_accuracy": 0.7164948453608248,
+ "test_loss": 0.7136367258742686,
+ "test_accuracy": 0.7197943444730077,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

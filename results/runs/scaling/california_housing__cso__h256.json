@@ -1,0 +1,32 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "256",
+ "n_params": 2561,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 501.783,
+ "best_val_loss": 0.41029410369648794,
+ "best_at_units": 7830.0,
+ "handoff_units": null,
+ "train_loss": 0.400933190270082,
+ "train_rmse": 0.6331928539316296,
+ "train_r2": 0.599066809729918,
+ "val_loss": 0.41029410369648794,
+ "val_rmse": 0.6405420389767466,
+ "val_r2": 0.5916773992956046,
+ "test_loss": 0.40709506204020734,
+ "test_rmse": 0.6380400160179668,
+ "test_r2": 0.6000518273481799,
+ "experiment": "scaling",
+ "dataset": "california_housing",
+ "task": "regression",
+ "data_id": 44977,
+ "config_index": null,
+ "seed": 0
+}

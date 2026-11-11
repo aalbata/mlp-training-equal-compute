@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 210,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 1.676,
+ "best_val_loss": 0.5463143106024989,
+ "best_at_units": 21.0,
+ "handoff_units": null,
+ "train_loss": 0.4898238266198928,
+ "train_accuracy": 0.7163323782234957,
+ "val_loss": 0.5463143106024989,
+ "val_accuracy": 0.6752136752136753,
+ "test_loss": 0.46807205274327074,
+ "test_accuracy": 0.7350427350427351,
+ "experiment": "benchmark",
+ "dataset": "ilpd",
+ "task": "classification",
+ "data_id": 1480,
+ "config_index": null,
+ "seed": 0
+}

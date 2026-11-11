@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 194,
+ "budget": 10000,
+ "units_used": 10000.833,
+ "stop_reason": "budget",
+ "seconds": 3.465,
+ "best_val_loss": 0.03521897516721118,
+ "best_at_units": 1030.833,
+ "handoff_units": null,
+ "train_loss": 0.012521982546464583,
+ "train_accuracy": 1.0,
+ "val_loss": 0.03521897516721118,
+ "val_accuracy": 0.9928571428571429,
+ "test_loss": 0.14202599338193445,
+ "test_accuracy": 0.95,
+ "experiment": "benchmark",
+ "dataset": "breast-w",
+ "task": "classification",
+ "data_id": 15,
+ "config_index": null,
+ "seed": 0
+}

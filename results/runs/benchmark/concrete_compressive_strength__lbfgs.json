@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 1.415,
+ "best_val_loss": 0.10430771119483315,
+ "best_at_units": 402.0,
+ "handoff_units": null,
+ "train_loss": 0.06297108996489989,
+ "train_rmse": 0.250940411183412,
+ "train_r2": 0.9370289100351001,
+ "val_loss": 0.10430771119483315,
+ "val_rmse": 0.32296704351192423,
+ "val_r2": 0.8722213658878862,
+ "test_loss": 0.09764043272857699,
+ "test_rmse": 0.312474691340878,
+ "test_r2": 0.895987732372193,
+ "experiment": "benchmark",
+ "dataset": "concrete_compressive_strength",
+ "task": "regression",
+ "data_id": 44959,
+ "config_index": null,
+ "seed": 0
+}

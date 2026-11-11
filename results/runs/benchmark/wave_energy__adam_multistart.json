@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 801,
+ "budget": 10000,
+ "units_used": 10000.01,
+ "stop_reason": "budget",
+ "seconds": 192.645,
+ "best_val_loss": 7.831054086910617e-08,
+ "best_at_units": 4160.008,
+ "handoff_units": 501.011,
+ "train_loss": 2.1008680264054726e-10,
+ "train_rmse": 1.4494371412398236e-05,
+ "train_r2": 0.9999999997899132,
+ "val_loss": 7.831054086910617e-08,
+ "val_rmse": 0.00027984020595530257,
+ "val_r2": 0.9999999201022418,
+ "test_loss": 1.7255281527707374e-06,
+ "test_rmse": 0.0013135936025920412,
+ "test_r2": 0.9999982727654583,
+ "experiment": "benchmark",
+ "dataset": "wave_energy",
+ "task": "regression",
+ "data_id": 44975,
+ "config_index": null,
+ "seed": 0
+}

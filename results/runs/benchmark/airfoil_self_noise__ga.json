@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.494,
+ "best_val_loss": 0.33759398560226417,
+ "best_at_units": 9820.0,
+ "handoff_units": null,
+ "train_loss": 0.2508818554428326,
+ "train_rmse": 0.5008810791423774,
+ "train_r2": 0.7491181445571674,
+ "val_loss": 0.33759398560226417,
+ "val_rmse": 0.581028386227613,
+ "val_r2": 0.7042442544467022,
+ "test_loss": 0.24458193970222997,
+ "test_rmse": 0.4945522618512931,
+ "test_r2": 0.7176847157489216,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

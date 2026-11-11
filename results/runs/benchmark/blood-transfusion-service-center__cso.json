@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.207,
+ "best_val_loss": 0.45532782631218083,
+ "best_at_units": 6970.0,
+ "handoff_units": null,
+ "train_loss": 0.43677356256954336,
+ "train_accuracy": 0.8013392857142857,
+ "val_loss": 0.45532782631218083,
+ "val_accuracy": 0.7933333333333333,
+ "test_loss": 0.5122086478291845,
+ "test_accuracy": 0.76,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

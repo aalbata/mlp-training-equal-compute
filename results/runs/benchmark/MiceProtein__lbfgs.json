@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 312.0,
+ "stop_reason": "converged",
+ "seconds": 0.181,
+ "best_val_loss": 0.08391350388914444,
+ "best_at_units": 72.0,
+ "handoff_units": null,
+ "train_loss": 0.0006247634624090992,
+ "train_accuracy": 1.0,
+ "val_loss": 0.08391350388914444,
+ "val_accuracy": 0.9722222222222222,
+ "test_loss": 0.13592296610354146,
+ "test_accuracy": 0.9675925925925926,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

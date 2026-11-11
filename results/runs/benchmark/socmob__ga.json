@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 625,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 3.822,
+ "best_val_loss": 0.10798893123177439,
+ "best_at_units": 9740.0,
+ "handoff_units": null,
+ "train_loss": 0.05860772823651755,
+ "train_rmse": 0.24209033073734595,
+ "train_r2": 0.9413922717634825,
+ "val_loss": 0.10798893123177439,
+ "val_rmse": 0.3286166934770271,
+ "val_r2": 0.929053601875298,
+ "test_loss": 0.6629504203533637,
+ "test_rmse": 0.8142176738154016,
+ "test_r2": 0.5661689571292841,
+ "experiment": "benchmark",
+ "dataset": "socmob",
+ "task": "regression",
+ "data_id": 44987,
+ "config_index": null,
+ "seed": 0
+}

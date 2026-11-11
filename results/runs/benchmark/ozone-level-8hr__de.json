@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 21.679,
+ "best_val_loss": 0.13513273730028177,
+ "best_at_units": 5630.0,
+ "handoff_units": null,
+ "train_loss": 0.14480166863166147,
+ "train_accuracy": 0.9453947368421053,
+ "val_loss": 0.13513273730028177,
+ "val_accuracy": 0.9467455621301775,
+ "test_loss": 0.1589915045582555,
+ "test_accuracy": 0.9368836291913215,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

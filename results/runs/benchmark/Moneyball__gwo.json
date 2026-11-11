@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 1073,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.289,
+ "best_val_loss": 0.06566044427697794,
+ "best_at_units": 9430.0,
+ "handoff_units": null,
+ "train_loss": 0.05830525062516592,
+ "train_rmse": 0.2414648020419662,
+ "train_r2": 0.9416947493748341,
+ "val_loss": 0.06566044427697794,
+ "val_rmse": 0.25624293995538283,
+ "val_r2": 0.9297267800316911,
+ "test_loss": 0.07589577707500436,
+ "test_rmse": 0.2754918820491892,
+ "test_r2": 0.9113774040161176,
+ "experiment": "benchmark",
+ "dataset": "Moneyball",
+ "task": "regression",
+ "data_id": 41021,
+ "config_index": null,
+ "seed": 0
+}

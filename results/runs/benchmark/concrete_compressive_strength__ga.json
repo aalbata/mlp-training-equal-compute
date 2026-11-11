@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.443,
+ "best_val_loss": 0.1655324365175159,
+ "best_at_units": 6970.0,
+ "handoff_units": null,
+ "train_loss": 0.16856613657481795,
+ "train_rmse": 0.410568065702653,
+ "train_r2": 0.8314338634251821,
+ "val_loss": 0.1655324365175159,
+ "val_rmse": 0.4068567764183311,
+ "val_r2": 0.7972200866343417,
+ "test_loss": 0.1778875732173006,
+ "test_rmse": 0.4217672026335151,
+ "test_r2": 0.8105038112175044,
+ "experiment": "benchmark",
+ "dataset": "concrete_compressive_strength",
+ "task": "regression",
+ "data_id": 44959,
+ "config_index": null,
+ "seed": 0
+}

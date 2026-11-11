@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 10000.005,
+ "stop_reason": "budget",
+ "seconds": 48.497,
+ "best_val_loss": 0.19330621231844414,
+ "best_at_units": 60.0,
+ "handoff_units": null,
+ "train_loss": 0.07176265944175356,
+ "train_accuracy": 0.9843014128728415,
+ "val_loss": 0.19330621231844414,
+ "val_accuracy": 0.9513343799058085,
+ "test_loss": 0.15794618556870293,
+ "test_accuracy": 0.9482758620689655,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

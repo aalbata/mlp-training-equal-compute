@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 10,
+  "init_scale": 0.04385987444659592,
+  "lr": 0.003623219992071816,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.035,
+ "stop_reason": "budget",
+ "seconds": 96.443,
+ "best_val_loss": 0.22898614547708984,
+ "best_at_units": 2020.035,
+ "handoff_units": 2000.0,
+ "train_loss": 0.20166176201543337,
+ "train_accuracy": 0.9144,
+ "val_loss": 0.22898614547708984,
+ "val_accuracy": 0.9032,
+ "test_loss": 0.2281254970762947,
+ "test_accuracy": 0.9030189096538759,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 5,
+ "seed": 0
+}

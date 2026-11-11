@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 706,
+ "budget": 10000,
+ "units_used": 10000.213,
+ "stop_reason": "budget",
+ "seconds": 18.306,
+ "best_val_loss": 0.32706270367336127,
+ "best_at_units": 230.123,
+ "handoff_units": null,
+ "train_loss": 0.19521416879565678,
+ "train_accuracy": 0.9289099526066351,
+ "val_loss": 0.32706270367336127,
+ "val_accuracy": 0.8720379146919431,
+ "test_loss": 0.4367551504703881,
+ "test_accuracy": 0.8578199052132701,
+ "experiment": "benchmark",
+ "dataset": "qsar-biodeg",
+ "task": "classification",
+ "data_id": 1494,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 20
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 3663.0,
+ "stop_reason": "converged",
+ "seconds": 7.677,
+ "best_val_loss": 0.4522545014353675,
+ "best_at_units": 111.0,
+ "handoff_units": null,
+ "train_loss": 0.1961154526937574,
+ "train_accuracy": 0.9327833791628476,
+ "val_loss": 0.4522545014353675,
+ "val_accuracy": 0.8890925756186985,
+ "test_loss": 0.38907133942174604,
+ "test_accuracy": 0.8855311355311355,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 1,
+ "seed": 0
+}

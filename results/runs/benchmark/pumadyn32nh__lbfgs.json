@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 545,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 13.392,
+ "best_val_loss": 0.4095678422240421,
+ "best_at_units": 1020.0,
+ "handoff_units": null,
+ "train_loss": 0.32522871206951043,
+ "train_rmse": 0.5702882710257247,
+ "train_r2": 0.6747712879304895,
+ "val_loss": 0.4095678422240421,
+ "val_rmse": 0.6399748762444054,
+ "val_r2": 0.5874800603285926,
+ "test_loss": 0.4334464040426644,
+ "test_rmse": 0.6583664663716283,
+ "test_r2": 0.5664473010447586,
+ "experiment": "benchmark",
+ "dataset": "pumadyn32nh",
+ "task": "regression",
+ "data_id": 44981,
+ "config_index": null,
+ "seed": 0
+}

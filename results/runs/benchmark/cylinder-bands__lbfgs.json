@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 309.0,
+ "stop_reason": "converged",
+ "seconds": 0.353,
+ "best_val_loss": 0.6556638689284949,
+ "best_at_units": 12.0,
+ "handoff_units": null,
+ "train_loss": 0.6229619677950888,
+ "train_accuracy": 0.6604938271604939,
+ "val_loss": 0.6556638689284949,
+ "val_accuracy": 0.6111111111111112,
+ "test_loss": 0.6366652745955251,
+ "test_accuracy": 0.6018518518518519,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

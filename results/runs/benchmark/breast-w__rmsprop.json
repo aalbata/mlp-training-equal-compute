@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 194,
+ "budget": 10000,
+ "units_used": 10000.375,
+ "stop_reason": "budget",
+ "seconds": 5.565,
+ "best_val_loss": 0.0389433973121032,
+ "best_at_units": 1410.0,
+ "handoff_units": null,
+ "train_loss": 0.022577659183155324,
+ "train_accuracy": 0.9976133651551312,
+ "val_loss": 0.0389433973121032,
+ "val_accuracy": 0.9928571428571429,
+ "test_loss": 0.11903672031347773,
+ "test_accuracy": 0.9571428571428572,
+ "experiment": "benchmark",
+ "dataset": "breast-w",
+ "task": "classification",
+ "data_id": 15,
+ "config_index": null,
+ "seed": 0
+}

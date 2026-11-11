@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 20,
+  "inertia": 0.4480144176624847,
+  "c1": 1.3655387572945443,
+  "c2": 1.0565334419355736,
+  "init_scale": 0.022637414264654238,
+  "vmax": 0.05
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.56,
+ "best_val_loss": 2.3265209845044668,
+ "best_at_units": 6300.0,
+ "handoff_units": null,
+ "train_loss": 2.3491859865169897,
+ "train_accuracy": 0.14083333333333334,
+ "val_loss": 2.3265209845044668,
+ "val_accuracy": 0.15,
+ "test_loss": 2.330650094921249,
+ "test_accuracy": 0.1475,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 1,
+ "seed": 0
+}

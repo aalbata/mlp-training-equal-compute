@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 194,
+ "budget": 10000,
+ "units_used": 10000.186,
+ "stop_reason": "budget",
+ "seconds": 10.32,
+ "best_val_loss": 0.04431714221626762,
+ "best_at_units": 700.186,
+ "handoff_units": 501.041,
+ "train_loss": 0.04858409737987542,
+ "train_accuracy": 0.9809069212410502,
+ "val_loss": 0.04431714221626762,
+ "val_accuracy": 0.9785714285714285,
+ "test_loss": 0.08197754281478493,
+ "test_accuracy": 0.9714285714285714,
+ "experiment": "benchmark",
+ "dataset": "breast-w",
+ "task": "classification",
+ "data_id": 15,
+ "config_index": null,
+ "seed": 0
+}

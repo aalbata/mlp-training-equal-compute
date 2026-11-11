@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 4026,
+ "budget": 10000,
+ "units_used": 10000.12,
+ "stop_reason": "budget",
+ "seconds": 35.864,
+ "best_val_loss": 0.16010275166274857,
+ "best_at_units": 80.08,
+ "handoff_units": null,
+ "train_loss": 0.011137267545510152,
+ "train_accuracy": 0.9983333333333333,
+ "val_loss": 0.16010275166274857,
+ "val_accuracy": 0.9575,
+ "test_loss": 0.17509159607242103,
+ "test_accuracy": 0.9525,
+ "experiment": "benchmark",
+ "dataset": "mfeat-pixel",
+ "task": "classification",
+ "data_id": 40979,
+ "config_index": null,
+ "seed": 0
+}

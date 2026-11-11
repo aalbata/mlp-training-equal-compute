@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 694,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 22.177,
+ "best_val_loss": 0.27871142837893503,
+ "best_at_units": 132.0,
+ "handoff_units": null,
+ "train_loss": 0.24309497763273138,
+ "train_accuracy": 0.9074650077760498,
+ "val_loss": 0.27871142837893503,
+ "val_accuracy": 0.890357698289269,
+ "test_loss": 0.335033360341251,
+ "test_accuracy": 0.8639191290824261,
+ "experiment": "benchmark",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.011,
+ "stop_reason": "budget",
+ "seconds": 20.54,
+ "best_val_loss": 0.1475347013286929,
+ "best_at_units": 70.011,
+ "handoff_units": null,
+ "train_loss": 0.09313207720389731,
+ "train_accuracy": 0.9605263157894737,
+ "val_loss": 0.1475347013286929,
+ "val_accuracy": 0.9467455621301775,
+ "test_loss": 0.17135167168976348,
+ "test_accuracy": 0.9329388560157791,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

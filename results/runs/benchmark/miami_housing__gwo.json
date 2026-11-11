@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 273,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.741,
+ "best_val_loss": 0.19722719250782167,
+ "best_at_units": 9930.0,
+ "handoff_units": null,
+ "train_loss": 0.17901753566437018,
+ "train_rmse": 0.4231046391430495,
+ "train_r2": 0.8209824643356298,
+ "val_loss": 0.19722719250782167,
+ "val_rmse": 0.4441026823920586,
+ "val_r2": 0.7922461116585965,
+ "test_loss": 0.16683696901857226,
+ "test_rmse": 0.4084568141414368,
+ "test_r2": 0.8373676048277054,
+ "experiment": "benchmark",
+ "dataset": "miami_housing",
+ "task": "regression",
+ "data_id": 44983,
+ "config_index": null,
+ "seed": 0
+}

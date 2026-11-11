@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 5.587,
+ "best_val_loss": 0.5781679421941878,
+ "best_at_units": 102.0,
+ "handoff_units": null,
+ "train_loss": 0.5956759605484178,
+ "train_accuracy": 0.7675,
+ "val_loss": 0.5781679421941878,
+ "val_accuracy": 0.755,
+ "test_loss": 0.6556383961758719,
+ "test_accuracy": 0.72,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 0,
+ "seed": 0
+}

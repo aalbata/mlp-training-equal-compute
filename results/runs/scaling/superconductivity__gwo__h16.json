@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 1329,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 41.893,
+ "best_val_loss": 0.250755831412464,
+ "best_at_units": 9860.0,
+ "handoff_units": null,
+ "train_loss": 0.2612008469082011,
+ "train_rmse": 0.5110781221185281,
+ "train_r2": 0.7387991530917989,
+ "val_loss": 0.250755831412464,
+ "val_rmse": 0.500755260993296,
+ "val_r2": 0.743879110742369,
+ "test_loss": 0.2670823174935959,
+ "test_rmse": 0.5168000749744488,
+ "test_r2": 0.7300949361354405,
+ "experiment": "scaling",
+ "dataset": "superconductivity",
+ "task": "regression",
+ "data_id": 44964,
+ "config_index": null,
+ "seed": 0
+}

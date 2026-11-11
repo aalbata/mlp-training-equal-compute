@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 1402,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 15.14,
+ "best_val_loss": 1.2374433417601103,
+ "best_at_units": 9520.0,
+ "handoff_units": null,
+ "train_loss": 1.1601176970838165,
+ "train_accuracy": 0.6191666666666666,
+ "val_loss": 1.2374433417601103,
+ "val_accuracy": 0.5575,
+ "test_loss": 1.1756986164870664,
+ "test_accuracy": 0.6025,
+ "experiment": "benchmark",
+ "dataset": "mfeat-fourier",
+ "task": "classification",
+ "data_id": 14,
+ "config_index": null,
+ "seed": 0
+}

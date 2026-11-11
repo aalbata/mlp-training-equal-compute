@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 442,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 85.431,
+ "best_val_loss": 0.07685694965898932,
+ "best_at_units": 940.0,
+ "handoff_units": 640.0,
+ "train_loss": 0.019270005746295917,
+ "train_accuracy": 0.9968,
+ "val_loss": 0.07685694965898932,
+ "val_accuracy": 0.9854413102820746,
+ "test_loss": 0.07761275889231657,
+ "test_accuracy": 0.984993178717599,
+ "experiment": "benchmark",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33403344784859895,
+  "lr": 0.002896003637896238,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 1402,
+ "budget": 10000,
+ "units_used": 10000.08,
+ "stop_reason": "budget",
+ "seconds": 26.965,
+ "best_val_loss": 0.5726498869622264,
+ "best_at_units": 2070.12,
+ "handoff_units": 2000.0,
+ "train_loss": 0.243229747876694,
+ "train_accuracy": 0.9241666666666667,
+ "val_loss": 0.5726498869622264,
+ "val_accuracy": 0.805,
+ "test_loss": 0.5509898938271125,
+ "test_accuracy": 0.7975,
+ "experiment": "benchmark",
+ "dataset": "mfeat-fourier",
+ "task": "classification",
+ "data_id": 14,
+ "config_index": null,
+ "seed": 0
+}

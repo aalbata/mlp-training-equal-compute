@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 21.098,
+ "best_val_loss": 0.6178645735654625,
+ "best_at_units": 3070.0,
+ "handoff_units": null,
+ "train_loss": 0.5571817233630305,
+ "train_accuracy": 0.68,
+ "val_loss": 0.6178645735654625,
+ "val_accuracy": 0.64,
+ "test_loss": 0.7112547484612296,
+ "test_accuracy": 0.62,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

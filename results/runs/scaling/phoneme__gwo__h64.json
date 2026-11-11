@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "64",
+ "n_params": 514,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 65.087,
+ "best_val_loss": 0.38870919103829815,
+ "best_at_units": 7020.0,
+ "handoff_units": null,
+ "train_loss": 0.3637099273619135,
+ "train_accuracy": 0.8269586674892042,
+ "val_loss": 0.38870919103829815,
+ "val_accuracy": 0.7983348751156337,
+ "test_loss": 0.40387520837840524,
+ "test_accuracy": 0.8094357076780758,
+ "experiment": "scaling",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

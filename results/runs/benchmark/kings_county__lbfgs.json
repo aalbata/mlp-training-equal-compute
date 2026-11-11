@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 2129,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 33.375,
+ "best_val_loss": 0.1415474497659032,
+ "best_at_units": 300.0,
+ "handoff_units": null,
+ "train_loss": 0.07357039167180558,
+ "train_rmse": 0.27123862496297535,
+ "train_r2": 0.9264296083281944,
+ "val_loss": 0.1415474497659032,
+ "val_rmse": 0.37622792262922644,
+ "val_r2": 0.8743981827762733,
+ "test_loss": 0.14877970861726353,
+ "test_rmse": 0.38571972806334853,
+ "test_r2": 0.8719263489548471,
+ "experiment": "benchmark",
+ "dataset": "kings_county",
+ "task": "regression",
+ "data_id": 44989,
+ "config_index": null,
+ "seed": 0
+}

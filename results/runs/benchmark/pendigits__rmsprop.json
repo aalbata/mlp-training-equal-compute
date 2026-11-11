@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 442,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 85.562,
+ "best_val_loss": 0.06866661642230251,
+ "best_at_units": 260.035,
+ "handoff_units": null,
+ "train_loss": 0.02091875148267704,
+ "train_accuracy": 0.9944,
+ "val_loss": 0.06866661642230251,
+ "val_accuracy": 0.9881710646041856,
+ "test_loss": 0.07750142138367111,
+ "test_accuracy": 0.9854479308776717,
+ "experiment": "benchmark",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

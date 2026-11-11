@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 5.525,
+ "best_val_loss": 0.6401107612529414,
+ "best_at_units": 20.37,
+ "handoff_units": null,
+ "train_loss": 0.5666812241032606,
+ "train_accuracy": 0.7160493827160493,
+ "val_loss": 0.6401107612529414,
+ "val_accuracy": 0.6666666666666666,
+ "test_loss": 0.6021339513133277,
+ "test_accuracy": 0.6574074074074074,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

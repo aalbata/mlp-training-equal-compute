@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 10.41,
+ "best_val_loss": 0.589830251952529,
+ "best_at_units": 170.56,
+ "handoff_units": null,
+ "train_loss": 0.43921846247355634,
+ "train_accuracy": 0.8333333333333334,
+ "val_loss": 0.589830251952529,
+ "val_accuracy": 0.69,
+ "test_loss": 0.6942423890987675,
+ "test_accuracy": 0.57,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

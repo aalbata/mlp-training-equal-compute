@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0012135180135107873,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.1
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10000.194,
+ "stop_reason": "budget",
+ "seconds": 6.664,
+ "best_val_loss": 4.785755953765509,
+ "best_at_units": 200.168,
+ "handoff_units": 1001.026,
+ "train_loss": 0.7950401297083691,
+ "train_rmse": 0.8916502283453804,
+ "train_r2": 0.20495987029163032,
+ "val_loss": 4.785755953765509,
+ "val_rmse": 2.1876370708519066,
+ "val_r2": -0.004797434764165054,
+ "test_loss": 0.18744095547107945,
+ "test_rmse": 0.4329445177745983,
+ "test_r2": -0.9242822364226329,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 7,
+ "seed": 0
+}

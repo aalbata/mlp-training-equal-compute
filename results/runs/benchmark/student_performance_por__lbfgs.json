@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 6669.0,
+ "stop_reason": "converged",
+ "seconds": 2.38,
+ "best_val_loss": 0.9284950883546431,
+ "best_at_units": 21.0,
+ "handoff_units": null,
+ "train_loss": 0.733711831681757,
+ "train_rmse": 0.8565698054926738,
+ "train_r2": 0.26628816831824287,
+ "val_loss": 0.9284950883546431,
+ "val_rmse": 0.9635844998517997,
+ "val_r2": 0.09739723456662241,
+ "test_loss": 1.0998021523262305,
+ "test_rmse": 1.0487145237509732,
+ "test_r2": 0.15521725107113415,
+ "experiment": "benchmark",
+ "dataset": "student_performance_por",
+ "task": "regression",
+ "data_id": 44967,
+ "config_index": null,
+ "seed": 0
+}

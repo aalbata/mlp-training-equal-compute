@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33403344784859895,
+  "lr": 0.002896003637896238,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10000.035,
+ "stop_reason": "budget",
+ "seconds": 78.981,
+ "best_val_loss": 1.2285339590200361,
+ "best_at_units": 2050.035,
+ "handoff_units": 2000.0,
+ "train_loss": 1.1348361191922751,
+ "train_accuracy": 0.5464,
+ "val_loss": 1.2285339590200361,
+ "val_accuracy": 0.5043037974683544,
+ "test_loss": 1.2167676895767785,
+ "test_accuracy": 0.5159493670886076,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

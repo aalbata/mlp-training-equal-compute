@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 714,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 81.81,
+ "best_val_loss": 2.388636360822139,
+ "best_at_units": 9970.0,
+ "handoff_units": null,
+ "train_loss": 2.361132828973876,
+ "train_accuracy": 0.3722,
+ "val_loss": 2.388636360822139,
+ "val_accuracy": 0.3548,
+ "test_loss": 2.3609424606754255,
+ "test_accuracy": 0.36225,
+ "experiment": "benchmark",
+ "dataset": "letter",
+ "task": "classification",
+ "data_id": 6,
+ "config_index": null,
+ "seed": 0
+}

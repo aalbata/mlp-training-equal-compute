@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.766,
+ "best_val_loss": 0.6546444173624703,
+ "best_at_units": 9970.0,
+ "handoff_units": null,
+ "train_loss": 0.6312829155136838,
+ "train_rmse": 0.7945331431184502,
+ "train_r2": 0.36871708448631624,
+ "val_loss": 0.6546444173624703,
+ "val_rmse": 0.8091009933021157,
+ "val_r2": 0.36601026127273106,
+ "test_loss": 0.6519459432766453,
+ "test_rmse": 0.8074316957344723,
+ "test_r2": 0.35502453529032363,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

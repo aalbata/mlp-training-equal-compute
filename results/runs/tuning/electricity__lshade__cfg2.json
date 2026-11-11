@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 200,
+  "init_scale": 0.015182613241329374
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 33.455,
+ "best_val_loss": 0.44733110482834937,
+ "best_at_units": 9110.0,
+ "handoff_units": null,
+ "train_loss": 0.45685239983939446,
+ "train_accuracy": 0.7886,
+ "val_loss": 0.44733110482834937,
+ "val_accuracy": 0.7956,
+ "test_loss": 0.4676917535155103,
+ "test_accuracy": 0.7778881165177094,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 2,
+ "seed": 0
+}

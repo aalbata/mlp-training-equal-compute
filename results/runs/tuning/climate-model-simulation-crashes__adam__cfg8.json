@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.01899242341466324,
+  "batch_size": 256
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10001.37,
+ "stop_reason": "budget",
+ "seconds": 2.644,
+ "best_val_loss": 0.16529036887284237,
+ "best_at_units": 41.37,
+ "handoff_units": null,
+ "train_loss": 0.09772293537708639,
+ "train_accuracy": 0.9660493827160493,
+ "val_loss": 0.16529036887284237,
+ "val_accuracy": 0.9351851851851852,
+ "test_loss": 0.09982743317926175,
+ "test_accuracy": 0.9537037037037037,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 8,
+ "seed": 0
+}

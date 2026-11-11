@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 1329,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 30.299,
+ "best_val_loss": 0.1730177903032541,
+ "best_at_units": 1290.0,
+ "handoff_units": null,
+ "train_loss": 0.133083435394629,
+ "train_rmse": 0.364806024339825,
+ "train_r2": 0.866916564605371,
+ "val_loss": 0.1730177903032541,
+ "val_rmse": 0.4159540723484434,
+ "val_r2": 0.8232803996610978,
+ "test_loss": 0.17349136858482117,
+ "test_rmse": 0.4165229508500356,
+ "test_r2": 0.8246750314387294,
+ "experiment": "benchmark",
+ "dataset": "superconductivity",
+ "task": "regression",
+ "data_id": 44964,
+ "config_index": null,
+ "seed": 0
+}

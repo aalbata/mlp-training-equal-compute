@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 225,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 10.005,
+ "best_val_loss": 0.06533700368753435,
+ "best_at_units": 10002.0,
+ "handoff_units": null,
+ "train_loss": 0.05415066625765692,
+ "train_rmse": 0.23270295713131134,
+ "train_r2": 0.945849333742343,
+ "val_loss": 0.06533700368753435,
+ "val_rmse": 0.2556110398389208,
+ "val_r2": 0.936708509122461,
+ "test_loss": 0.0618150885484157,
+ "test_rmse": 0.24862640356248508,
+ "test_r2": 0.9393867164048145,
+ "experiment": "benchmark",
+ "dataset": "grid_stability",
+ "task": "regression",
+ "data_id": 44973,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,22 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.72\textwidth}}
+\toprule
+Method & Default setting (search space) \\
+\midrule
+Adam & learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256) \\
+RMSprop & learning rate 0.001 (log-uniform 0.0001 to 0.01); batch 64 (32, 64, 128, 256) \\
+SGD with momentum & learning rate 0.01 (log-uniform 0.001 to 0.3); momentum 0.9 (0.5, 0.9, 0.95); batch 64 (32, 64, 128, 256) \\
+L-BFGS & memory 10 (5, 10, 20, 50) \\
+GA & population 50 (20, 50, 100); mutation rate 0.05 (log-uniform 0.001 to 0.2); mutation s.d. 0.1 (log-uniform 0.01 to 0.5); initial s.d. 0.1 (log-uniform 0.01 to 1) \\
+PSO & population 40 (20, 40, 80); inertia 0.7298 (uniform 0.4 to 0.9); $c_1$ 1.49618 (uniform 1 to 2); $c_2$ 1.49618 (uniform 1 to 2); initial s.d. 0.1 (log-uniform 0.01 to 1); $v_{\max}$ 0.2 (0.05, 0.2, 1) \\
+GWO & population 20 (10, 20, 40, 80); initial s.d. 0.1 (log-uniform 0.01 to 1) \\
+DE & population 50 (20, 50, 100); $F$ 0.5 (uniform 0.3 to 0.9); CR 0.9 (uniform 0.1 to 0.99); initial s.d. 0.1 (log-uniform 0.01 to 1) \\
+CMA-ES & $\sigma_0$ 0.1 (log-uniform 0.01 to 1); population factor 1 (1, 2, 4) \\
+L-SHADE & population 100 (20, 50, 100, 200); initial s.d. 0.1 (log-uniform 0.01 to 1) \\
+CSO & population 100 (20, 50, 100, 200); $\varphi$ 0 (0, 0.05, 0.1, 0.2); initial s.d. 0.1 (log-uniform 0.01 to 1) \\
+PSO then Adam, fixed split & population 40 (20, 40, 80); inertia 0.7298 (uniform 0.4 to 0.9); $c_1$ 1.49618 (uniform 1 to 2); $c_2$ 1.49618 (uniform 1 to 2); initial s.d. 0.1 (log-uniform 0.01 to 1); $v_{\max}$ 0.2 (0.05, 0.2, 1); learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256); search share 0.1 (0.05, 0.1, 0.2, 0.4) \\
+GWO then Adam, fixed split & population 20 (10, 20, 40, 80); initial s.d. 0.1 (log-uniform 0.01 to 1); learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256); search share 0.1 (0.05, 0.1, 0.2, 0.4) \\
+PSO then Adam, stagnation trigger & population 40 (20, 40, 80); inertia 0.7298 (uniform 0.4 to 0.9); $c_1$ 1.49618 (uniform 1 to 2); $c_2$ 1.49618 (uniform 1 to 2); initial s.d. 0.1 (log-uniform 0.01 to 1); $v_{\max}$ 0.2 (0.05, 0.2, 1); learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256); stall iterations 10 (5, 10, 20); tolerance 0 (0, 0.0001, 0.001); search cap 0.5 (0.25, 0.5, 0.75) \\
+GWO then Adam, stagnation trigger & population 20 (10, 20, 40, 80); initial s.d. 0.1 (log-uniform 0.01 to 1); learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256); stall iterations 10 (5, 10, 20); tolerance 0 (0, 0.0001, 0.001); search cap 0.5 (0.25, 0.5, 0.75) \\
+Multi-start Adam & learning rate 0.001 (log-uniform 0.0001 to 0.03); batch 64 (32, 64, 128, 256); starts 8 (4, 8, 16); search share 0.1 (0.05, 0.1, 0.2, 0.4) \\
+\bottomrule
+\end{tabular}

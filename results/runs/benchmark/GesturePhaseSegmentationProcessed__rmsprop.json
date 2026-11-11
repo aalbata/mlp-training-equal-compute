@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 85.637,
+ "best_val_loss": 1.2165570440062274,
+ "best_at_units": 240.0,
+ "handoff_units": null,
+ "train_loss": 1.0911435382109862,
+ "train_accuracy": 0.5646,
+ "val_loss": 1.2165570440062274,
+ "val_accuracy": 0.5037974683544304,
+ "test_loss": 1.1864252284389978,
+ "test_accuracy": 0.5265822784810127,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

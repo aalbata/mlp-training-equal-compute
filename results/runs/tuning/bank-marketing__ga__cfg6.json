@@ -1,0 +1,30 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 50,
+  "mutation_rate": 0.004661302563823528,
+  "mutation_scale": 0.07563430388986486,
+  "init_scale": 0.41674908448135817
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 78.386,
+ "best_val_loss": 0.23757731231040602,
+ "best_at_units": 9980.0,
+ "handoff_units": null,
+ "train_loss": 0.21179559831747347,
+ "train_accuracy": 0.9102,
+ "val_loss": 0.23757731231040602,
+ "val_accuracy": 0.9,
+ "test_loss": 0.22993257761171307,
+ "test_accuracy": 0.9015813336282207,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 6,
+ "seed": 0
+}

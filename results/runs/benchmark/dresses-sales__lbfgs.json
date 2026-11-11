@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 2133.0,
+ "stop_reason": "converged",
+ "seconds": 4.324,
+ "best_val_loss": 0.5642248162314039,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.5308226720739636,
+ "train_accuracy": 0.7266666666666667,
+ "val_loss": 0.5642248162314039,
+ "val_accuracy": 0.71,
+ "test_loss": 0.766478332868808,
+ "test_accuracy": 0.6,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

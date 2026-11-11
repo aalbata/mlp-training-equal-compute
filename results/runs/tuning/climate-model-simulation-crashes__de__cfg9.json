@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 100,
+  "F": 0.5526969466065842,
+  "CR": 0.44411197457963913,
+  "init_scale": 0.6046015250037949
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 3.409,
+ "best_val_loss": 0.34488178171807926,
+ "best_at_units": 9930.0,
+ "handoff_units": null,
+ "train_loss": 0.4870805192043976,
+ "train_accuracy": 0.8518518518518519,
+ "val_loss": 0.34488178171807926,
+ "val_accuracy": 0.9351851851851852,
+ "test_loss": 0.5742898316665801,
+ "test_accuracy": 0.8611111111111112,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 9,
+ "seed": 0
+}

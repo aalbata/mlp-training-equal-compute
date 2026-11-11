@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 420,
+ "budget": 10000,
+ "units_used": 10000.023,
+ "stop_reason": "budget",
+ "seconds": 47.087,
+ "best_val_loss": 0.06445387471590008,
+ "best_at_units": 1040.042,
+ "handoff_units": 501.004,
+ "train_loss": 0.007906711702744904,
+ "train_accuracy": 1.0,
+ "val_loss": 0.06445387471590008,
+ "val_accuracy": 0.9710982658959537,
+ "test_loss": 0.07947039149797998,
+ "test_accuracy": 0.9595375722543352,
+ "experiment": "benchmark",
+ "dataset": "car",
+ "task": "classification",
+ "data_id": 40975,
+ "config_index": null,
+ "seed": 0
+}

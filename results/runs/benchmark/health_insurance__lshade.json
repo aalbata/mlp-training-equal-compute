@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 15.734,
+ "best_val_loss": 0.6198751157332826,
+ "best_at_units": 9340.0,
+ "handoff_units": null,
+ "train_loss": 0.5924482042912151,
+ "train_rmse": 0.769706570253376,
+ "train_r2": 0.4075517957087851,
+ "val_loss": 0.6198751157332826,
+ "val_rmse": 0.7873214818187565,
+ "val_r2": 0.3749874562563166,
+ "test_loss": 0.6278966563811524,
+ "test_rmse": 0.7923993036223294,
+ "test_r2": 0.38165377580553506,
+ "experiment": "benchmark",
+ "dataset": "health_insurance",
+ "task": "regression",
+ "data_id": 44993,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 403,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 17.167,
+ "best_val_loss": 0.9263157337939302,
+ "best_at_units": 610.0,
+ "handoff_units": 460.0,
+ "train_loss": 0.8578303905577096,
+ "train_accuracy": 0.5968289920724802,
+ "val_loss": 0.9263157337939302,
+ "val_accuracy": 0.5491525423728814,
+ "test_loss": 0.9285125823020276,
+ "test_accuracy": 0.559322033898305,
+ "experiment": "benchmark",
+ "dataset": "cmc",
+ "task": "classification",
+ "data_id": 23,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "64-64",
+ "n_params": 9473,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 850.776,
+ "best_val_loss": 0.12699538769694763,
+ "best_at_units": 2380.018,
+ "handoff_units": null,
+ "train_loss": 0.04394078942297133,
+ "train_rmse": 0.20962058444478046,
+ "train_r2": 0.9560592105770287,
+ "val_loss": 0.12699538769694763,
+ "val_rmse": 0.3563641223481225,
+ "val_r2": 0.8702874766846076,
+ "test_loss": 0.13478660855239272,
+ "test_rmse": 0.36713295759491915,
+ "test_r2": 0.8637888553206325,
+ "experiment": "scaling",
+ "dataset": "superconductivity",
+ "task": "regression",
+ "data_id": 44964,
+ "config_index": null,
+ "seed": 0
+}

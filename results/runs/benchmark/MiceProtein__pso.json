@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.019,
+ "best_val_loss": 0.395441301325614,
+ "best_at_units": 9850.0,
+ "handoff_units": null,
+ "train_loss": 0.23766586367878148,
+ "train_accuracy": 0.9274691358024691,
+ "val_loss": 0.395441301325614,
+ "val_accuracy": 0.8611111111111112,
+ "test_loss": 0.4380543948127073,
+ "test_accuracy": 0.8472222222222222,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

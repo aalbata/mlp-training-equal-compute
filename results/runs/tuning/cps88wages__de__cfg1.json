@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 14.763,
+ "best_val_loss": 0.5740225153180413,
+ "best_at_units": 9170.0,
+ "handoff_units": null,
+ "train_loss": 0.6810155987011218,
+ "train_rmse": 0.8252366925319801,
+ "train_r2": 0.31898440129887795,
+ "val_loss": 0.5740225153180413,
+ "val_rmse": 0.7576427359369594,
+ "val_r2": 0.36674891053597125,
+ "test_loss": 0.8450488990961033,
+ "test_rmse": 0.9192654127596138,
+ "test_r2": 0.280909351406214,
+ "experiment": "tuning",
+ "dataset": "cps88wages",
+ "task": "regression",
+ "data_id": 44984,
+ "config_index": 1,
+ "seed": 0
+}

@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 15.228,
+ "best_val_loss": 0.6724702011316733,
+ "best_at_units": 9440.0,
+ "handoff_units": null,
+ "train_loss": 0.645841534469798,
+ "train_rmse": 0.8036426659092946,
+ "train_r2": 0.354158465530202,
+ "val_loss": 0.6724702011316733,
+ "val_rmse": 0.8200428044508855,
+ "val_r2": 0.34874689860635655,
+ "test_loss": 0.6653066315859956,
+ "test_rmse": 0.8156633077354869,
+ "test_r2": 0.3418066968482987,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

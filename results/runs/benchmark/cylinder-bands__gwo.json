@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 20.77,
+ "best_val_loss": 0.6462471947348596,
+ "best_at_units": 2040.0,
+ "handoff_units": null,
+ "train_loss": 0.5868153407124375,
+ "train_accuracy": 0.7098765432098766,
+ "val_loss": 0.6462471947348596,
+ "val_accuracy": 0.6018518518518519,
+ "test_loss": 0.6522074103695868,
+ "test_accuracy": 0.6481481481481481,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

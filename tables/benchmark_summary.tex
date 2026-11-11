@@ -1,0 +1,24 @@
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{Classification} & \multicolumn{3}{c}{Regression} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & Accuracy & Rank & Best & RMSE & Rank & Best \\
+\midrule
+Multi-start Adam & 0.851 & 5.32 & 6 & 0.434 & 5.61 & 4 \\
+Adam & 0.851 & 5.39 & 14 & 0.423 & 4.32 & 6 \\
+RMSprop & 0.849 & 6.26 & 7 & 0.433 & 5.68 & 1 \\
+GWO then Adam, fixed split & 0.843 & 6.54 & 9 & 0.436 & 5.77 & 3 \\
+SGD with momentum & 0.845 & 6.59 & 6 & 0.463 & 5.94 & 7 \\
+L-BFGS & 0.844 & 7.30 & 6 & 0.419 & 5.35 & 3 \\
+PSO then Adam, stagnation trigger & 0.843 & 7.34 & 6 & 0.430 & 5.32 & 2 \\
+GWO then Adam, stagnation trigger & 0.844 & 7.36 & 6 & 0.423 & 6.19 & 1 \\
+PSO then Adam, fixed split & 0.844 & 7.50 & 8 & 0.449 & 8.23 & 1 \\
+CMA-ES & 0.840 & 7.71 & 8 & 0.497 & 8.81 & 0 \\
+GA & 0.813 & 10.11 & 2 & 0.554 & 12.61 & 1 \\
+L-SHADE & 0.806 & 10.26 & 4 & 0.528 & 10.84 & 0 \\
+PSO & 0.810 & 10.77 & 2 & 0.539 & 11.61 & 1 \\
+CSO & 0.785 & 11.97 & 4 & 0.582 & 14.03 & 0 \\
+DE & 0.779 & 12.47 & 3 & 0.572 & 13.94 & 0 \\
+GWO & 0.778 & 13.11 & 1 & 0.557 & 11.74 & 2 \\
+\bottomrule
+\end{tabular}

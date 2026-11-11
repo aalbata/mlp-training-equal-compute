@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.21893006148958363,
+  "popsize_factor": 2
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 15.211,
+ "best_val_loss": 4.711652525499714,
+ "best_at_units": 1020.0,
+ "handoff_units": null,
+ "train_loss": 0.9986294145896928,
+ "train_rmse": 0.9993144723207469,
+ "train_r2": 0.0013705854103065462,
+ "val_loss": 4.711652525499714,
+ "val_rmse": 2.170634129810852,
+ "val_r2": 0.010761013127461139,
+ "test_loss": 0.1428987813065816,
+ "test_rmse": 0.378019551487197,
+ "test_r2": -0.46700909512342026,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 8,
+ "seed": 0
+}

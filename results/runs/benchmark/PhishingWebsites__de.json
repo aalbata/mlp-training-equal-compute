@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 28.892,
+ "best_val_loss": 0.1584430365302467,
+ "best_at_units": 9890.0,
+ "handoff_units": null,
+ "train_loss": 0.1544343681449684,
+ "train_accuracy": 0.9378,
+ "val_loss": 0.1584430365302467,
+ "val_accuracy": 0.9330619629127092,
+ "test_loss": 0.16754502807850982,
+ "test_accuracy": 0.9348710990502035,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

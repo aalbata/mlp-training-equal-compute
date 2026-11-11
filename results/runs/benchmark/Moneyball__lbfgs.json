@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 1073,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 5.6,
+ "best_val_loss": 0.0538542864708752,
+ "best_at_units": 120.0,
+ "handoff_units": null,
+ "train_loss": 0.03782909462381132,
+ "train_rmse": 0.19449702985858505,
+ "train_r2": 0.9621709053761887,
+ "val_loss": 0.0538542864708752,
+ "val_rmse": 0.23206526338699465,
+ "val_r2": 0.9423623437051419,
+ "test_loss": 0.06024574162349363,
+ "test_rmse": 0.2454500796974685,
+ "test_r2": 0.9296517642296248,
+ "experiment": "benchmark",
+ "dataset": "Moneyball",
+ "task": "regression",
+ "data_id": 41021,
+ "config_index": null,
+ "seed": 0
+}

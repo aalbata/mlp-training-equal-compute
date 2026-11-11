@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 5
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 1.437,
+ "best_val_loss": 4.6622103510081025,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.8727698019542531,
+ "train_rmse": 0.9342214951253547,
+ "train_r2": 0.1272301980457462,
+ "val_loss": 4.6622103510081025,
+ "val_rmse": 2.159215216463635,
+ "val_r2": 0.021141686646603985,
+ "test_loss": 0.20429946387213602,
+ "test_rmse": 0.4519949821315896,
+ "test_r2": -1.0973528877496328,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 2,
+ "seed": 0
+}

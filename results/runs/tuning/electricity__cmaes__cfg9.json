@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.025246906372291437,
+  "popsize_factor": 4
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 36.07,
+ "best_val_loss": 0.4642841024190717,
+ "best_at_units": 6790.0,
+ "handoff_units": null,
+ "train_loss": 0.4783759983996266,
+ "train_accuracy": 0.7712,
+ "val_loss": 0.4642841024190717,
+ "val_accuracy": 0.7852,
+ "test_loss": 0.48246218304309146,
+ "test_accuracy": 0.7638750965463974,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 9,
+ "seed": 0
+}

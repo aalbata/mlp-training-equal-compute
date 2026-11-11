@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.461,
+ "best_val_loss": 0.5904015673211387,
+ "best_at_units": 5150.0,
+ "handoff_units": null,
+ "train_loss": 0.5373822371820133,
+ "train_accuracy": 0.74,
+ "val_loss": 0.5904015673211387,
+ "val_accuracy": 0.64,
+ "test_loss": 0.820838585207023,
+ "test_accuracy": 0.5,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

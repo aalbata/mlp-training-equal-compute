@@ -1,0 +1,22 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.58\textwidth}}
+\toprule
+Method & Family & Tuned setting \\
+\midrule
+Adam & gradient & learning rate 0.00414, batch 32 \\
+RMSprop & gradient & learning rate 0.001, batch 64 \\
+SGD with momentum & gradient & learning rate 0.0224, momentum 0.95, batch 128 \\
+L-BFGS & gradient & memory 10 \\
+GA & population & population 20, mutation rate 0.0157, mutation s.d. 0.197, initial s.d. 0.161 \\
+PSO & population & population 40, inertia 0.7298, $c_1$ 1.49618, $c_2$ 1.49618, initial s.d. 0.1, $v_{\max}$ 0.2 \\
+GWO & population & population 80, initial s.d. 0.338 \\
+DE & population & population 50, $F$ 0.304, CR 0.849, initial s.d. 0.136 \\
+CMA-ES & adaptive population & $\sigma_0$ 0.0133, population factor 1 \\
+L-SHADE & adaptive population & population 20, initial s.d. 0.122 \\
+CSO & population & population 100, $\varphi$ 0.05, initial s.d. 0.0740 \\
+PSO then Adam, fixed split & hybrid & population 40, inertia 0.640, $c_1$ 1.67, $c_2$ 1.33, initial s.d. 0.189, $v_{\max}$ 0.05, learning rate 0.000454, batch 256, search share 0.1 \\
+GWO then Adam, fixed split & hybrid & population 80, initial s.d. 0.334, learning rate 0.00290, batch 64, search share 0.2 \\
+PSO then Adam, stagnation trigger & hybrid & population 40, inertia 0.7298, $c_1$ 1.49618, $c_2$ 1.49618, initial s.d. 0.1, $v_{\max}$ 0.2, learning rate 0.001, batch 64, stall iterations 10, tolerance 0, search cap 0.5 \\
+GWO then Adam, stagnation trigger & hybrid & population 20, initial s.d. 0.1, learning rate 0.001, batch 64, stall iterations 10, tolerance 0, search cap 0.5 \\
+Multi-start Adam & gradient (control) & learning rate 0.00165, batch 32, starts 4, search share 0.05 \\
+\bottomrule
+\end{tabular}

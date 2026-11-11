@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.599,
+ "best_val_loss": 0.09916636897653089,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 0.09589249769411802,
+ "train_rmse": 0.3096651380025172,
+ "train_r2": 0.904107502305882,
+ "val_loss": 0.09916636897653089,
+ "val_rmse": 0.3149069211315161,
+ "val_r2": 0.9003730752913857,
+ "test_loss": 0.10292047635668362,
+ "test_rmse": 0.3208122135403882,
+ "test_r2": 0.8969036412888152,
+ "experiment": "benchmark",
+ "dataset": "sarcos",
+ "task": "regression",
+ "data_id": 44976,
+ "config_index": null,
+ "seed": 0
+}

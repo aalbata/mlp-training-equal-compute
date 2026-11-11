@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "64-64",
+ "n_params": 6918,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 283.193,
+ "best_val_loss": 0.4023205032378532,
+ "best_at_units": 9850.0,
+ "handoff_units": null,
+ "train_loss": 0.3763254804468918,
+ "train_accuracy": 0.8551062726801452,
+ "val_loss": 0.4023205032378532,
+ "val_accuracy": 0.8514774494556765,
+ "test_loss": 0.4809661676317514,
+ "test_accuracy": 0.8195956454121306,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

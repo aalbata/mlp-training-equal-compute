@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 23.53,
+ "best_val_loss": 0.15014103840799511,
+ "best_at_units": 2170.0,
+ "handoff_units": null,
+ "train_loss": 0.11897314024474874,
+ "train_accuracy": 0.9532894736842106,
+ "val_loss": 0.15014103840799511,
+ "val_accuracy": 0.9526627218934911,
+ "test_loss": 0.15897859502669165,
+ "test_accuracy": 0.9467455621301775,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

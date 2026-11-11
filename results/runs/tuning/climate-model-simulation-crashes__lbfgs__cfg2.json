@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 5
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 249.0,
+ "stop_reason": "converged",
+ "seconds": 0.036,
+ "best_val_loss": 0.18369725877033918,
+ "best_at_units": 21.0,
+ "handoff_units": null,
+ "train_loss": 0.06608318381035184,
+ "train_accuracy": 0.9845679012345679,
+ "val_loss": 0.18369725877033918,
+ "val_accuracy": 0.9259259259259259,
+ "test_loss": 0.08347633066537172,
+ "test_accuracy": 0.9722222222222222,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 2,
+ "seed": 0
+}

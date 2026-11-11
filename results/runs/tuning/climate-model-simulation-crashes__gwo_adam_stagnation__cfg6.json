@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.26431876269663507,
+  "lr": 0.00010384371178619872,
+  "batch_size": 32,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 7.707,
+ "best_val_loss": 0.16636676401784342,
+ "best_at_units": 1190.0,
+ "handoff_units": 5040.0,
+ "train_loss": 0.16006061048274248,
+ "train_accuracy": 0.9382716049382716,
+ "val_loss": 0.16636676401784342,
+ "val_accuracy": 0.9444444444444444,
+ "test_loss": 0.14935593412376577,
+ "test_accuracy": 0.9259259259259259,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 6,
+ "seed": 0
+}

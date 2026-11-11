@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 60.444,
+ "best_val_loss": 0.5941439105426102,
+ "best_at_units": 9710.035,
+ "handoff_units": null,
+ "train_loss": 0.5141391637555874,
+ "train_rmse": 0.7170349808451381,
+ "train_r2": 0.48586083624441256,
+ "val_loss": 0.5941439105426102,
+ "val_rmse": 0.770807310903711,
+ "val_r2": 0.4246019172836808,
+ "test_loss": 0.5852587973286474,
+ "test_rmse": 0.7650220894383687,
+ "test_r2": 0.42099867531150115,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

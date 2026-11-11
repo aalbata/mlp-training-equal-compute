@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.799,
+ "best_val_loss": 0.7807140377353098,
+ "best_at_units": 1360.0,
+ "handoff_units": null,
+ "train_loss": 0.8558265073923031,
+ "train_rmse": 0.9251089165024317,
+ "train_r2": 0.14417349260769685,
+ "val_loss": 0.7807140377353098,
+ "val_rmse": 0.8835802384250735,
+ "val_r2": 0.3311759907965549,
+ "test_loss": 0.5309477015408627,
+ "test_rmse": 0.7286615823143572,
+ "test_r2": -0.04884249517730099,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

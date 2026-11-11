@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 100,
+  "mutation_rate": 0.01497249729307786,
+  "mutation_scale": 0.4962736469255431,
+  "init_scale": 0.016092559021447916
+ },
+ "hidden": "16",
+ "n_params": 209,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.816,
+ "best_val_loss": 0.8164574750737187,
+ "best_at_units": 9780.0,
+ "handoff_units": null,
+ "train_loss": 0.6576453945360623,
+ "train_rmse": 0.8109533861672089,
+ "train_r2": 0.3423546054639375,
+ "val_loss": 0.8164574750737187,
+ "val_rmse": 0.9035803644799497,
+ "val_r2": 0.2821116254173307,
+ "test_loss": 0.7414960490057965,
+ "test_rmse": 0.8611016484746713,
+ "test_r2": 0.2655648572627992,
+ "experiment": "tuning",
+ "dataset": "white_wine",
+ "task": "regression",
+ "data_id": 44971,
+ "config_index": 2,
+ "seed": 0
+}

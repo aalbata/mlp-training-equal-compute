@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.016,
+ "stop_reason": "budget",
+ "seconds": 68.466,
+ "best_val_loss": 0.01644837880721834,
+ "best_at_units": 1200.0,
+ "handoff_units": null,
+ "train_loss": 0.014650428949145406,
+ "train_rmse": 0.12103895632871843,
+ "train_r2": 0.9853495710508546,
+ "val_loss": 0.01644837880721834,
+ "val_rmse": 0.12825123316061465,
+ "val_r2": 0.9855311011224226,
+ "test_loss": 0.01791594504112272,
+ "test_rmse": 0.13385045775462526,
+ "test_r2": 0.9818204884208067,
+ "experiment": "benchmark",
+ "dataset": "cpu_activity",
+ "task": "regression",
+ "data_id": 44978,
+ "config_index": null,
+ "seed": 0
+}

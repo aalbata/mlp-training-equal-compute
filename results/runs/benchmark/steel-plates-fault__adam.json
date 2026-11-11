@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.072,
+ "stop_reason": "budget",
+ "seconds": 42.408,
+ "best_val_loss": 0.7190429859420193,
+ "best_at_units": 40.072,
+ "handoff_units": null,
+ "train_loss": 0.5758890417006419,
+ "train_accuracy": 0.7740549828178694,
+ "val_loss": 0.7190429859420193,
+ "val_accuracy": 0.7268041237113402,
+ "test_loss": 0.6559930467196299,
+ "test_accuracy": 0.7532133676092545,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

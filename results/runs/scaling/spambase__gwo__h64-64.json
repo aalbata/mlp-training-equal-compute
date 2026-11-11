@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "64-64",
+ "n_params": 8002,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 182.022,
+ "best_val_loss": 0.24410486185139607,
+ "best_at_units": 9410.0,
+ "handoff_units": null,
+ "train_loss": 0.18292410256772942,
+ "train_accuracy": 0.9311594202898551,
+ "val_loss": 0.24410486185139607,
+ "val_accuracy": 0.9130434782608695,
+ "test_loss": 0.1907619855766992,
+ "test_accuracy": 0.9370249728555917,
+ "experiment": "scaling",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

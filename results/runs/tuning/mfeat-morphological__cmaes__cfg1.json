@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.05270513449052501,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 17.986,
+ "best_val_loss": 0.6513348829995133,
+ "best_at_units": 9590.0,
+ "handoff_units": null,
+ "train_loss": 0.657392480077673,
+ "train_accuracy": 0.7375,
+ "val_loss": 0.6513348829995133,
+ "val_accuracy": 0.7375,
+ "test_loss": 0.6831229099121562,
+ "test_accuracy": 0.705,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 1,
+ "seed": 0
+}

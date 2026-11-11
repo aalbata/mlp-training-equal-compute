@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 7.814,
+ "best_val_loss": 0.7916901867266756,
+ "best_at_units": 90.0,
+ "handoff_units": null,
+ "train_loss": 0.4817731203879058,
+ "train_accuracy": 0.8067010309278351,
+ "val_loss": 0.7916901867266756,
+ "val_accuracy": 0.7319587628865979,
+ "test_loss": 0.7014774418273372,
+ "test_accuracy": 0.7300771208226221,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

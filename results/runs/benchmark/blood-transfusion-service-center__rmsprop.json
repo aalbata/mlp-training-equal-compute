@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.286,
+ "stop_reason": "budget",
+ "seconds": 5.133,
+ "best_val_loss": 0.46236419825127084,
+ "best_at_units": 1910.143,
+ "handoff_units": null,
+ "train_loss": 0.4249385551458075,
+ "train_accuracy": 0.8169642857142857,
+ "val_loss": 0.46236419825127084,
+ "val_accuracy": 0.8,
+ "test_loss": 0.5048545630011309,
+ "test_accuracy": 0.7666666666666667,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

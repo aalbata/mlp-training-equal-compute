@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 4282,
+ "budget": 10000,
+ "units_used": 10000.206,
+ "stop_reason": "budget",
+ "seconds": 19.961,
+ "best_val_loss": 0.42337189950409104,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.058712674514451016,
+ "train_accuracy": 0.9863874345549738,
+ "val_loss": 0.42337189950409104,
+ "val_accuracy": 0.8652037617554859,
+ "test_loss": 0.30315963100384247,
+ "test_accuracy": 0.9122257053291536,
+ "experiment": "benchmark",
+ "dataset": "semeion",
+ "task": "classification",
+ "data_id": 1501,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 35.668,
+ "best_val_loss": 0.6130380295587784,
+ "best_at_units": 10.185,
+ "handoff_units": null,
+ "train_loss": 0.468337914268555,
+ "train_accuracy": 0.8179012345679012,
+ "val_loss": 0.6130380295587784,
+ "val_accuracy": 0.6203703703703703,
+ "test_loss": 0.5375418555232097,
+ "test_accuracy": 0.7685185185185185,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

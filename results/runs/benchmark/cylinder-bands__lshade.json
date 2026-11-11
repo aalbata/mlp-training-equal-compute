@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 2338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.221,
+ "best_val_loss": 0.6354781719959202,
+ "best_at_units": 890.0,
+ "handoff_units": null,
+ "train_loss": 0.49827157693624624,
+ "train_accuracy": 0.7685185185185185,
+ "val_loss": 0.6354781719959202,
+ "val_accuracy": 0.6574074074074074,
+ "test_loss": 0.6531482654948978,
+ "test_accuracy": 0.6481481481481481,
+ "experiment": "benchmark",
+ "dataset": "cylinder-bands",
+ "task": "classification",
+ "data_id": 6332,
+ "config_index": null,
+ "seed": 0
+}

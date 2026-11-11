@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 994,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 20.785,
+ "best_val_loss": 0.5048563311351286,
+ "best_at_units": 90.0,
+ "handoff_units": null,
+ "train_loss": 0.3991104866059654,
+ "train_accuracy": 0.815,
+ "val_loss": 0.5048563311351286,
+ "val_accuracy": 0.745,
+ "test_loss": 0.4610678067986283,
+ "test_accuracy": 0.775,
+ "experiment": "benchmark",
+ "dataset": "credit-g",
+ "task": "classification",
+ "data_id": 31,
+ "config_index": null,
+ "seed": 0
+}

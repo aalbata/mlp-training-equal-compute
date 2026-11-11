@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.67,
+ "stop_reason": "budget",
+ "seconds": 3.415,
+ "best_val_loss": 0.4379278679132817,
+ "best_at_units": 50.504,
+ "handoff_units": null,
+ "train_loss": 0.4640586673971405,
+ "train_accuracy": 0.7934782608695652,
+ "val_loss": 0.4379278679132817,
+ "val_accuracy": 0.7987012987012987,
+ "test_loss": 0.4924197694504482,
+ "test_accuracy": 0.7597402597402597,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

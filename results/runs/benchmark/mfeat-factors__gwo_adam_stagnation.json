@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 3642,
+ "budget": 10000,
+ "units_used": 10000.16,
+ "stop_reason": "budget",
+ "seconds": 38.128,
+ "best_val_loss": 0.1430648618718025,
+ "best_at_units": 1390.0,
+ "handoff_units": 880.0,
+ "train_loss": 0.0014950145725837745,
+ "train_accuracy": 1.0,
+ "val_loss": 0.1430648618718025,
+ "val_accuracy": 0.9675,
+ "test_loss": 0.23374179886996369,
+ "test_accuracy": 0.965,
+ "experiment": "benchmark",
+ "dataset": "mfeat-factors",
+ "task": "classification",
+ "data_id": 12,
+ "config_index": null,
+ "seed": 0
+}

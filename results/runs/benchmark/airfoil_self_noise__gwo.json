@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.7,
+ "best_val_loss": 0.4464778109329788,
+ "best_at_units": 9980.0,
+ "handoff_units": null,
+ "train_loss": 0.3370119641241714,
+ "train_rmse": 0.5805273155710861,
+ "train_r2": 0.6629880358758287,
+ "val_loss": 0.4464778109329788,
+ "val_rmse": 0.6681899512361577,
+ "val_r2": 0.6088544717112939,
+ "test_loss": 0.34414142804829434,
+ "test_rmse": 0.5866356859655696,
+ "test_r2": 0.6027654977292649,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

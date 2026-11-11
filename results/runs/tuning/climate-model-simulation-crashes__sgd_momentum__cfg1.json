@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.0010993393233046018,
+  "momentum": 0.9,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 4.465,
+ "best_val_loss": 0.1556212217767968,
+ "best_at_units": 800.37,
+ "handoff_units": null,
+ "train_loss": 0.09992332358971576,
+ "train_accuracy": 0.9660493827160493,
+ "val_loss": 0.1556212217767968,
+ "val_accuracy": 0.9444444444444444,
+ "test_loss": 0.0942918819575504,
+ "test_accuracy": 0.9722222222222222,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 1,
+ "seed": 0
+}

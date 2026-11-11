@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 420,
+ "budget": 10000,
+ "units_used": 360.0,
+ "stop_reason": "converged",
+ "seconds": 0.594,
+ "best_val_loss": 0.22609167167858565,
+ "best_at_units": 81.0,
+ "handoff_units": null,
+ "train_loss": 0.03152394613428079,
+ "train_accuracy": 0.9932432432432432,
+ "val_loss": 0.22609167167858565,
+ "val_accuracy": 0.9219653179190751,
+ "test_loss": 0.0828823000926665,
+ "test_accuracy": 0.9595375722543352,
+ "experiment": "benchmark",
+ "dataset": "car",
+ "task": "classification",
+ "data_id": 40975,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.286,
+ "stop_reason": "budget",
+ "seconds": 5.221,
+ "best_val_loss": 0.4679072807881086,
+ "best_at_units": 1490.143,
+ "handoff_units": 780.0,
+ "train_loss": 0.42568784869366993,
+ "train_accuracy": 0.8191964285714286,
+ "val_loss": 0.4679072807881086,
+ "val_accuracy": 0.7933333333333333,
+ "test_loss": 0.5095097029447792,
+ "test_accuracy": 0.7666666666666667,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

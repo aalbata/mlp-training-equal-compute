@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.714,
+ "stop_reason": "budget",
+ "seconds": 3.343,
+ "best_val_loss": 0.460803193307324,
+ "best_at_units": 630.0,
+ "handoff_units": null,
+ "train_loss": 0.4271530918137086,
+ "train_accuracy": 0.8147321428571429,
+ "val_loss": 0.460803193307324,
+ "val_accuracy": 0.8,
+ "test_loss": 0.5143148321467879,
+ "test_accuracy": 0.78,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

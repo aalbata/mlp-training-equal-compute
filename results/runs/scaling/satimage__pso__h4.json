@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "4",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 16.335,
+ "best_val_loss": 0.3886867131618045,
+ "best_at_units": 9360.0,
+ "handoff_units": null,
+ "train_loss": 0.3818882057458825,
+ "train_accuracy": 0.8514774494556765,
+ "val_loss": 0.3886867131618045,
+ "val_accuracy": 0.8522550544323484,
+ "test_loss": 0.44844178354634245,
+ "test_accuracy": 0.8297045101088647,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 257,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 39.177,
+ "best_val_loss": 0.00041560876535006174,
+ "best_at_units": 9440.074,
+ "handoff_units": null,
+ "train_loss": 0.0004249891400280245,
+ "train_rmse": 0.020615264733396574,
+ "train_r2": 0.999575010859972,
+ "val_loss": 0.00041560876535006174,
+ "val_rmse": 0.02038648486988529,
+ "val_r2": 0.9995828125821009,
+ "test_loss": 0.00041339806700816566,
+ "test_rmse": 0.020332192872589167,
+ "test_r2": 0.9995910580092966,
+ "experiment": "benchmark",
+ "dataset": "naval_propulsion_plant",
+ "task": "regression",
+ "data_id": 44969,
+ "config_index": null,
+ "seed": 0
+}

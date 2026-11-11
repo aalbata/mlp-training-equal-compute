@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.21893006148958363,
+  "popsize_factor": 2
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 25.124,
+ "best_val_loss": 0.4796064732655055,
+ "best_at_units": 9740.0,
+ "handoff_units": null,
+ "train_loss": 0.38499152186936847,
+ "train_accuracy": 0.84967919340055,
+ "val_loss": 0.4796064732655055,
+ "val_accuracy": 0.8258478460128322,
+ "test_loss": 0.4580624684830416,
+ "test_accuracy": 0.8278388278388278,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 8,
+ "seed": 0
+}

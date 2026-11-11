@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 417,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 12.753,
+ "best_val_loss": 0.061868346306846775,
+ "best_at_units": 5361.0,
+ "handoff_units": null,
+ "train_loss": 0.02925421420719247,
+ "train_rmse": 0.171038633668515,
+ "train_r2": 0.9707457857928076,
+ "val_loss": 0.061868346306846775,
+ "val_rmse": 0.24873348449062258,
+ "val_r2": 0.9481751219356434,
+ "test_loss": 0.08161669526412747,
+ "test_rmse": 0.28568635820446076,
+ "test_r2": 0.9326915313863314,
+ "experiment": "benchmark",
+ "dataset": "video_transcoding",
+ "task": "regression",
+ "data_id": 44974,
+ "config_index": null,
+ "seed": 0
+}

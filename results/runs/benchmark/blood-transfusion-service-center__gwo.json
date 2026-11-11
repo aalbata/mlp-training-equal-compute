@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.226,
+ "best_val_loss": 0.4654456832019566,
+ "best_at_units": 6030.0,
+ "handoff_units": null,
+ "train_loss": 0.43625859954419116,
+ "train_accuracy": 0.8058035714285714,
+ "val_loss": 0.4654456832019566,
+ "val_accuracy": 0.7933333333333333,
+ "test_loss": 0.5102483680993878,
+ "test_accuracy": 0.7666666666666667,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

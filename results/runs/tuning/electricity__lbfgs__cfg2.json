@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 5
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 12.727,
+ "best_val_loss": 0.4284428058439162,
+ "best_at_units": 270.0,
+ "handoff_units": null,
+ "train_loss": 0.4067243904957543,
+ "train_accuracy": 0.814,
+ "val_loss": 0.4284428058439162,
+ "val_accuracy": 0.7996,
+ "test_loss": 0.4516486633222293,
+ "test_accuracy": 0.7867152157122366,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 2,
+ "seed": 0
+}

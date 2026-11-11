@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.166,
+ "stop_reason": "budget",
+ "seconds": 14.928,
+ "best_val_loss": 4.861422541141434e-10,
+ "best_at_units": 10000.166,
+ "handoff_units": 900.0,
+ "train_loss": 1.893868686663056e-10,
+ "train_accuracy": 1.0,
+ "val_loss": 4.861422541141434e-10,
+ "val_accuracy": 1.0,
+ "test_loss": 6.173396071631976e-11,
+ "test_accuracy": 1.0,
+ "experiment": "benchmark",
+ "dataset": "banknote-authentication",
+ "task": "classification",
+ "data_id": 1462,
+ "config_index": null,
+ "seed": 0
+}

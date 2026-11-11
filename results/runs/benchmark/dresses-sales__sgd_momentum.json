@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 10.473,
+ "best_val_loss": 0.5717236233659065,
+ "best_at_units": 80.56,
+ "handoff_units": null,
+ "train_loss": 0.5437265660921806,
+ "train_accuracy": 0.7433333333333333,
+ "val_loss": 0.5717236233659065,
+ "val_accuracy": 0.71,
+ "test_loss": 0.6952087910012033,
+ "test_accuracy": 0.56,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 33.095,
+ "best_val_loss": 1.3059449733878652,
+ "best_at_units": 10000.0,
+ "handoff_units": null,
+ "train_loss": 1.2410014342421605,
+ "train_accuracy": 0.4934,
+ "val_loss": 1.3059449733878652,
+ "val_accuracy": 0.4718987341772152,
+ "test_loss": 1.2758775469345387,
+ "test_accuracy": 0.4855696202531646,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

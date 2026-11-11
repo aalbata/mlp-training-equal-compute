@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 80.6,
+ "best_val_loss": 0.11400545070324439,
+ "best_at_units": 370.037,
+ "handoff_units": null,
+ "train_loss": 0.08473244586850037,
+ "train_accuracy": 0.9646,
+ "val_loss": 0.11400545070324439,
+ "val_accuracy": 0.9493441881501583,
+ "test_loss": 0.12160542326051108,
+ "test_accuracy": 0.952962460425147,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

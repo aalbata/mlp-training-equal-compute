@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.4547191057391837,
+  "CR": 0.18691244245386246,
+  "init_scale": 0.030526172951314483
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.062,
+ "best_val_loss": 4.652349606897502,
+ "best_at_units": 7290.0,
+ "handoff_units": null,
+ "train_loss": 0.894841208662785,
+ "train_rmse": 0.9459604688689612,
+ "train_r2": 0.10515879133721429,
+ "val_loss": 4.652349606897502,
+ "val_rmse": 2.15693059853522,
+ "val_r2": 0.02321200750770036,
+ "test_loss": 0.21470696466380815,
+ "test_rmse": 0.4633648289024623,
+ "test_r2": -1.2041970342097117,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 5,
+ "seed": 0
+}

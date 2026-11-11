@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.09258746888297203
+ },
+ "hidden": "16",
+ "n_params": 209,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 6.871,
+ "best_val_loss": 0.7481020193800744,
+ "best_at_units": 4950.0,
+ "handoff_units": null,
+ "train_loss": 0.6647182136128069,
+ "train_rmse": 0.815302528889005,
+ "train_r2": 0.33528178638719286,
+ "val_loss": 0.7481020193800744,
+ "val_rmse": 0.8649289100151957,
+ "val_r2": 0.34221467852164245,
+ "test_loss": 0.7185485102980158,
+ "test_rmse": 0.8476724074181109,
+ "test_r2": 0.2882938777193662,
+ "experiment": "tuning",
+ "dataset": "white_wine",
+ "task": "regression",
+ "data_id": 44971,
+ "config_index": 8,
+ "seed": 0
+}

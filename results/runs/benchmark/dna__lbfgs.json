@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 759.0,
+ "stop_reason": "converged",
+ "seconds": 1.904,
+ "best_val_loss": 0.24866456336774775,
+ "best_at_units": 42.0,
+ "handoff_units": null,
+ "train_loss": 0.12782071775552065,
+ "train_accuracy": 0.956567242281528,
+ "val_loss": 0.24866456336774775,
+ "val_accuracy": 0.9262166405023547,
+ "test_loss": 0.2014050651194861,
+ "test_accuracy": 0.9467084639498433,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

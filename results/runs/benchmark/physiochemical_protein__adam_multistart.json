@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.01,
+ "stop_reason": "budget",
+ "seconds": 119.841,
+ "best_val_loss": 0.6045367121676707,
+ "best_at_units": 8600.008,
+ "handoff_units": 501.011,
+ "train_loss": 0.5241407403227826,
+ "train_rmse": 0.7239756489846758,
+ "train_r2": 0.4758592596772174,
+ "val_loss": 0.6045367121676707,
+ "val_rmse": 0.7775195895716523,
+ "val_r2": 0.41453701882557903,
+ "test_loss": 0.5793405007275174,
+ "test_rmse": 0.7611442049490473,
+ "test_r2": 0.42685369464242695,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

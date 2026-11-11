@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 47.335,
+ "best_val_loss": 1.2600656979612264,
+ "best_at_units": 9330.0,
+ "handoff_units": null,
+ "train_loss": 1.2370512726454141,
+ "train_accuracy": 0.4852,
+ "val_loss": 1.2600656979612264,
+ "val_accuracy": 0.4729113924050633,
+ "test_loss": 1.2461496448466098,
+ "test_accuracy": 0.489620253164557,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

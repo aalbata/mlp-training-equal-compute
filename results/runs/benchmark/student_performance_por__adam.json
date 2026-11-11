@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 10000.234,
+ "stop_reason": "budget",
+ "seconds": 13.996,
+ "best_val_loss": 0.9439013121459642,
+ "best_at_units": 20.221,
+ "handoff_units": null,
+ "train_loss": 0.5399477847725667,
+ "train_rmse": 0.7348113940138427,
+ "train_r2": 0.4600522152274332,
+ "val_loss": 0.9439013121459642,
+ "val_rmse": 0.9715458363587197,
+ "val_r2": 0.08242063385721665,
+ "test_loss": 1.050231935001641,
+ "test_rmse": 1.0248082430394678,
+ "test_r2": 0.19329324898393552,
+ "experiment": "benchmark",
+ "dataset": "student_performance_por",
+ "task": "regression",
+ "data_id": 44967,
+ "config_index": null,
+ "seed": 0
+}

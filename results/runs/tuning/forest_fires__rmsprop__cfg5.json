@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0005227235018806734,
+  "batch_size": 256
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10001.477,
+ "stop_reason": "budget",
+ "seconds": 1.657,
+ "best_val_loss": 4.7123889691832295,
+ "best_at_units": 2720.477,
+ "handoff_units": null,
+ "train_loss": 0.65053369822045,
+ "train_rmse": 0.8065566925024242,
+ "train_r2": 0.3494663017795495,
+ "val_loss": 4.7123889691832295,
+ "val_rmse": 2.170803761094777,
+ "val_r2": 0.010606392471666393,
+ "test_loss": 0.31573452506956884,
+ "test_rmse": 0.5619025939338319,
+ "test_r2": -2.2413531850057686,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 5,
+ "seed": 0
+}

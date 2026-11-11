@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.51,
+ "best_val_loss": 0.7127970033998866,
+ "best_at_units": 9910.0,
+ "handoff_units": null,
+ "train_loss": 0.6629245872376305,
+ "train_accuracy": 0.7700617283950617,
+ "val_loss": 0.7127970033998866,
+ "val_accuracy": 0.7268518518518519,
+ "test_loss": 0.8110638074738488,
+ "test_accuracy": 0.6944444444444444,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

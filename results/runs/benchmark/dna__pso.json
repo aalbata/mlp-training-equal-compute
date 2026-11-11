@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 27.559,
+ "best_val_loss": 0.31919329809441543,
+ "best_at_units": 9880.0,
+ "handoff_units": null,
+ "train_loss": 0.15825242906264175,
+ "train_accuracy": 0.9403453689167975,
+ "val_loss": 0.31919329809441543,
+ "val_accuracy": 0.8916797488226059,
+ "test_loss": 0.2577945217095796,
+ "test_accuracy": 0.9043887147335423,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

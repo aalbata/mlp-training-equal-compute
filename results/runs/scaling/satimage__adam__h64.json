@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "64",
+ "n_params": 2758,
+ "budget": 10000,
+ "units_used": 10000.02,
+ "stop_reason": "budget",
+ "seconds": 158.165,
+ "best_val_loss": 0.2736154901862136,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.1963354379269639,
+ "train_accuracy": 0.926905132192846,
+ "val_loss": 0.2736154901862136,
+ "val_accuracy": 0.8965785381026439,
+ "test_loss": 0.2886961957149481,
+ "test_accuracy": 0.8833592534992224,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

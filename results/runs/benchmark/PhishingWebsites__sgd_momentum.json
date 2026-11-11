@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 52.698,
+ "best_val_loss": 0.11535231276918766,
+ "best_at_units": 240.0,
+ "handoff_units": null,
+ "train_loss": 0.0841085471634796,
+ "train_accuracy": 0.963,
+ "val_loss": 0.11535231276918766,
+ "val_accuracy": 0.9534147444595206,
+ "test_loss": 0.11064289266960527,
+ "test_accuracy": 0.9511533242876526,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

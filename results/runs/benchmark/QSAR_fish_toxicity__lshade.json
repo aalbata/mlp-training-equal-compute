@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 129,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.623,
+ "best_val_loss": 0.41041379757917434,
+ "best_at_units": 5790.0,
+ "handoff_units": null,
+ "train_loss": 0.3371149140200542,
+ "train_rmse": 0.580615978095724,
+ "train_r2": 0.6628850859799458,
+ "val_loss": 0.41041379757917434,
+ "val_rmse": 0.6406354638787759,
+ "val_r2": 0.5445467142165852,
+ "test_loss": 0.3335806182742632,
+ "test_rmse": 0.5775643845271826,
+ "test_r2": 0.5962084782349919,
+ "experiment": "benchmark",
+ "dataset": "QSAR_fish_toxicity",
+ "task": "regression",
+ "data_id": 44970,
+ "config_index": null,
+ "seed": 0
+}

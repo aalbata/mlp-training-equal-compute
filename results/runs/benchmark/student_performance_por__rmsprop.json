@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 10000.481,
+ "stop_reason": "budget",
+ "seconds": 8.427,
+ "best_val_loss": 0.9522149545832038,
+ "best_at_units": 110.468,
+ "handoff_units": null,
+ "train_loss": 0.5421532584415325,
+ "train_rmse": 0.736310572001742,
+ "train_r2": 0.4578467415584674,
+ "val_loss": 0.9522149545832038,
+ "val_rmse": 0.9758150206792289,
+ "val_r2": 0.07433882841872563,
+ "test_loss": 1.0855435037640806,
+ "test_rmse": 1.041894190291932,
+ "test_r2": 0.1661696394646882,
+ "experiment": "benchmark",
+ "dataset": "student_performance_por",
+ "task": "regression",
+ "data_id": 44967,
+ "config_index": null,
+ "seed": 0
+}

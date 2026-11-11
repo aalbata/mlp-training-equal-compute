@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 994,
+ "budget": 10000,
+ "units_used": 336.0,
+ "stop_reason": "converged",
+ "seconds": 0.31,
+ "best_val_loss": 0.5156451384957677,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.4235496421009897,
+ "train_accuracy": 0.785,
+ "val_loss": 0.5156451384957677,
+ "val_accuracy": 0.74,
+ "test_loss": 0.4652350297563308,
+ "test_accuracy": 0.755,
+ "experiment": "benchmark",
+ "dataset": "credit-g",
+ "task": "classification",
+ "data_id": 31,
+ "config_index": null,
+ "seed": 0
+}

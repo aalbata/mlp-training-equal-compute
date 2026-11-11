@@ -1,0 +1,30 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 50,
+  "mutation_rate": 0.014536973451784525,
+  "mutation_scale": 0.020554557249816138,
+  "init_scale": 0.4394841555582722
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.089,
+ "best_val_loss": 1.1242623977382888,
+ "best_at_units": 10000.0,
+ "handoff_units": null,
+ "train_loss": 1.1612320490170511,
+ "train_accuracy": 0.6183333333333333,
+ "val_loss": 1.1242623977382888,
+ "val_accuracy": 0.6475,
+ "test_loss": 1.1614763203097527,
+ "test_accuracy": 0.59,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 7,
+ "seed": 0
+}

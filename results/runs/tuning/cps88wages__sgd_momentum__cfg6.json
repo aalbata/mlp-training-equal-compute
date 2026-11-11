@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.19299622009972228,
+  "momentum": 0.9,
+  "batch_size": 256
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 26.333,
+ "best_val_loss": 0.5758116636281078,
+ "best_at_units": 60.0,
+ "handoff_units": null,
+ "train_loss": 0.670417432466366,
+ "train_rmse": 0.8187902249455388,
+ "train_r2": 0.3295825675336338,
+ "val_loss": 0.5758116636281078,
+ "val_rmse": 0.7588225508167952,
+ "val_r2": 0.36477515500142654,
+ "test_loss": 0.842747051458844,
+ "test_rmse": 0.9180125551749518,
+ "test_r2": 0.28286809854168904,
+ "experiment": "tuning",
+ "dataset": "cps88wages",
+ "task": "regression",
+ "data_id": 44984,
+ "config_index": 6,
+ "seed": 0
+}

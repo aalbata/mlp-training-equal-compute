@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.009,
+ "stop_reason": "budget",
+ "seconds": 18.939,
+ "best_val_loss": 0.8782336208964385,
+ "best_at_units": 380.108,
+ "handoff_units": 501.108,
+ "train_loss": 0.7681064996443029,
+ "train_rmse": 0.8764168526701793,
+ "train_r2": 0.2318935003556971,
+ "val_loss": 0.8782336208964385,
+ "val_rmse": 0.9371411958165314,
+ "val_r2": 0.24763267604474826,
+ "test_loss": 0.545659340600362,
+ "test_rmse": 0.7386875798335599,
+ "test_r2": -0.07790409987873059,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

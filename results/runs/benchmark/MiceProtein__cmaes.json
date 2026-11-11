@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.936,
+ "best_val_loss": 0.11067655718156211,
+ "best_at_units": 9650.0,
+ "handoff_units": null,
+ "train_loss": 0.0018973546452549942,
+ "train_accuracy": 1.0,
+ "val_loss": 0.11067655718156211,
+ "val_accuracy": 0.9907407407407407,
+ "test_loss": 0.06044788533728633,
+ "test_accuracy": 0.9861111111111112,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

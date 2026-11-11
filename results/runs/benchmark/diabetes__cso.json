@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.645,
+ "best_val_loss": 0.4392350703837586,
+ "best_at_units": 6780.0,
+ "handoff_units": null,
+ "train_loss": 0.4323329084939948,
+ "train_accuracy": 0.7978260869565217,
+ "val_loss": 0.4392350703837586,
+ "val_accuracy": 0.8051948051948052,
+ "test_loss": 0.476079857577315,
+ "test_accuracy": 0.7532467532467533,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

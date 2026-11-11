@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33403344784859895,
+  "lr": 0.002896003637896238,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 4643,
+ "budget": 10000,
+ "units_used": 10000.006,
+ "stop_reason": "budget",
+ "seconds": 88.791,
+ "best_val_loss": 0.17058503572027323,
+ "best_at_units": 2020.006,
+ "handoff_units": 2000.0,
+ "train_loss": 0.060673998917858046,
+ "train_accuracy": 0.9885057471264368,
+ "val_loss": 0.17058503572027323,
+ "val_accuracy": 0.945141065830721,
+ "test_loss": 0.16249257710953105,
+ "test_accuracy": 0.95141065830721,
+ "experiment": "benchmark",
+ "dataset": "splice",
+ "task": "classification",
+ "data_id": 46,
+ "config_index": null,
+ "seed": 0
+}

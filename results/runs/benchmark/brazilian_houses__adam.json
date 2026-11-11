@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 152.999,
+ "best_val_loss": 0.09709601175701232,
+ "best_at_units": 690.0,
+ "handoff_units": null,
+ "train_loss": 0.010591644002734726,
+ "train_rmse": 0.10291571309928686,
+ "train_r2": 0.9894083559972653,
+ "val_loss": 0.09709601175701232,
+ "val_rmse": 0.31160232951153033,
+ "val_r2": 0.429286158638579,
+ "test_loss": 0.012504846683166733,
+ "test_rmse": 0.11182507180040947,
+ "test_r2": 0.6919184847153623,
+ "experiment": "benchmark",
+ "dataset": "brazilian_houses",
+ "task": "regression",
+ "data_id": 44990,
+ "config_index": null,
+ "seed": 0
+}

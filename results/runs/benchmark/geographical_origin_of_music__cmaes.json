@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 1889,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.977,
+ "best_val_loss": 0.846281592954987,
+ "best_at_units": 1820.0,
+ "handoff_units": null,
+ "train_loss": 0.7060630971793068,
+ "train_rmse": 0.8402756078688152,
+ "train_r2": 0.2939369028206932,
+ "val_loss": 0.846281592954987,
+ "val_rmse": 0.9199356460943271,
+ "val_r2": 0.0926639761803878,
+ "test_loss": 1.0318665003681928,
+ "test_rmse": 1.0158082990250634,
+ "test_r2": 0.15267173658379263,
+ "experiment": "benchmark",
+ "dataset": "geographical_origin_of_music",
+ "task": "regression",
+ "data_id": 44965,
+ "config_index": null,
+ "seed": 0
+}

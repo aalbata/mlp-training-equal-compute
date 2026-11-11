@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "64-64",
+ "n_params": 6918,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 270.654,
+ "best_val_loss": 0.4801201881646484,
+ "best_at_units": 8970.0,
+ "handoff_units": null,
+ "train_loss": 0.5041367041607079,
+ "train_accuracy": 0.8229652669777087,
+ "val_loss": 0.4801201881646484,
+ "val_accuracy": 0.8273716951788491,
+ "test_loss": 0.5421433930002068,
+ "test_accuracy": 0.8040435458786936,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

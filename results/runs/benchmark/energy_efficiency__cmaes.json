@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 4.328,
+ "best_val_loss": 0.06284536886471773,
+ "best_at_units": 8060.0,
+ "handoff_units": null,
+ "train_loss": 0.05191326774110902,
+ "train_rmse": 0.2278448325968992,
+ "train_r2": 0.948086732258891,
+ "val_loss": 0.06284536886471773,
+ "val_rmse": 0.2506897861196537,
+ "val_r2": 0.9404505002972282,
+ "test_loss": 0.06265416689966703,
+ "test_rmse": 0.25030814389401523,
+ "test_r2": 0.9304811578793074,
+ "experiment": "benchmark",
+ "dataset": "energy_efficiency",
+ "task": "regression",
+ "data_id": 44960,
+ "config_index": null,
+ "seed": 0
+}

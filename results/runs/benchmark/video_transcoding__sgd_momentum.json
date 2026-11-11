@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 417,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 37.961,
+ "best_val_loss": 0.059411575039875264,
+ "best_at_units": 9570.0,
+ "handoff_units": null,
+ "train_loss": 0.03649255399497501,
+ "train_rmse": 0.19103024366569554,
+ "train_r2": 0.963507446005025,
+ "val_loss": 0.059411575039875264,
+ "val_rmse": 0.24374489746428593,
+ "val_r2": 0.9502330704495948,
+ "test_loss": 0.08282375647736488,
+ "test_rmse": 0.2877911681712364,
+ "test_r2": 0.9316960801306412,
+ "experiment": "benchmark",
+ "dataset": "video_transcoding",
+ "task": "regression",
+ "data_id": 44974,
+ "config_index": null,
+ "seed": 0
+}

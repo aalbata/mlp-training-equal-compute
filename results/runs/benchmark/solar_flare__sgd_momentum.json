@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.202,
+ "stop_reason": "budget",
+ "seconds": 8.697,
+ "best_val_loss": 0.9338256806047597,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.8413786784971437,
+ "train_rmse": 0.9172669614115313,
+ "train_r2": 0.15862132150285635,
+ "val_loss": 0.9338256806047597,
+ "val_rmse": 0.9663465634050549,
+ "val_r2": 0.20000793451729737,
+ "test_loss": 0.4983302728017837,
+ "test_rmse": 0.7059251184097246,
+ "test_r2": 0.015590489927787554,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

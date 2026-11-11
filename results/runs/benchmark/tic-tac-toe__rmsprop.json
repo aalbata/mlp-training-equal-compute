@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 482,
+ "budget": 10000,
+ "units_used": 10000.003,
+ "stop_reason": "budget",
+ "seconds": 11.161,
+ "best_val_loss": 0.02406548574633827,
+ "best_at_units": 1400.007,
+ "handoff_units": null,
+ "train_loss": 0.0006486928023211621,
+ "train_accuracy": 1.0,
+ "val_loss": 0.02406548574633827,
+ "val_accuracy": 0.9947916666666666,
+ "test_loss": 0.05865240714269132,
+ "test_accuracy": 0.984375,
+ "experiment": "benchmark",
+ "dataset": "tic-tac-toe",
+ "task": "classification",
+ "data_id": 50,
+ "config_index": null,
+ "seed": 0
+}

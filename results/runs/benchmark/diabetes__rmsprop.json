@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.252,
+ "stop_reason": "budget",
+ "seconds": 6.032,
+ "best_val_loss": 0.4428983921884717,
+ "best_at_units": 220.252,
+ "handoff_units": null,
+ "train_loss": 0.43911856087954737,
+ "train_accuracy": 0.8065217391304348,
+ "val_loss": 0.4428983921884717,
+ "val_accuracy": 0.7987012987012987,
+ "test_loss": 0.47514478909055624,
+ "test_accuracy": 0.7597402597402597,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 305,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 8.114,
+ "best_val_loss": 0.06271836497005073,
+ "best_at_units": 9520.0,
+ "handoff_units": null,
+ "train_loss": 0.03969136606121587,
+ "train_rmse": 0.19922692102528683,
+ "train_r2": 0.9603086339387841,
+ "val_loss": 0.06271836497005073,
+ "val_rmse": 0.25043634913895935,
+ "val_r2": 0.9528551549138075,
+ "test_loss": 0.058113431133999784,
+ "test_rmse": 0.24106727512045217,
+ "test_r2": 0.9376386136298872,
+ "experiment": "benchmark",
+ "dataset": "cars",
+ "task": "regression",
+ "data_id": 44994,
+ "config_index": null,
+ "seed": 0
+}

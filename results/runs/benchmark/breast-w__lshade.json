@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 194,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.821,
+ "best_val_loss": 0.030777935805060278,
+ "best_at_units": 4980.0,
+ "handoff_units": null,
+ "train_loss": 0.037871473659569124,
+ "train_accuracy": 0.9856801909307876,
+ "val_loss": 0.030777935805060278,
+ "val_accuracy": 0.9928571428571429,
+ "test_loss": 0.10662882877033673,
+ "test_accuracy": 0.9714285714285714,
+ "experiment": "benchmark",
+ "dataset": "breast-w",
+ "task": "classification",
+ "data_id": 15,
+ "config_index": null,
+ "seed": 0
+}

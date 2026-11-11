@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 6.116,
+ "best_val_loss": 0.4206957798986101,
+ "best_at_units": 1680.0,
+ "handoff_units": null,
+ "train_loss": 0.4546661584269599,
+ "train_accuracy": 0.7956521739130434,
+ "val_loss": 0.4206957798986101,
+ "val_accuracy": 0.7987012987012987,
+ "test_loss": 0.48071001424058074,
+ "test_accuracy": 0.7792207792207793,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 194,
+ "budget": 10000,
+ "units_used": 273.0,
+ "stop_reason": "converged",
+ "seconds": 0.059,
+ "best_val_loss": 0.04452892351988109,
+ "best_at_units": 51.0,
+ "handoff_units": null,
+ "train_loss": 0.031153646811125556,
+ "train_accuracy": 0.9832935560859188,
+ "val_loss": 0.04452892351988109,
+ "val_accuracy": 0.9857142857142858,
+ "test_loss": 0.10335956515010936,
+ "test_accuracy": 0.9714285714285714,
+ "experiment": "benchmark",
+ "dataset": "breast-w",
+ "task": "classification",
+ "data_id": 15,
+ "config_index": null,
+ "seed": 0
+}

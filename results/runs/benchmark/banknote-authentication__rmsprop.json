@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.166,
+ "stop_reason": "budget",
+ "seconds": 13.378,
+ "best_val_loss": 3.4594423086431706e-10,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 5.706997997819677e-11,
+ "train_accuracy": 1.0,
+ "val_loss": 3.4594423086431706e-10,
+ "val_accuracy": 1.0,
+ "test_loss": 1.3120192087046374e-09,
+ "test_accuracy": 1.0,
+ "experiment": "benchmark",
+ "dataset": "banknote-authentication",
+ "task": "classification",
+ "data_id": 1462,
+ "config_index": null,
+ "seed": 0
+}

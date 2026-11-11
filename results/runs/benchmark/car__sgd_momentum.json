@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 420,
+ "budget": 10000,
+ "units_used": 10000.112,
+ "stop_reason": "budget",
+ "seconds": 20.858,
+ "best_val_loss": 0.04078811712670448,
+ "best_at_units": 9930.0,
+ "handoff_units": null,
+ "train_loss": 0.00026164146642439597,
+ "train_accuracy": 1.0,
+ "val_loss": 0.04078811712670448,
+ "val_accuracy": 0.9855491329479769,
+ "test_loss": 0.04564974083672349,
+ "test_accuracy": 0.9942196531791907,
+ "experiment": "benchmark",
+ "dataset": "car",
+ "task": "classification",
+ "data_id": 40975,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "256",
+ "n_params": 6922,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 713.571,
+ "best_val_loss": 0.17338356842486585,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 0.13128730911551834,
+ "train_accuracy": 0.9612,
+ "val_loss": 0.17338356842486585,
+ "val_accuracy": 0.9435850773430391,
+ "test_loss": 0.17233698351224153,
+ "test_accuracy": 0.9517962710322874,
+ "experiment": "scaling",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

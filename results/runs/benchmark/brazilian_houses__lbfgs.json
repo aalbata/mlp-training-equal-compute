@@ -1,0 +1,30 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 14.544,
+ "best_val_loss": 0.09746319796421545,
+ "best_at_units": 102.0,
+ "handoff_units": null,
+ "train_loss": 0.011066049006754338,
+ "train_rmse": 0.10519528985061231,
+ "train_r2": 0.9889339509932457,
+ "val_loss": 0.09746319796421545,
+ "val_rmse": 0.312190963937484,
+ "val_r2": 0.4271279005699341,
+ "test_loss": 0.01227403876971591,
+ "test_rmse": 0.11078826097432846,
+ "test_r2": 0.6976048920354406,
+ "experiment": "benchmark",
+ "dataset": "brazilian_houses",
+ "task": "regression",
+ "data_id": 44990,
+ "config_index": null,
+ "seed": 0
+}

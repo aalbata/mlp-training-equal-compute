@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 257,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 64.389,
+ "best_val_loss": 0.0007239128693019137,
+ "best_at_units": 8560.037,
+ "handoff_units": null,
+ "train_loss": 0.0006788881447675123,
+ "train_rmse": 0.02605548204826601,
+ "train_r2": 0.9993211118552325,
+ "val_loss": 0.0007239128693019137,
+ "val_rmse": 0.026905628951985377,
+ "val_r2": 0.9992733374127141,
+ "test_loss": 0.0006745489374981887,
+ "test_rmse": 0.02597207996095401,
+ "test_r2": 0.9993327221210206,
+ "experiment": "benchmark",
+ "dataset": "naval_propulsion_plant",
+ "task": "regression",
+ "data_id": 44969,
+ "config_index": null,
+ "seed": 0
+}

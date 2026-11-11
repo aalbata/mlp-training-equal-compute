@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 1.796,
+ "best_val_loss": 0.4537415169390472,
+ "best_at_units": 72.0,
+ "handoff_units": null,
+ "train_loss": 0.4278696359809921,
+ "train_accuracy": 0.8214285714285714,
+ "val_loss": 0.4537415169390472,
+ "val_accuracy": 0.8,
+ "test_loss": 0.5260022987169292,
+ "test_accuracy": 0.7733333333333333,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

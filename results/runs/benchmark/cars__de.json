@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 305,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.123,
+ "best_val_loss": 0.07788251786401085,
+ "best_at_units": 9760.0,
+ "handoff_units": null,
+ "train_loss": 0.058341873157674876,
+ "train_rmse": 0.24154062423881179,
+ "train_r2": 0.9416581268423251,
+ "val_loss": 0.07788251786401085,
+ "val_rmse": 0.2790743948555848,
+ "val_r2": 0.9414563941299371,
+ "test_loss": 0.08126072135260273,
+ "test_rmse": 0.2850626621509782,
+ "test_r2": 0.9127993108977017,
+ "experiment": "benchmark",
+ "dataset": "cars",
+ "task": "regression",
+ "data_id": 44994,
+ "config_index": null,
+ "seed": 0
+}

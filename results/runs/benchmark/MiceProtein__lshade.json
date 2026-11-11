@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.108,
+ "best_val_loss": 0.35536647225927037,
+ "best_at_units": 9880.0,
+ "handoff_units": null,
+ "train_loss": 0.29498802095306176,
+ "train_accuracy": 0.8888888888888888,
+ "val_loss": 0.35536647225927037,
+ "val_accuracy": 0.8842592592592593,
+ "test_loss": 0.44705106978874015,
+ "test_accuracy": 0.8425925925925926,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

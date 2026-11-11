@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 2609,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 144.046,
+ "best_val_loss": 0.2612613718486175,
+ "best_at_units": 360.0,
+ "handoff_units": null,
+ "train_loss": 0.1433660074198268,
+ "train_rmse": 0.37863703915468544,
+ "train_r2": 0.8566339925801731,
+ "val_loss": 0.2612613718486175,
+ "val_rmse": 0.511137331691413,
+ "val_r2": 0.6981875433757532,
+ "test_loss": 0.21822150307363977,
+ "test_rmse": 0.4671418447041966,
+ "test_r2": 0.7217511703581532,
+ "experiment": "benchmark",
+ "dataset": "fifa",
+ "task": "regression",
+ "data_id": 45012,
+ "config_index": null,
+ "seed": 0
+}

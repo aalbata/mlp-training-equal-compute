@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.135,
+ "best_val_loss": 0.590849784742402,
+ "best_at_units": 9770.0,
+ "handoff_units": null,
+ "train_loss": 0.6222351820269783,
+ "train_accuracy": 0.7824074074074074,
+ "val_loss": 0.590849784742402,
+ "val_accuracy": 0.7916666666666666,
+ "test_loss": 0.7048477864188804,
+ "test_accuracy": 0.7268518518518519,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

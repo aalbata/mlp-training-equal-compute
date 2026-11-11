@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "256",
+ "n_params": 2050,
+ "budget": 10000,
+ "units_used": 10000.007,
+ "stop_reason": "budget",
+ "seconds": 230.595,
+ "best_val_loss": 0.3175094740248446,
+ "best_at_units": 420.0,
+ "handoff_units": null,
+ "train_loss": 0.20434300856998902,
+ "train_accuracy": 0.9114743985194325,
+ "val_loss": 0.3175094740248446,
+ "val_accuracy": 0.8612395929694727,
+ "test_loss": 0.389516195493825,
+ "test_accuracy": 0.8334875115633672,
+ "experiment": "scaling",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

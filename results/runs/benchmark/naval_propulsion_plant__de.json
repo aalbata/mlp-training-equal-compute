@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 257,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.902,
+ "best_val_loss": 0.5935644011518145,
+ "best_at_units": 9830.0,
+ "handoff_units": null,
+ "train_loss": 0.5805025034363113,
+ "train_rmse": 0.7619071488287213,
+ "train_r2": 0.41949749656368873,
+ "val_loss": 0.5935644011518145,
+ "val_rmse": 0.7704313085225798,
+ "val_r2": 0.4041809978074996,
+ "test_loss": 0.5909847029838904,
+ "test_rmse": 0.7687552946054358,
+ "test_r2": 0.41538560481774134,
+ "experiment": "benchmark",
+ "dataset": "naval_propulsion_plant",
+ "task": "regression",
+ "data_id": 44969,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 442,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 51.975,
+ "best_val_loss": 0.0652995450583243,
+ "best_at_units": 120.0,
+ "handoff_units": null,
+ "train_loss": 0.01906665911928013,
+ "train_accuracy": 0.9964,
+ "val_loss": 0.0652995450583243,
+ "val_accuracy": 0.9881710646041856,
+ "test_loss": 0.08835932870038819,
+ "test_accuracy": 0.9818099135970896,
+ "experiment": "benchmark",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

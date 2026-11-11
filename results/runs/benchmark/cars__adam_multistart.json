@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 305,
+ "budget": 10000,
+ "units_used": 10000.174,
+ "stop_reason": "budget",
+ "seconds": 9.226,
+ "best_val_loss": 0.05078381831512943,
+ "best_at_units": 1780.174,
+ "handoff_units": 501.178,
+ "train_loss": 0.031680077218185956,
+ "train_rmse": 0.17798898060887353,
+ "train_r2": 0.968319922781814,
+ "val_loss": 0.05078381831512943,
+ "val_rmse": 0.2253526532240733,
+ "val_r2": 0.9618262490022595,
+ "test_loss": 0.05460330995832827,
+ "test_rmse": 0.23367351146060236,
+ "test_r2": 0.9414053164139171,
+ "experiment": "benchmark",
+ "dataset": "cars",
+ "task": "regression",
+ "data_id": 44994,
+ "config_index": null,
+ "seed": 0
+}

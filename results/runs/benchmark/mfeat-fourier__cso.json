@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 1402,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 15.132,
+ "best_val_loss": 1.010970699000937,
+ "best_at_units": 9650.0,
+ "handoff_units": null,
+ "train_loss": 0.9288586837296218,
+ "train_accuracy": 0.6941666666666667,
+ "val_loss": 1.010970699000937,
+ "val_accuracy": 0.665,
+ "test_loss": 1.0015008919529,
+ "test_accuracy": 0.6725,
+ "experiment": "benchmark",
+ "dataset": "mfeat-fourier",
+ "task": "classification",
+ "data_id": 14,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 613,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 27.508,
+ "best_val_loss": 1.233457829370237,
+ "best_at_units": 51.0,
+ "handoff_units": null,
+ "train_loss": 1.1694855521899767,
+ "train_accuracy": 0.5246,
+ "val_loss": 1.233457829370237,
+ "val_accuracy": 0.49063291139240506,
+ "test_loss": 1.2129048894919645,
+ "test_accuracy": 0.5108860759493671,
+ "experiment": "benchmark",
+ "dataset": "GesturePhaseSegmentationProcessed",
+ "task": "classification",
+ "data_id": 4538,
+ "config_index": null,
+ "seed": 0
+}

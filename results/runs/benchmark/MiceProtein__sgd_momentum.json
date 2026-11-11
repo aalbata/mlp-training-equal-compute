@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 10.724,
+ "best_val_loss": 0.07715243652163199,
+ "best_at_units": 340.185,
+ "handoff_units": null,
+ "train_loss": 0.00217303459413619,
+ "train_accuracy": 1.0,
+ "val_loss": 0.07715243652163199,
+ "val_accuracy": 0.9953703703703703,
+ "test_loss": 0.036073796888303644,
+ "test_accuracy": 0.9861111111111112,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

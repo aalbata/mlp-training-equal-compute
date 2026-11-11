@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 438,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 4.406,
+ "best_val_loss": 1.784050521911499,
+ "best_at_units": 960.0,
+ "handoff_units": null,
+ "train_loss": 1.7200328847430542,
+ "train_accuracy": 0.25732217573221755,
+ "val_loss": 1.784050521911499,
+ "val_accuracy": 0.22012578616352202,
+ "test_loss": 1.7849708205435142,
+ "test_accuracy": 0.21875,
+ "experiment": "benchmark",
+ "dataset": "analcatdata_dmft",
+ "task": "classification",
+ "data_id": 469,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64,
+  "starts": 8,
+  "explore_fraction": 0.1
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.021,
+ "stop_reason": "budget",
+ "seconds": 92.278,
+ "best_val_loss": 0.4348300102506315,
+ "best_at_units": 2380.021,
+ "handoff_units": 1001.024,
+ "train_loss": 0.40594027708232316,
+ "train_accuracy": 0.8106,
+ "val_loss": 0.4348300102506315,
+ "val_accuracy": 0.8048,
+ "test_loss": 0.4574229045504893,
+ "test_accuracy": 0.7835153922542205,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 0,
+ "seed": 0
+}

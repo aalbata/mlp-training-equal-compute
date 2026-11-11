@@ -1,0 +1,30 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 482,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 5.847,
+ "best_val_loss": 0.10229401272365111,
+ "best_at_units": 9980.0,
+ "handoff_units": null,
+ "train_loss": 0.08687129954843421,
+ "train_accuracy": 0.9860627177700348,
+ "val_loss": 0.10229401272365111,
+ "val_accuracy": 0.9739583333333334,
+ "test_loss": 0.10826150848961219,
+ "test_accuracy": 0.9791666666666666,
+ "experiment": "benchmark",
+ "dataset": "tic-tac-toe",
+ "task": "classification",
+ "data_id": 50,
+ "config_index": null,
+ "seed": 0
+}

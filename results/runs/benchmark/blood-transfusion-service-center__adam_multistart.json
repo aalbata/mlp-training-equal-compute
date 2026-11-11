@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.214,
+ "stop_reason": "budget",
+ "seconds": 10.251,
+ "best_val_loss": 0.4619855672851412,
+ "best_at_units": 900.143,
+ "handoff_units": 501.143,
+ "train_loss": 0.426880731545003,
+ "train_accuracy": 0.8169642857142857,
+ "val_loss": 0.4619855672851412,
+ "val_accuracy": 0.8,
+ "test_loss": 0.5091943301380761,
+ "test_accuracy": 0.78,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

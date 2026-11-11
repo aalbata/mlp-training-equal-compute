@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 1889,
+ "budget": 10000,
+ "units_used": 10000.209,
+ "stop_reason": "budget",
+ "seconds": 13.252,
+ "best_val_loss": 0.9338630966929091,
+ "best_at_units": 90.0,
+ "handoff_units": null,
+ "train_loss": 0.4752876559597365,
+ "train_rmse": 0.6894110935862118,
+ "train_r2": 0.5247123440402635,
+ "val_loss": 0.9338630966929091,
+ "val_rmse": 0.966365922770929,
+ "val_r2": -0.001236037743152174,
+ "test_loss": 1.0653530964066316,
+ "test_rmse": 1.0321594336180004,
+ "test_r2": 0.12517385845823492,
+ "experiment": "benchmark",
+ "dataset": "geographical_origin_of_music",
+ "task": "regression",
+ "data_id": 44965,
+ "config_index": null,
+ "seed": 0
+}

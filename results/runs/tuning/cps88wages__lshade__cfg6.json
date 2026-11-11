@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 50,
+  "init_scale": 0.04924398587563576
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.051,
+ "best_val_loss": 0.5649515274934803,
+ "best_at_units": 6970.0,
+ "handoff_units": null,
+ "train_loss": 0.6686717652245431,
+ "train_rmse": 0.8177235261532734,
+ "train_r2": 0.3313282347754567,
+ "val_loss": 0.5649515274934803,
+ "val_rmse": 0.7516325747953453,
+ "val_r2": 0.37675585759663754,
+ "test_loss": 0.8364972249076031,
+ "test_rmse": 0.9146022222297534,
+ "test_r2": 0.28818636099151607,
+ "experiment": "tuning",
+ "dataset": "cps88wages",
+ "task": "regression",
+ "data_id": 44984,
+ "config_index": 6,
+ "seed": 0
+}

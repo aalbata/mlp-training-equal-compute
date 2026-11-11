@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "64-64",
+ "n_params": 6918,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 273.97,
+ "best_val_loss": 0.28534947144599226,
+ "best_at_units": 9790.0,
+ "handoff_units": null,
+ "train_loss": 0.24344199895423954,
+ "train_accuracy": 0.909279419388284,
+ "val_loss": 0.28534947144599226,
+ "val_accuracy": 0.8841368584758943,
+ "test_loss": 0.3177016266158617,
+ "test_accuracy": 0.8670295489891136,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

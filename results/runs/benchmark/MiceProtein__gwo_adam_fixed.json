@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33403344784859895,
+  "lr": 0.002896003637896238,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.074,
+ "stop_reason": "budget",
+ "seconds": 15.833,
+ "best_val_loss": 0.05118402649226584,
+ "best_at_units": 2470.074,
+ "handoff_units": 2000.0,
+ "train_loss": 0.001563765971267142,
+ "train_accuracy": 1.0,
+ "val_loss": 0.05118402649226584,
+ "val_accuracy": 0.9814814814814815,
+ "test_loss": 0.03985731681421364,
+ "test_accuracy": 0.9861111111111112,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

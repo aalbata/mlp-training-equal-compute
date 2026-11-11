@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.32,
+ "stop_reason": "budget",
+ "seconds": 13.243,
+ "best_val_loss": 0.7365658147580636,
+ "best_at_units": 160.32,
+ "handoff_units": null,
+ "train_loss": 0.48897326677876846,
+ "train_accuracy": 0.802405498281787,
+ "val_loss": 0.7365658147580636,
+ "val_accuracy": 0.729381443298969,
+ "test_loss": 0.6884994965773494,
+ "test_accuracy": 0.7223650385604113,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

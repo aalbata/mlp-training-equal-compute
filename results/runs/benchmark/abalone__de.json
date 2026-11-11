@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 193,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 6.173,
+ "best_val_loss": 0.4326598509603355,
+ "best_at_units": 8290.0,
+ "handoff_units": null,
+ "train_loss": 0.42892191269195684,
+ "train_rmse": 0.6549213026707535,
+ "train_r2": 0.5710780873080432,
+ "val_loss": 0.4326598509603355,
+ "val_rmse": 0.6577688431054906,
+ "val_r2": 0.5699956796293799,
+ "test_loss": 0.44144923223991567,
+ "test_rmse": 0.6644164599405373,
+ "test_r2": 0.5436079941607315,
+ "experiment": "benchmark",
+ "dataset": "abalone",
+ "task": "regression",
+ "data_id": 44956,
+ "config_index": null,
+ "seed": 0
+}

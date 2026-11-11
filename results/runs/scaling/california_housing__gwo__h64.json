@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "64",
+ "n_params": 641,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 133.225,
+ "best_val_loss": 0.3539335005565158,
+ "best_at_units": 9930.0,
+ "handoff_units": null,
+ "train_loss": 0.3267151083981933,
+ "train_rmse": 0.5715899827657875,
+ "train_r2": 0.6732848916018067,
+ "val_loss": 0.3539335005565158,
+ "val_rmse": 0.5949231047425506,
+ "val_r2": 0.6477671842670348,
+ "test_loss": 0.33645136134725234,
+ "test_rmse": 0.5800442753335752,
+ "test_r2": 0.669455319642859,
+ "experiment": "scaling",
+ "dataset": "california_housing",
+ "task": "regression",
+ "data_id": 44977,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 1889,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 7.189,
+ "best_val_loss": 1.016209650745208,
+ "best_at_units": 4310.0,
+ "handoff_units": null,
+ "train_loss": 0.8930853377208853,
+ "train_rmse": 0.9450319241808106,
+ "train_r2": 0.10691466227911472,
+ "val_loss": 1.016209650745208,
+ "val_rmse": 1.008072244804512,
+ "val_r2": -0.08952342996702356,
+ "test_loss": 1.2481309829087377,
+ "test_rmse": 1.1171978262191247,
+ "test_r2": -0.02491616685555531,
+ "experiment": "benchmark",
+ "dataset": "geographical_origin_of_music",
+ "task": "regression",
+ "data_id": 44965,
+ "config_index": null,
+ "seed": 0
+}

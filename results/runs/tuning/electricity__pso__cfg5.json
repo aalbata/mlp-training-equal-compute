@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 20,
+  "inertia": 0.8709611618684526,
+  "c1": 1.6909433496350834,
+  "c2": 1.4575960378638122,
+  "init_scale": 0.016972303064007835,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 28.573,
+ "best_val_loss": 0.46009319053359415,
+ "best_at_units": 8290.0,
+ "handoff_units": null,
+ "train_loss": 0.46876630600298197,
+ "train_accuracy": 0.7806,
+ "val_loss": 0.46009319053359415,
+ "val_accuracy": 0.7804,
+ "test_loss": 0.477277718795389,
+ "test_accuracy": 0.7727021957409247,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 5,
+ "seed": 0
+}

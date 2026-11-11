@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 403,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 31.567,
+ "best_val_loss": 0.9206976309142797,
+ "best_at_units": 2370.0,
+ "handoff_units": null,
+ "train_loss": 0.8564783897931876,
+ "train_accuracy": 0.6002265005662514,
+ "val_loss": 0.9206976309142797,
+ "val_accuracy": 0.5694915254237288,
+ "test_loss": 0.9188653939391426,
+ "test_accuracy": 0.5661016949152542,
+ "experiment": "benchmark",
+ "dataset": "cmc",
+ "task": "classification",
+ "data_id": 23,
+ "config_index": null,
+ "seed": 0
+}

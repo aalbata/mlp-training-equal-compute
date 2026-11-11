@@ -1,0 +1,33 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 2129,
+ "budget": 10000,
+ "units_used": 10000.01,
+ "stop_reason": "budget",
+ "seconds": 188.916,
+ "best_val_loss": 0.15329511849672917,
+ "best_at_units": 60.0,
+ "handoff_units": 501.011,
+ "train_loss": 0.07137038107745966,
+ "train_rmse": 0.2671523555528936,
+ "train_r2": 0.9286296189225404,
+ "val_loss": 0.15329511849672917,
+ "val_rmse": 0.3915292051644796,
+ "val_r2": 0.8639739148493387,
+ "test_loss": 0.16796011173432251,
+ "test_rmse": 0.4098293690480497,
+ "test_r2": 0.8554153322406058,
+ "experiment": "benchmark",
+ "dataset": "kings_county",
+ "task": "regression",
+ "data_id": 44989,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.19299622009972228,
+  "momentum": 0.9,
+  "batch_size": 256
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.173,
+ "stop_reason": "budget",
+ "seconds": 24.733,
+ "best_val_loss": 0.3656561534550517,
+ "best_at_units": 50.112,
+ "handoff_units": null,
+ "train_loss": 0.2036694940683494,
+ "train_accuracy": 0.9282004277421326,
+ "val_loss": 0.3656561534550517,
+ "val_accuracy": 0.8909257561869844,
+ "test_loss": 0.3564439256411592,
+ "test_accuracy": 0.8809523809523809,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 6,
+ "seed": 0
+}

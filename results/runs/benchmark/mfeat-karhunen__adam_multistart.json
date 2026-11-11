@@ -1,0 +1,30 @@
+{
+ "method": "adam_multistart",
+ "config": {
+  "lr": 0.0016465323859827816,
+  "batch_size": 32,
+  "starts": 4,
+  "explore_fraction": 0.05
+ },
+ "hidden": "16",
+ "n_params": 1210,
+ "budget": 10000,
+ "units_used": 10000.08,
+ "stop_reason": "budget",
+ "seconds": 52.946,
+ "best_val_loss": 0.14481960673225955,
+ "best_at_units": 260.0,
+ "handoff_units": 501.04,
+ "train_loss": 0.021422412549230687,
+ "train_accuracy": 0.9983333333333333,
+ "val_loss": 0.14481960673225955,
+ "val_accuracy": 0.9475,
+ "test_loss": 0.20032644730563678,
+ "test_accuracy": 0.95,
+ "experiment": "benchmark",
+ "dataset": "mfeat-karhunen",
+ "task": "classification",
+ "data_id": 16,
+ "config_index": null,
+ "seed": 0
+}

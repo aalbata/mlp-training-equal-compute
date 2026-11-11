@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 305,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.189,
+ "best_val_loss": 0.09046293323361396,
+ "best_at_units": 8190.0,
+ "handoff_units": null,
+ "train_loss": 0.056422685333784015,
+ "train_rmse": 0.2375345981826311,
+ "train_r2": 0.943577314666216,
+ "val_loss": 0.09046293323361396,
+ "val_rmse": 0.3007705657700134,
+ "val_r2": 0.9319998061910915,
+ "test_loss": 0.08432520144706858,
+ "test_rmse": 0.29038801877327614,
+ "test_r2": 0.9095108245105558,
+ "experiment": "benchmark",
+ "dataset": "cars",
+ "task": "regression",
+ "data_id": 44994,
+ "config_index": null,
+ "seed": 0
+}

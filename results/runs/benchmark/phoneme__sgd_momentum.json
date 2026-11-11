@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 130,
+ "budget": 10000,
+ "units_used": 10000.066,
+ "stop_reason": "budget",
+ "seconds": 35.071,
+ "best_val_loss": 0.34119697518872416,
+ "best_at_units": 2790.0,
+ "handoff_units": null,
+ "train_loss": 0.28377199636258604,
+ "train_accuracy": 0.8689080814312153,
+ "val_loss": 0.34119697518872416,
+ "val_accuracy": 0.8408880666049954,
+ "test_loss": 0.3810197856499951,
+ "test_accuracy": 0.818686401480111,
+ "experiment": "benchmark",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

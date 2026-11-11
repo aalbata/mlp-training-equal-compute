@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.21899667732036876,
+  "lr": 0.003930733242931427,
+  "batch_size": 128,
+  "stall_iterations": 10,
+  "tol": 0.001,
+  "cap_fraction": 0.25
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 34.827,
+ "best_val_loss": 0.23024429003811905,
+ "best_at_units": 2960.056,
+ "handoff_units": 2500.0,
+ "train_loss": 0.11461938049092638,
+ "train_accuracy": 0.9648640391078521,
+ "val_loss": 0.23024429003811905,
+ "val_accuracy": 0.9175068744271311,
+ "test_loss": 0.24964702590914772,
+ "test_accuracy": 0.9166666666666666,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 2,
+ "seed": 0
+}

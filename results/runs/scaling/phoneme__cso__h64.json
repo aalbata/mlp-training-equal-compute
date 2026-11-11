@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "64",
+ "n_params": 514,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 63.43,
+ "best_val_loss": 0.3859074632797907,
+ "best_at_units": 9880.0,
+ "handoff_units": null,
+ "train_loss": 0.3690193767670312,
+ "train_accuracy": 0.8223318938926588,
+ "val_loss": 0.3859074632797907,
+ "val_accuracy": 0.7927844588344126,
+ "test_loss": 0.3931464745412599,
+ "test_accuracy": 0.8001850138760407,
+ "experiment": "scaling",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 938,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.749,
+ "best_val_loss": 0.7561672190423379,
+ "best_at_units": 9080.0,
+ "handoff_units": null,
+ "train_loss": 0.7911986282098062,
+ "train_accuracy": 0.7366666666666667,
+ "val_loss": 0.7561672190423379,
+ "val_accuracy": 0.745,
+ "test_loss": 0.7768802895137092,
+ "test_accuracy": 0.715,
+ "experiment": "benchmark",
+ "dataset": "mfeat-zernike",
+ "task": "classification",
+ "data_id": 22,
+ "config_index": null,
+ "seed": 0
+}

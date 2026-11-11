@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 273,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 12.583,
+ "best_val_loss": 0.1773204788406861,
+ "best_at_units": 10000.0,
+ "handoff_units": null,
+ "train_loss": 0.15038166980746753,
+ "train_rmse": 0.3877907551856639,
+ "train_r2": 0.8496183301925325,
+ "val_loss": 0.1773204788406861,
+ "val_rmse": 0.421094382342826,
+ "val_r2": 0.8132153153259982,
+ "test_loss": 0.14603169844719943,
+ "test_rmse": 0.38214094055361225,
+ "test_r2": 0.8576485473857866,
+ "experiment": "benchmark",
+ "dataset": "miami_housing",
+ "task": "regression",
+ "data_id": 44983,
+ "config_index": null,
+ "seed": 0
+}

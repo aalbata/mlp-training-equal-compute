@@ -1,0 +1,33 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 1329,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 35.111,
+ "best_val_loss": 0.2871518731268515,
+ "best_at_units": 9580.0,
+ "handoff_units": null,
+ "train_loss": 0.27952469560310966,
+ "train_rmse": 0.5287009510140015,
+ "train_r2": 0.7204753043968903,
+ "val_loss": 0.2871518731268515,
+ "val_rmse": 0.5358655364238789,
+ "val_r2": 0.7067043558549602,
+ "test_loss": 0.29365807416955086,
+ "test_rmse": 0.5419022736338637,
+ "test_r2": 0.7032383049283049,
+ "experiment": "benchmark",
+ "dataset": "superconductivity",
+ "task": "regression",
+ "data_id": 44964,
+ "config_index": null,
+ "seed": 0
+}

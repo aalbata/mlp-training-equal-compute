@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "256",
+ "n_params": 15362,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 438.001,
+ "best_val_loss": 0.2419875543405105,
+ "best_at_units": 8730.0,
+ "handoff_units": null,
+ "train_loss": 0.22180775066073163,
+ "train_accuracy": 0.9199275362318841,
+ "val_loss": 0.2419875543405105,
+ "val_accuracy": 0.9,
+ "test_loss": 0.18767811733646075,
+ "test_accuracy": 0.9348534201954397,
+ "experiment": "scaling",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.5,
+  "CR": 0.9,
+  "init_scale": 0.1
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.55,
+ "best_val_loss": 0.9932876268313038,
+ "best_at_units": 9750.0,
+ "handoff_units": null,
+ "train_loss": 0.9941447743644979,
+ "train_accuracy": 0.6675,
+ "val_loss": 0.9932876268313038,
+ "val_accuracy": 0.66,
+ "test_loss": 0.9404011051252109,
+ "test_accuracy": 0.67,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 0,
+ "seed": 0
+}

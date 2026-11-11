@@ -1,0 +1,32 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 2609,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 58.819,
+ "best_val_loss": 0.3307223043387138,
+ "best_at_units": 9270.0,
+ "handoff_units": null,
+ "train_loss": 0.36379247807074117,
+ "train_rmse": 0.6031521185163334,
+ "train_r2": 0.6362075219292589,
+ "val_loss": 0.3307223043387138,
+ "val_rmse": 0.5750846062439107,
+ "val_r2": 0.6179453915187454,
+ "test_loss": 0.3102133598397099,
+ "test_rmse": 0.556968006118583,
+ "test_r2": 0.6044546339434913,
+ "experiment": "benchmark",
+ "dataset": "fifa",
+ "task": "regression",
+ "data_id": 45012,
+ "config_index": null,
+ "seed": 0
+}

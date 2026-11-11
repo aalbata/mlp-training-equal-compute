@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 50,
+  "init_scale": 0.011913189105807864
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 62.633,
+ "best_val_loss": 0.22531405708192392,
+ "best_at_units": 7580.0,
+ "handoff_units": null,
+ "train_loss": 0.21156653647293033,
+ "train_accuracy": 0.9084,
+ "val_loss": 0.22531405708192392,
+ "val_accuracy": 0.9048,
+ "test_loss": 0.22776066422423155,
+ "test_accuracy": 0.9022448302554462,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 5,
+ "seed": 0
+}

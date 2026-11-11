@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.02915018419644334,
+  "lr": 0.008962076250711491,
+  "batch_size": 256,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.15,
+ "stop_reason": "budget",
+ "seconds": 35.129,
+ "best_val_loss": 0.42605668801726226,
+ "best_at_units": 2150.0,
+ "handoff_units": 2000.0,
+ "train_loss": 0.4086998476028676,
+ "train_accuracy": 0.8148,
+ "val_loss": 0.42605668801726226,
+ "val_accuracy": 0.8076,
+ "test_loss": 0.4488500211246057,
+ "test_accuracy": 0.7878186031115525,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 2,
+ "seed": 0
+}

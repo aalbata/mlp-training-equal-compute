@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "4",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 16.377,
+ "best_val_loss": 0.4048457321321439,
+ "best_at_units": 9970.0,
+ "handoff_units": null,
+ "train_loss": 0.37113226315816594,
+ "train_accuracy": 0.8634007257646449,
+ "val_loss": 0.4048457321321439,
+ "val_accuracy": 0.8475894245723172,
+ "test_loss": 0.446734488402786,
+ "test_accuracy": 0.828149300155521,
+ "experiment": "scaling",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

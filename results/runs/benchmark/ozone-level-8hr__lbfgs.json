@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 432.0,
+ "stop_reason": "converged",
+ "seconds": 0.579,
+ "best_val_loss": 0.14170070777815244,
+ "best_at_units": 60.0,
+ "handoff_units": null,
+ "train_loss": 0.09988056360392521,
+ "train_accuracy": 0.9605263157894737,
+ "val_loss": 0.14170070777815244,
+ "val_accuracy": 0.9447731755424064,
+ "test_loss": 0.1681264711949109,
+ "test_accuracy": 0.9408284023668639,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

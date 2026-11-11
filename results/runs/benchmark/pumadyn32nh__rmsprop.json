@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 545,
+ "budget": 10000,
+ "units_used": 10000.016,
+ "stop_reason": "budget",
+ "seconds": 62.389,
+ "best_val_loss": 0.5708720109416773,
+ "best_at_units": 1420.016,
+ "handoff_units": null,
+ "train_loss": 0.448035559467814,
+ "train_rmse": 0.6693545842584586,
+ "train_r2": 0.551964440532186,
+ "val_loss": 0.5708720109416773,
+ "val_rmse": 0.7555607261773717,
+ "val_r2": 0.4250132377704241,
+ "test_loss": 0.6061209751713036,
+ "test_rmse": 0.7785377159594156,
+ "test_r2": 0.3937303845920581,
+ "experiment": "benchmark",
+ "dataset": "pumadyn32nh",
+ "task": "regression",
+ "data_id": 44981,
+ "config_index": null,
+ "seed": 0
+}

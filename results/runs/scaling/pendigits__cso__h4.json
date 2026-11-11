@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "4",
+ "n_params": 118,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 26.832,
+ "best_val_loss": 0.914202683859549,
+ "best_at_units": 9920.0,
+ "handoff_units": null,
+ "train_loss": 0.8764481280057945,
+ "train_accuracy": 0.708,
+ "val_loss": 0.914202683859549,
+ "val_accuracy": 0.697452229299363,
+ "test_loss": 0.9022105677140495,
+ "test_accuracy": 0.6894042746703046,
+ "experiment": "scaling",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

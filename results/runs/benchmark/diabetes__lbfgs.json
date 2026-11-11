@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 1.779,
+ "best_val_loss": 0.44000377533465934,
+ "best_at_units": 21.0,
+ "handoff_units": null,
+ "train_loss": 0.4597448145445158,
+ "train_accuracy": 0.7934782608695652,
+ "val_loss": 0.44000377533465934,
+ "val_accuracy": 0.7922077922077922,
+ "test_loss": 0.4984993418533615,
+ "test_accuracy": 0.7597402597402597,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 30.579,
+ "best_val_loss": 0.3175702217890108,
+ "best_at_units": 9160.0,
+ "handoff_units": null,
+ "train_loss": 0.28261816999426426,
+ "train_accuracy": 0.8979591836734694,
+ "val_loss": 0.3175702217890108,
+ "val_accuracy": 0.880690737833595,
+ "test_loss": 0.3222634612605002,
+ "test_accuracy": 0.8871473354231975,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

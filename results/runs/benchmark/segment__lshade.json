@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 423,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.728,
+ "best_val_loss": 0.19206908968564884,
+ "best_at_units": 7860.0,
+ "handoff_units": null,
+ "train_loss": 0.1727317756389946,
+ "train_accuracy": 0.9437229437229437,
+ "val_loss": 0.19206908968564884,
+ "val_accuracy": 0.9264069264069265,
+ "test_loss": 0.30028099883846615,
+ "test_accuracy": 0.9199134199134199,
+ "experiment": "benchmark",
+ "dataset": "segment",
+ "task": "classification",
+ "data_id": 40984,
+ "config_index": null,
+ "seed": 0
+}

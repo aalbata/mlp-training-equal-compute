@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.279,
+ "stop_reason": "budget",
+ "seconds": 7.853,
+ "best_val_loss": 0.11177978669715753,
+ "best_at_units": 7690.279,
+ "handoff_units": null,
+ "train_loss": 0.11757506399789311,
+ "train_rmse": 0.34289220463272874,
+ "train_r2": 0.8824249360021069,
+ "val_loss": 0.11177978669715753,
+ "val_rmse": 0.3343348421824407,
+ "val_r2": 0.9020731542553148,
+ "test_loss": 0.12417076761514166,
+ "test_rmse": 0.3523787275292617,
+ "test_r2": 0.8566725507303526,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

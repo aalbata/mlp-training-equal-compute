@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.017464294103931948,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 13.913,
+ "best_val_loss": 0.5591911430485116,
+ "best_at_units": 90.0,
+ "handoff_units": null,
+ "train_loss": 0.5623094492197505,
+ "train_accuracy": 0.7641666666666667,
+ "val_loss": 0.5591911430485116,
+ "val_accuracy": 0.7775,
+ "test_loss": 0.6205608975952097,
+ "test_accuracy": 0.7275,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 5,
+ "seed": 0
+}

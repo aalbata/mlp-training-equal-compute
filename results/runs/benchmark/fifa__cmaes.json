@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 2609,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 59.526,
+ "best_val_loss": 0.22577437218683122,
+ "best_at_units": 9700.0,
+ "handoff_units": null,
+ "train_loss": 0.19748904316272614,
+ "train_rmse": 0.4443973932897516,
+ "train_r2": 0.8025109568372739,
+ "val_loss": 0.22577437218683122,
+ "val_rmse": 0.47515720786580856,
+ "val_r2": 0.7391825763205907,
+ "test_loss": 0.21369917932597124,
+ "test_rmse": 0.4622760856089911,
+ "test_r2": 0.7275174732766407,
+ "experiment": "benchmark",
+ "dataset": "fifa",
+ "task": "regression",
+ "data_id": 45012,
+ "config_index": null,
+ "seed": 0
+}

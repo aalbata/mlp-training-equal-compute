@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "256",
+ "n_params": 11034,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 741.028,
+ "best_val_loss": 1.95817258128328,
+ "best_at_units": 9970.0,
+ "handoff_units": null,
+ "train_loss": 1.8964004509187664,
+ "train_accuracy": 0.4426,
+ "val_loss": 1.95817258128328,
+ "val_accuracy": 0.4212,
+ "test_loss": 1.959209887736227,
+ "test_accuracy": 0.43025,
+ "experiment": "scaling",
+ "dataset": "letter",
+ "task": "classification",
+ "data_id": 6,
+ "config_index": null,
+ "seed": 0
+}

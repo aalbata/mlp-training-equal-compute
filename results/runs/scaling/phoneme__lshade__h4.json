@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "4",
+ "n_params": 34,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 8.336,
+ "best_val_loss": 0.38859385256863815,
+ "best_at_units": 5710.0,
+ "handoff_units": null,
+ "train_loss": 0.3611309282110999,
+ "train_accuracy": 0.8359037631091919,
+ "val_loss": 0.38859385256863815,
+ "val_accuracy": 0.8122109158186864,
+ "test_loss": 0.4006853868808933,
+ "test_accuracy": 0.8048103607770583,
+ "experiment": "scaling",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

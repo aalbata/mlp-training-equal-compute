@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0014460098266492506,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 134.341,
+ "best_val_loss": 0.2306430031587629,
+ "best_at_units": 60.0,
+ "handoff_units": null,
+ "train_loss": 0.1914041477120421,
+ "train_accuracy": 0.9186,
+ "val_loss": 0.2306430031587629,
+ "val_accuracy": 0.8988,
+ "test_loss": 0.2231608169480301,
+ "test_accuracy": 0.9001437576025655,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 7,
+ "seed": 0
+}

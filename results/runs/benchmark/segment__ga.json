@@ -1,0 +1,30 @@
+{
+ "method": "ga",
+ "config": {
+  "pop_size": 20,
+  "mutation_rate": 0.015738051751408265,
+  "mutation_scale": 0.19671144999740314,
+  "init_scale": 0.16076199840160718
+ },
+ "hidden": "16",
+ "n_params": 423,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.752,
+ "best_val_loss": 0.1551030103708251,
+ "best_at_units": 9300.0,
+ "handoff_units": null,
+ "train_loss": 0.16287775177078792,
+ "train_accuracy": 0.9502164502164502,
+ "val_loss": 0.1551030103708251,
+ "val_accuracy": 0.9372294372294372,
+ "test_loss": 0.23900990547148968,
+ "test_accuracy": 0.9285714285714286,
+ "experiment": "benchmark",
+ "dataset": "segment",
+ "task": "classification",
+ "data_id": 40984,
+ "config_index": null,
+ "seed": 0
+}

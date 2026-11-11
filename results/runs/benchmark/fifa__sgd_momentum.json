@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 2609,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 126.874,
+ "best_val_loss": 0.2194813553003678,
+ "best_at_units": 1350.0,
+ "handoff_units": null,
+ "train_loss": 0.15520523769675823,
+ "train_rmse": 0.3939609596099063,
+ "train_r2": 0.8447947623032418,
+ "val_loss": 0.2194813553003678,
+ "val_rmse": 0.46848837264159265,
+ "val_r2": 0.7464523493935956,
+ "test_loss": 0.22465875083178652,
+ "test_rmse": 0.4739818043256371,
+ "test_r2": 0.7135431952979937,
+ "experiment": "benchmark",
+ "dataset": "fifa",
+ "task": "regression",
+ "data_id": 45012,
+ "config_index": null,
+ "seed": 0
+}

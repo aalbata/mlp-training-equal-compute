@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.05270513449052501,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 179.319,
+ "best_val_loss": 0.22858358806183418,
+ "best_at_units": 3200.0,
+ "handoff_units": null,
+ "train_loss": 0.2124553862571629,
+ "train_accuracy": 0.9108,
+ "val_loss": 0.22858358806183418,
+ "val_accuracy": 0.8988,
+ "test_loss": 0.23105528079310866,
+ "test_accuracy": 0.8957204467543957,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 1,
+ "seed": 0
+}

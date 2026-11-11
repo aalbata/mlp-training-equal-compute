@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 9.84,
+ "best_val_loss": 0.9018338760899132,
+ "best_at_units": 9180.0,
+ "handoff_units": null,
+ "train_loss": 0.8478910455097597,
+ "train_accuracy": 0.679553264604811,
+ "val_loss": 0.9018338760899132,
+ "val_accuracy": 0.6752577319587629,
+ "test_loss": 0.8837449695059183,
+ "test_accuracy": 0.6760925449871465,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,32 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 369,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 14.39,
+ "best_val_loss": 0.6317868036014984,
+ "best_at_units": 9650.0,
+ "handoff_units": null,
+ "train_loss": 0.6170978966722137,
+ "train_rmse": 0.7855557883894776,
+ "train_r2": 0.3829021033277865,
+ "val_loss": 0.6317868036014984,
+ "val_rmse": 0.7948501768267391,
+ "val_r2": 0.3629770461820432,
+ "test_loss": 0.6454821069397607,
+ "test_rmse": 0.8034190108155026,
+ "test_r2": 0.3643358034239891,
+ "experiment": "benchmark",
+ "dataset": "health_insurance",
+ "task": "regression",
+ "data_id": 44993,
+ "config_index": null,
+ "seed": 0
+}

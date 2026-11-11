@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 962,
+ "budget": 10000,
+ "units_used": 10000.113,
+ "stop_reason": "budget",
+ "seconds": 29.43,
+ "best_val_loss": 0.2152605935456953,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.14415863149392213,
+ "train_accuracy": 0.9449275362318841,
+ "val_loss": 0.2152605935456953,
+ "val_accuracy": 0.9206521739130434,
+ "test_loss": 0.17324395041329266,
+ "test_accuracy": 0.9402823018458197,
+ "experiment": "benchmark",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

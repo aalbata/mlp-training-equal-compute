@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 10000.1,
+ "stop_reason": "budget",
+ "seconds": 52.379,
+ "best_val_loss": 0.22682738155571613,
+ "best_at_units": 730.0,
+ "handoff_units": 640.0,
+ "train_loss": 0.05367446280771657,
+ "train_accuracy": 0.9916274201988488,
+ "val_loss": 0.22682738155571613,
+ "val_accuracy": 0.9246467817896389,
+ "test_loss": 0.1642859667992381,
+ "test_accuracy": 0.9482758620689655,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

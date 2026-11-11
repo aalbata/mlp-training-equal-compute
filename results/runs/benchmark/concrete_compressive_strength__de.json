@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.079,
+ "best_val_loss": 0.14411116499728455,
+ "best_at_units": 9900.0,
+ "handoff_units": null,
+ "train_loss": 0.1484894778257498,
+ "train_rmse": 0.3853433246155301,
+ "train_r2": 0.8515105221742503,
+ "val_loss": 0.14411116499728455,
+ "val_rmse": 0.3796197637074294,
+ "val_r2": 0.823461490883805,
+ "test_loss": 0.19562972854494276,
+ "test_rmse": 0.442300495754801,
+ "test_r2": 0.7916038354936898,
+ "experiment": "benchmark",
+ "dataset": "concrete_compressive_strength",
+ "task": "regression",
+ "data_id": 44959,
+ "config_index": null,
+ "seed": 0
+}

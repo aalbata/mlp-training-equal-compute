@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 34.964,
+ "best_val_loss": 0.6118684802071133,
+ "best_at_units": 8770.075,
+ "handoff_units": null,
+ "train_loss": 0.5358477199948849,
+ "train_rmse": 0.7320162020029918,
+ "train_r2": 0.4641522800051151,
+ "val_loss": 0.6118684802071133,
+ "val_rmse": 0.7822202248773125,
+ "val_r2": 0.40743657531692923,
+ "test_loss": 0.5791252499194612,
+ "test_rmse": 0.7610027923204101,
+ "test_r2": 0.427066644030926,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

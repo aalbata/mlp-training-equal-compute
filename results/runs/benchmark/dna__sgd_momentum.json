@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 2947,
+ "budget": 10000,
+ "units_used": 10000.005,
+ "stop_reason": "budget",
+ "seconds": 31.718,
+ "best_val_loss": 0.21266071232944486,
+ "best_at_units": 20.009,
+ "handoff_units": null,
+ "train_loss": 0.0834473816444756,
+ "train_accuracy": 0.9722658294086866,
+ "val_loss": 0.21266071232944486,
+ "val_accuracy": 0.9403453689167975,
+ "test_loss": 0.16610266664888743,
+ "test_accuracy": 0.95141065830721,
+ "experiment": "benchmark",
+ "dataset": "dna",
+ "task": "classification",
+ "data_id": 40670,
+ "config_index": null,
+ "seed": 0
+}

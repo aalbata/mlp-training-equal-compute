@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 10,
+  "init_scale": 0.4881492391012692
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.598,
+ "best_val_loss": 0.1452534180531002,
+ "best_at_units": 1860.0,
+ "handoff_units": null,
+ "train_loss": 0.10277043583727595,
+ "train_accuracy": 0.9567901234567902,
+ "val_loss": 0.1452534180531002,
+ "val_accuracy": 0.9444444444444444,
+ "test_loss": 0.0906892189488741,
+ "test_accuracy": 0.9444444444444444,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 9,
+ "seed": 0
+}

@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 130,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 11.899,
+ "best_val_loss": 0.33475277668401937,
+ "best_at_units": 210.0,
+ "handoff_units": null,
+ "train_loss": 0.2958868349502402,
+ "train_accuracy": 0.8692165330043183,
+ "val_loss": 0.33475277668401937,
+ "val_accuracy": 0.8445883441258094,
+ "test_loss": 0.3905149827328862,
+ "test_accuracy": 0.8177613320999075,
+ "experiment": "benchmark",
+ "dataset": "phoneme",
+ "task": "classification",
+ "data_id": 1489,
+ "config_index": null,
+ "seed": 0
+}

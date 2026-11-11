@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.043,
+ "stop_reason": "budget",
+ "seconds": 8.044,
+ "best_val_loss": 0.0023069873324789983,
+ "best_at_units": 2440.043,
+ "handoff_units": null,
+ "train_loss": 0.0015972981501031014,
+ "train_rmse": 0.03996621260643922,
+ "train_r2": 0.9984027018498969,
+ "val_loss": 0.0023069873324789983,
+ "val_rmse": 0.04803110796638985,
+ "val_r2": 0.9978140005548303,
+ "test_loss": 0.0031761271682686403,
+ "test_rmse": 0.056357139461372954,
+ "test_r2": 0.9964758819071093,
+ "experiment": "benchmark",
+ "dataset": "energy_efficiency",
+ "task": "regression",
+ "data_id": 44960,
+ "config_index": null,
+ "seed": 0
+}

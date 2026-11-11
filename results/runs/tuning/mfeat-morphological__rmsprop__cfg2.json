@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0028645544090730567,
+  "batch_size": 256
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.28,
+ "stop_reason": "budget",
+ "seconds": 8.719,
+ "best_val_loss": 0.5640301109278735,
+ "best_at_units": 750.0,
+ "handoff_units": null,
+ "train_loss": 0.549580820745282,
+ "train_accuracy": 0.7675,
+ "val_loss": 0.5640301109278735,
+ "val_accuracy": 0.7775,
+ "test_loss": 0.6054198779418074,
+ "test_accuracy": 0.73,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 2,
+ "seed": 0
+}

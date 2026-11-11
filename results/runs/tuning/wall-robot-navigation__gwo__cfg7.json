@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.9259802704436156
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 16.321,
+ "best_val_loss": 0.6664558746139297,
+ "best_at_units": 9910.0,
+ "handoff_units": null,
+ "train_loss": 0.6319696782540644,
+ "train_accuracy": 0.7546593339443936,
+ "val_loss": 0.6664558746139297,
+ "val_accuracy": 0.7296058661778185,
+ "test_loss": 0.6708089174759642,
+ "test_accuracy": 0.7335164835164835,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 7,
+ "seed": 0
+}

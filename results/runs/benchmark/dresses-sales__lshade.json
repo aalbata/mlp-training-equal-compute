@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 2258,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 13.215,
+ "best_val_loss": 0.6579142703230347,
+ "best_at_units": 730.0,
+ "handoff_units": null,
+ "train_loss": 0.6132373902152314,
+ "train_accuracy": 0.66,
+ "val_loss": 0.6579142703230347,
+ "val_accuracy": 0.6,
+ "test_loss": 0.7207058743779586,
+ "test_accuracy": 0.53,
+ "experiment": "benchmark",
+ "dataset": "dresses-sales",
+ "task": "classification",
+ "data_id": 23381,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 417,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 62.967,
+ "best_val_loss": 0.061688078644126766,
+ "best_at_units": 9070.037,
+ "handoff_units": null,
+ "train_loss": 0.03346168843728768,
+ "train_rmse": 0.18292536302352302,
+ "train_r2": 0.9665383115627123,
+ "val_loss": 0.061688078644126766,
+ "val_rmse": 0.24837084902243814,
+ "val_r2": 0.9483261256426614,
+ "test_loss": 0.1631946755465722,
+ "test_rmse": 0.403973607487633,
+ "test_r2": 0.8654149906291027,
+ "experiment": "benchmark",
+ "dataset": "video_transcoding",
+ "task": "regression",
+ "data_id": 44974,
+ "config_index": null,
+ "seed": 0
+}

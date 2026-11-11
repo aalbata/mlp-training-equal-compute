@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 21.267,
+ "best_val_loss": 0.9127441236859641,
+ "best_at_units": 1490.0,
+ "handoff_units": null,
+ "train_loss": 0.8012230655792596,
+ "train_rmse": 0.8951106443223986,
+ "train_r2": 0.1987769344207404,
+ "val_loss": 0.9127441236859641,
+ "val_rmse": 0.9553764303592402,
+ "val_r2": 0.218068134202678,
+ "test_loss": 0.4827151031712694,
+ "test_rmse": 0.6947770168703549,
+ "test_r2": 0.04643694322319736,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

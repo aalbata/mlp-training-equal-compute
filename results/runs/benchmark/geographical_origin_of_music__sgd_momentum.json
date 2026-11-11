@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 1889,
+ "budget": 10000,
+ "units_used": 10000.209,
+ "stop_reason": "budget",
+ "seconds": 8.112,
+ "best_val_loss": 0.8183154029382496,
+ "best_at_units": 10.209,
+ "handoff_units": null,
+ "train_loss": 0.8265310660729537,
+ "train_rmse": 0.909137539689652,
+ "train_r2": 0.17346893392704632,
+ "val_loss": 0.8183154029382496,
+ "val_rmse": 0.9046078724719621,
+ "val_r2": 0.1226477686466384,
+ "test_loss": 1.053781738743392,
+ "test_rmse": 1.0265387176056207,
+ "test_r2": 0.1346758031290446,
+ "experiment": "benchmark",
+ "dataset": "geographical_origin_of_music",
+ "task": "regression",
+ "data_id": 44965,
+ "config_index": null,
+ "seed": 0
+}

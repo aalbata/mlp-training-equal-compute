@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 7.147,
+ "best_val_loss": 0.0022482726436625104,
+ "best_at_units": 9830.0,
+ "handoff_units": null,
+ "train_loss": 0.0013603684909378056,
+ "train_accuracy": 1.0,
+ "val_loss": 0.0022482726436625104,
+ "val_accuracy": 1.0,
+ "test_loss": 0.0007825877819473787,
+ "test_accuracy": 1.0,
+ "experiment": "benchmark",
+ "dataset": "banknote-authentication",
+ "task": "classification",
+ "data_id": 1462,
+ "config_index": null,
+ "seed": 0
+}

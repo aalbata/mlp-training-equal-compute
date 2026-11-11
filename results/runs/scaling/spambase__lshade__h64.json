@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "64",
+ "n_params": 3842,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 109.028,
+ "best_val_loss": 0.20353654085251638,
+ "best_at_units": 9500.0,
+ "handoff_units": null,
+ "train_loss": 0.16232212715498795,
+ "train_accuracy": 0.9423913043478261,
+ "val_loss": 0.20353654085251638,
+ "val_accuracy": 0.9217391304347826,
+ "test_loss": 0.14583156488857582,
+ "test_accuracy": 0.9478827361563518,
+ "experiment": "scaling",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

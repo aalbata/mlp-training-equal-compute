@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 200,
+  "init_scale": 0.5788385686454124
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 17.684,
+ "best_val_loss": 0.6373985134140016,
+ "best_at_units": 10000.0,
+ "handoff_units": null,
+ "train_loss": 0.5949359125809645,
+ "train_accuracy": 0.7650473571646808,
+ "val_loss": 0.6373985134140016,
+ "val_accuracy": 0.7479376718606783,
+ "test_loss": 0.6615940261428932,
+ "test_accuracy": 0.739010989010989,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 7,
+ "seed": 0
+}

@@ -1,0 +1,32 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 273,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 11.659,
+ "best_val_loss": 0.19817087083624246,
+ "best_at_units": 9690.0,
+ "handoff_units": null,
+ "train_loss": 0.18160265506708714,
+ "train_rmse": 0.4261486302536794,
+ "train_r2": 0.8183973449329129,
+ "val_loss": 0.19817087083624246,
+ "val_rmse": 0.44516386964380034,
+ "val_r2": 0.7912520659614487,
+ "test_loss": 0.18081951429734727,
+ "test_rmse": 0.4252287787736706,
+ "test_r2": 0.8237374433432979,
+ "experiment": "benchmark",
+ "dataset": "miami_housing",
+ "task": "regression",
+ "data_id": 44983,
+ "config_index": null,
+ "seed": 0
+}

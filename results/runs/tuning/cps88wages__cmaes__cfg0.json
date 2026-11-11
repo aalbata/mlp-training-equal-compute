@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.1,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 12.587,
+ "best_val_loss": 0.5692454674261489,
+ "best_at_units": 8230.0,
+ "handoff_units": null,
+ "train_loss": 0.6800248585158685,
+ "train_rmse": 0.824636197674992,
+ "train_r2": 0.3199751414841313,
+ "val_loss": 0.5692454674261489,
+ "val_rmse": 0.754483576644415,
+ "val_r2": 0.3720188619773127,
+ "test_loss": 0.843714347641603,
+ "test_rmse": 0.9185392466528597,
+ "test_r2": 0.2820449821040646,
+ "experiment": "tuning",
+ "dataset": "cps88wages",
+ "task": "regression",
+ "data_id": 44984,
+ "config_index": 0,
+ "seed": 0
+}

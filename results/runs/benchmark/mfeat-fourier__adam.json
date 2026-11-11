@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 1402,
+ "budget": 10000,
+ "units_used": 10000.04,
+ "stop_reason": "budget",
+ "seconds": 53.976,
+ "best_val_loss": 0.5447565948715102,
+ "best_at_units": 30.0,
+ "handoff_units": null,
+ "train_loss": 0.2721374225238896,
+ "train_accuracy": 0.9225,
+ "val_loss": 0.5447565948715102,
+ "val_accuracy": 0.8075,
+ "test_loss": 0.5330945017322336,
+ "test_accuracy": 0.785,
+ "experiment": "benchmark",
+ "dataset": "mfeat-fourier",
+ "task": "classification",
+ "data_id": 14,
+ "config_index": null,
+ "seed": 0
+}

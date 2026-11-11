@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 934,
+ "budget": 10000,
+ "units_used": 10000.046,
+ "stop_reason": "budget",
+ "seconds": 65.895,
+ "best_val_loss": 1.3867548614496572,
+ "best_at_units": 70.046,
+ "handoff_units": null,
+ "train_loss": 1.317888028196647,
+ "train_accuracy": 0.5196185286103542,
+ "val_loss": 1.3867548614496572,
+ "val_accuracy": 0.47794117647058826,
+ "test_loss": 1.3551116695478467,
+ "test_accuracy": 0.4950980392156863,
+ "experiment": "benchmark",
+ "dataset": "first-order-theorem-proving",
+ "task": "classification",
+ "data_id": 1475,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 1384,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 16.868,
+ "best_val_loss": 0.04639238219140679,
+ "best_at_units": 340.185,
+ "handoff_units": null,
+ "train_loss": 0.0011104731385376376,
+ "train_accuracy": 1.0,
+ "val_loss": 0.04639238219140679,
+ "val_accuracy": 0.9861111111111112,
+ "test_loss": 0.04956501849615673,
+ "test_accuracy": 0.9907407407407407,
+ "experiment": "benchmark",
+ "dataset": "MiceProtein",
+ "task": "classification",
+ "data_id": 40966,
+ "config_index": null,
+ "seed": 0
+}

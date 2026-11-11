@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 21.722,
+ "best_val_loss": 0.13283318589344772,
+ "best_at_units": 6510.0,
+ "handoff_units": null,
+ "train_loss": 0.1370410321510303,
+ "train_accuracy": 0.9447368421052632,
+ "val_loss": 0.13283318589344772,
+ "val_accuracy": 0.9487179487179487,
+ "test_loss": 0.16424933573853698,
+ "test_accuracy": 0.9467455621301775,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.648,
+ "best_val_loss": 0.443809841118108,
+ "best_at_units": 1420.0,
+ "handoff_units": null,
+ "train_loss": 0.4316536253328292,
+ "train_accuracy": 0.8191964285714286,
+ "val_loss": 0.443809841118108,
+ "val_accuracy": 0.7933333333333333,
+ "test_loss": 0.536052699781857,
+ "test_accuracy": 0.7733333333333333,
+ "experiment": "benchmark",
+ "dataset": "blood-transfusion-service-center",
+ "task": "classification",
+ "data_id": 1464,
+ "config_index": null,
+ "seed": 0
+}

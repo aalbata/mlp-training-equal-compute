@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0007983009552873934,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.185,
+ "stop_reason": "budget",
+ "seconds": 5.157,
+ "best_val_loss": 0.1554436865766655,
+ "best_at_units": 320.37,
+ "handoff_units": null,
+ "train_loss": 0.08736194809931609,
+ "train_accuracy": 0.9691358024691358,
+ "val_loss": 0.1554436865766655,
+ "val_accuracy": 0.9444444444444444,
+ "test_loss": 0.08653901268836614,
+ "test_accuracy": 0.9722222222222222,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 6,
+ "seed": 0
+}

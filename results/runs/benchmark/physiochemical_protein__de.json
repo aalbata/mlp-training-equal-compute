@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 177,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.407,
+ "best_val_loss": 0.7206757814240138,
+ "best_at_units": 9940.0,
+ "handoff_units": null,
+ "train_loss": 0.7016458737928115,
+ "train_rmse": 0.8376430467644386,
+ "train_r2": 0.2983541262071885,
+ "val_loss": 0.7206757814240138,
+ "val_rmse": 0.8489262520525642,
+ "val_r2": 0.3020622520346046,
+ "test_loss": 0.7140278613121221,
+ "test_rmse": 0.8450016930823998,
+ "test_r2": 0.2936063849851708,
+ "experiment": "benchmark",
+ "dataset": "physiochemical_protein",
+ "task": "regression",
+ "data_id": 44963,
+ "config_index": null,
+ "seed": 0
+}

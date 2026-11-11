@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "64-64",
+ "n_params": 9473,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 371.615,
+ "best_val_loss": 0.26488442367709975,
+ "best_at_units": 9950.0,
+ "handoff_units": null,
+ "train_loss": 0.244065755050234,
+ "train_rmse": 0.4940301155296446,
+ "train_r2": 0.755934244949766,
+ "val_loss": 0.26488442367709975,
+ "val_rmse": 0.5146692371582935,
+ "val_r2": 0.7294482295365605,
+ "test_loss": 0.27501046846167815,
+ "test_rmse": 0.5244144052766649,
+ "test_r2": 0.7220829939243302,
+ "experiment": "scaling",
+ "dataset": "superconductivity",
+ "task": "regression",
+ "data_id": 44964,
+ "config_index": null,
+ "seed": 0
+}

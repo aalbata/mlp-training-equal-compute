@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 163,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 49.723,
+ "best_val_loss": 0.43960162082295867,
+ "best_at_units": 8960.074,
+ "handoff_units": null,
+ "train_loss": 0.395554569084527,
+ "train_accuracy": 0.8236,
+ "val_loss": 0.43960162082295867,
+ "val_accuracy": 0.806,
+ "test_loss": 0.4440368021864382,
+ "test_accuracy": 0.8085676037483266,
+ "experiment": "benchmark",
+ "dataset": "jungle_chess_2pcs_raw_endgame_complete",
+ "task": "classification",
+ "data_id": 41027,
+ "config_index": null,
+ "seed": 0
+}

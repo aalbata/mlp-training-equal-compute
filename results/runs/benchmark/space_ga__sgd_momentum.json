@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 129,
+ "budget": 10000,
+ "units_used": 10000.03,
+ "stop_reason": "budget",
+ "seconds": 24.651,
+ "best_val_loss": 0.33762316123607555,
+ "best_at_units": 7940.06,
+ "handoff_units": null,
+ "train_loss": 0.21710819925384275,
+ "train_rmse": 0.4659487088230235,
+ "train_r2": 0.7828918007461572,
+ "val_loss": 0.33762316123607555,
+ "val_rmse": 0.5810534925771255,
+ "val_r2": 0.737420162230632,
+ "test_loss": 0.26681774830880334,
+ "test_rmse": 0.5165440429516184,
+ "test_r2": 0.7129769933846364,
+ "experiment": "benchmark",
+ "dataset": "space_ga",
+ "task": "regression",
+ "data_id": 45402,
+ "config_index": null,
+ "seed": 0
+}

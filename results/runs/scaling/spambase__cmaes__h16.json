@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 962,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 65.993,
+ "best_val_loss": 0.19833331816676056,
+ "best_at_units": 4470.0,
+ "handoff_units": null,
+ "train_loss": 0.13440232861197196,
+ "train_accuracy": 0.9539855072463768,
+ "val_loss": 0.19833331816676056,
+ "val_accuracy": 0.9293478260869565,
+ "test_loss": 0.17448474285166177,
+ "test_accuracy": 0.9446254071661238,
+ "experiment": "scaling",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

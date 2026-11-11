@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 163,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 82.836,
+ "best_val_loss": 0.4449167352820079,
+ "best_at_units": 9120.0,
+ "handoff_units": null,
+ "train_loss": 0.40077965348249484,
+ "train_accuracy": 0.8246,
+ "val_loss": 0.4449167352820079,
+ "val_accuracy": 0.8028,
+ "test_loss": 0.4462766929477692,
+ "test_accuracy": 0.8042168674698795,
+ "experiment": "benchmark",
+ "dataset": "jungle_chess_2pcs_raw_endgame_complete",
+ "task": "classification",
+ "data_id": 41027,
+ "config_index": null,
+ "seed": 0
+}

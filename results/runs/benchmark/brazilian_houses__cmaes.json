@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 721,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 46.612,
+ "best_val_loss": 0.10756190053813564,
+ "best_at_units": 4040.0,
+ "handoff_units": null,
+ "train_loss": 0.014430530352396864,
+ "train_rmse": 0.12012714244664635,
+ "train_r2": 0.9855694696476032,
+ "val_loss": 0.10756190053813564,
+ "val_rmse": 0.32796631006573773,
+ "val_r2": 0.36776944460006544,
+ "test_loss": 0.017347725654027823,
+ "test_rmse": 0.1317107651410006,
+ "test_r2": 0.5726046274977898,
+ "experiment": "benchmark",
+ "dataset": "brazilian_houses",
+ "task": "regression",
+ "data_id": 44990,
+ "config_index": null,
+ "seed": 0
+}

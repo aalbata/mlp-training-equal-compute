@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 163,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 24.17,
+ "best_val_loss": 0.6295439590499589,
+ "best_at_units": 9890.0,
+ "handoff_units": null,
+ "train_loss": 0.6193350018422666,
+ "train_accuracy": 0.7406,
+ "val_loss": 0.6295439590499589,
+ "val_accuracy": 0.7372,
+ "test_loss": 0.6319325023323661,
+ "test_accuracy": 0.7396251673360107,
+ "experiment": "benchmark",
+ "dataset": "jungle_chess_2pcs_raw_endgame_complete",
+ "task": "classification",
+ "data_id": 41027,
+ "config_index": null,
+ "seed": 0
+}

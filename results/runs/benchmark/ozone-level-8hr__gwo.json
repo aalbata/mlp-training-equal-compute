@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 19.633,
+ "best_val_loss": 0.15429652203381247,
+ "best_at_units": 5090.0,
+ "handoff_units": null,
+ "train_loss": 0.13511094079921007,
+ "train_accuracy": 0.9460526315789474,
+ "val_loss": 0.15429652203381247,
+ "val_accuracy": 0.9388560157790927,
+ "test_loss": 0.2179350745904563,
+ "test_accuracy": 0.9309664694280079,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 40,
+  "init_scale": 0.12718772043108073
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 78.484,
+ "best_val_loss": 0.24159764477066178,
+ "best_at_units": 9850.0,
+ "handoff_units": null,
+ "train_loss": 0.23000889992561444,
+ "train_accuracy": 0.9038,
+ "val_loss": 0.24159764477066178,
+ "val_accuracy": 0.894,
+ "test_loss": 0.24109092125361764,
+ "test_accuracy": 0.899037929890523,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 5,
+ "seed": 0
+}

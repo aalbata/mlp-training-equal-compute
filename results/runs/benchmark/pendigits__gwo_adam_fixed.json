@@ -1,0 +1,31 @@
+{
+ "method": "gwo_adam_fixed",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33403344784859895,
+  "lr": 0.002896003637896238,
+  "batch_size": 64,
+  "explore_fraction": 0.2
+ },
+ "hidden": "16",
+ "n_params": 442,
+ "budget": 10000,
+ "units_used": 10000.035,
+ "stop_reason": "budget",
+ "seconds": 86.171,
+ "best_val_loss": 0.07247673765238918,
+ "best_at_units": 2100.037,
+ "handoff_units": 2000.0,
+ "train_loss": 0.022293332838304713,
+ "train_accuracy": 0.9952,
+ "val_loss": 0.07247673765238918,
+ "val_accuracy": 0.9872611464968153,
+ "test_loss": 0.08515010464649003,
+ "test_accuracy": 0.9863574351978172,
+ "experiment": "benchmark",
+ "dataset": "pendigits",
+ "task": "classification",
+ "data_id": 32,
+ "config_index": null,
+ "seed": 0
+}

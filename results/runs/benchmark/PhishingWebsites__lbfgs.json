@@ -1,0 +1,27 @@
+{
+ "method": "lbfgs",
+ "config": {
+  "memory": 10
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10002.0,
+ "stop_reason": "budget",
+ "seconds": 20.005,
+ "best_val_loss": 0.12493100063644694,
+ "best_at_units": 360.0,
+ "handoff_units": null,
+ "train_loss": 0.08761378069159376,
+ "train_accuracy": 0.9626,
+ "val_loss": 0.12493100063644694,
+ "val_accuracy": 0.9484396200814111,
+ "test_loss": 0.12041170987060498,
+ "test_accuracy": 0.9479873360470376,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

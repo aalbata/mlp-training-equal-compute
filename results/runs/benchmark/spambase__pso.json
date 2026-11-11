@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 962,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 18.739,
+ "best_val_loss": 0.22424367776176818,
+ "best_at_units": 6580.0,
+ "handoff_units": null,
+ "train_loss": 0.17893889384429867,
+ "train_accuracy": 0.938768115942029,
+ "val_loss": 0.22424367776176818,
+ "val_accuracy": 0.9173913043478261,
+ "test_loss": 0.16801832757184884,
+ "test_accuracy": 0.9348534201954397,
+ "experiment": "benchmark",
+ "dataset": "spambase",
+ "task": "classification",
+ "data_id": 44,
+ "config_index": null,
+ "seed": 0
+}

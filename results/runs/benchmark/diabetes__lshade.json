@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 178,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 2.892,
+ "best_val_loss": 0.4462814150628149,
+ "best_at_units": 770.0,
+ "handoff_units": null,
+ "train_loss": 0.4983404752534579,
+ "train_accuracy": 0.7521739130434782,
+ "val_loss": 0.4462814150628149,
+ "val_accuracy": 0.7987012987012987,
+ "test_loss": 0.5086968729644661,
+ "test_accuracy": 0.7272727272727273,
+ "experiment": "benchmark",
+ "dataset": "diabetes",
+ "task": "classification",
+ "data_id": 37,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,29 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 694,
+ "budget": 10000,
+ "units_used": 10000.095,
+ "stop_reason": "budget",
+ "seconds": 43.372,
+ "best_val_loss": 0.28250705094652845,
+ "best_at_units": 100.095,
+ "handoff_units": null,
+ "train_loss": 0.22877351581878974,
+ "train_accuracy": 0.9118714359771902,
+ "val_loss": 0.28250705094652845,
+ "val_accuracy": 0.8872472783825817,
+ "test_loss": 0.3121005622005852,
+ "test_accuracy": 0.8670295489891136,
+ "experiment": "benchmark",
+ "dataset": "satimage",
+ "task": "classification",
+ "data_id": 182,
+ "config_index": null,
+ "seed": 0
+}

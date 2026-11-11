@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 3.081,
+ "best_val_loss": 0.39351242414825,
+ "best_at_units": 9740.0,
+ "handoff_units": null,
+ "train_loss": 0.3160736351201107,
+ "train_rmse": 0.5622042645872679,
+ "train_r2": 0.6839263648798892,
+ "val_loss": 0.39351242414825,
+ "val_rmse": 0.627305686366902,
+ "val_r2": 0.6552558240016506,
+ "test_loss": 0.29597161539966216,
+ "test_rmse": 0.544032733757503,
+ "test_r2": 0.6583667999626849,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

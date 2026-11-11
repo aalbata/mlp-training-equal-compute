@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 786,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 30.215,
+ "best_val_loss": 0.14285237862174224,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 0.13396853124629252,
+ "train_accuracy": 0.9426,
+ "val_loss": 0.14285237862174224,
+ "val_accuracy": 0.9402985074626866,
+ "test_loss": 0.14781519068789353,
+ "test_accuracy": 0.9434644957033017,
+ "experiment": "benchmark",
+ "dataset": "PhishingWebsites",
+ "task": "classification",
+ "data_id": 4534,
+ "config_index": null,
+ "seed": 0
+}

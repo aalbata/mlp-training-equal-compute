@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 2129,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 99.866,
+ "best_val_loss": 0.15789817788684168,
+ "best_at_units": 140.035,
+ "handoff_units": null,
+ "train_loss": 0.0742666772240803,
+ "train_rmse": 0.27251913184963783,
+ "train_r2": 0.9257333227759197,
+ "val_loss": 0.15789817788684168,
+ "val_rmse": 0.3973640369822635,
+ "val_r2": 0.859889400256225,
+ "test_loss": 0.1708645727490252,
+ "test_rmse": 0.41335768137174517,
+ "test_r2": 0.8529150925914732,
+ "experiment": "benchmark",
+ "dataset": "kings_county",
+ "task": "regression",
+ "data_id": 44989,
+ "config_index": null,
+ "seed": 0
+}

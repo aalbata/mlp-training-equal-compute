@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 113,
+ "budget": 10000,
+ "units_used": 10000.065,
+ "stop_reason": "budget",
+ "seconds": 22.619,
+ "best_val_loss": 0.09872033651219088,
+ "best_at_units": 9970.065,
+ "handoff_units": null,
+ "train_loss": 0.0818786625136417,
+ "train_rmse": 0.28614447839097246,
+ "train_r2": 0.9181213374863583,
+ "val_loss": 0.09872033651219088,
+ "val_rmse": 0.31419792569683025,
+ "val_r2": 0.9135141383684662,
+ "test_loss": 0.0901481177593303,
+ "test_rmse": 0.3002467614468644,
+ "test_r2": 0.895944109688108,
+ "experiment": "benchmark",
+ "dataset": "airfoil_self_noise",
+ "task": "regression",
+ "data_id": 44957,
+ "config_index": null,
+ "seed": 0
+}

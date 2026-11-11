@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 163,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 29.678,
+ "best_val_loss": 0.5605962409108457,
+ "best_at_units": 9860.0,
+ "handoff_units": null,
+ "train_loss": 0.5511985285394334,
+ "train_accuracy": 0.7772,
+ "val_loss": 0.5605962409108457,
+ "val_accuracy": 0.7752,
+ "test_loss": 0.5596974070917402,
+ "test_accuracy": 0.7748772869254797,
+ "experiment": "benchmark",
+ "dataset": "jungle_chess_2pcs_raw_endgame_complete",
+ "task": "classification",
+ "data_id": 41027,
+ "config_index": null,
+ "seed": 0
+}

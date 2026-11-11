@@ -1,0 +1,32 @@
+{
+ "method": "sgd_momentum",
+ "config": {
+  "lr": 0.02241657482312481,
+  "momentum": 0.95,
+  "batch_size": 128
+ },
+ "hidden": "16",
+ "n_params": 449,
+ "budget": 10000,
+ "units_used": 10000.075,
+ "stop_reason": "budget",
+ "seconds": 36.828,
+ "best_val_loss": 0.024433693916902526,
+ "best_at_units": 550.075,
+ "handoff_units": null,
+ "train_loss": 0.017471576272985748,
+ "train_rmse": 0.13218009030480252,
+ "train_r2": 0.9825284237270142,
+ "val_loss": 0.024433693916902526,
+ "val_rmse": 0.15631280791062044,
+ "val_r2": 0.9767945819168539,
+ "test_loss": 0.027019426766252495,
+ "test_rmse": 0.16437587038933815,
+ "test_r2": 0.9729183855804747,
+ "experiment": "benchmark",
+ "dataset": "diamonds",
+ "task": "regression",
+ "data_id": 44979,
+ "config_index": null,
+ "seed": 0
+}

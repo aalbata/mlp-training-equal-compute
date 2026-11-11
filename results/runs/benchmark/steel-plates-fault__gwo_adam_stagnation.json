@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 567,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 22.52,
+ "best_val_loss": 0.7612104688045574,
+ "best_at_units": 1020.144,
+ "handoff_units": 640.0,
+ "train_loss": 0.5380385537396426,
+ "train_accuracy": 0.788659793814433,
+ "val_loss": 0.7612104688045574,
+ "val_accuracy": 0.7345360824742269,
+ "test_loss": 0.6898631004425018,
+ "test_accuracy": 0.7455012853470437,
+ "experiment": "benchmark",
+ "dataset": "steel-plates-fault",
+ "task": "classification",
+ "data_id": 40982,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,33 @@
+{
+ "method": "gwo_adam_stagnation",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.1,
+  "lr": 0.001,
+  "batch_size": 64,
+  "stall_iterations": 10,
+  "tol": 0.0,
+  "cap_fraction": 0.5
+ },
+ "hidden": "16",
+ "n_params": 1202,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 46.501,
+ "best_val_loss": 0.16131369879001295,
+ "best_at_units": 780.021,
+ "handoff_units": 700.0,
+ "train_loss": 0.10016746195255478,
+ "train_accuracy": 0.9592105263157895,
+ "val_loss": 0.16131369879001295,
+ "val_accuracy": 0.9467455621301775,
+ "test_loss": 0.18445418491813964,
+ "test_accuracy": 0.9388560157790927,
+ "experiment": "benchmark",
+ "dataset": "ozone-level-8hr",
+ "task": "classification",
+ "data_id": 1487,
+ "config_index": null,
+ "seed": 0
+}

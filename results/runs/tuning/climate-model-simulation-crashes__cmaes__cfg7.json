@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.034976551085318164,
+  "popsize_factor": 4
+ },
+ "hidden": "16",
+ "n_params": 338,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.773,
+ "best_val_loss": 0.14306696282937167,
+ "best_at_units": 1430.0,
+ "handoff_units": null,
+ "train_loss": 0.14256985562468452,
+ "train_accuracy": 0.9567901234567902,
+ "val_loss": 0.14306696282937167,
+ "val_accuracy": 0.9537037037037037,
+ "test_loss": 0.10517595062662027,
+ "test_accuracy": 0.9629629629629629,
+ "experiment": "tuning",
+ "dataset": "climate-model-simulation-crashes",
+ "task": "classification",
+ "data_id": 40994,
+ "config_index": 7,
+ "seed": 0
+}

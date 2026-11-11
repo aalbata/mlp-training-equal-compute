@@ -1,0 +1,28 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "16",
+ "n_params": 114,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 8.609,
+ "best_val_loss": 0.0,
+ "best_at_units": 6780.0,
+ "handoff_units": null,
+ "train_loss": 0.0,
+ "train_accuracy": 1.0,
+ "val_loss": 0.0,
+ "val_accuracy": 1.0,
+ "test_loss": 0.0,
+ "test_accuracy": 1.0,
+ "experiment": "benchmark",
+ "dataset": "banknote-authentication",
+ "task": "classification",
+ "data_id": 1462,
+ "config_index": null,
+ "seed": 0
+}

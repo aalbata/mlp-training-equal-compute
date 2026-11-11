@@ -1,0 +1,29 @@
+{
+ "method": "cso",
+ "config": {
+  "pop_size": 100,
+  "phi": 0.05,
+  "init_scale": 0.07397890216257608
+ },
+ "hidden": "16",
+ "n_params": 372,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 3.642,
+ "best_val_loss": 0.6622940799680763,
+ "best_at_units": 9960.0,
+ "handoff_units": null,
+ "train_loss": 0.5854710282641976,
+ "train_accuracy": 0.7337278106508875,
+ "val_loss": 0.6622940799680763,
+ "val_accuracy": 0.6863905325443787,
+ "test_loss": 0.675521678717943,
+ "test_accuracy": 0.6882352941176471,
+ "experiment": "benchmark",
+ "dataset": "vehicle",
+ "task": "classification",
+ "data_id": 54,
+ "config_index": null,
+ "seed": 0
+}

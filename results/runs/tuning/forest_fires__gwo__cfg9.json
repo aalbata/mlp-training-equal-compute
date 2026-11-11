@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 10,
+  "init_scale": 0.4881492391012692
+ },
+ "hidden": "16",
+ "n_params": 481,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.738,
+ "best_val_loss": 4.725107378733256,
+ "best_at_units": 340.0,
+ "handoff_units": null,
+ "train_loss": 1.003620570067257,
+ "train_rmse": 1.0018086494272531,
+ "train_r2": -0.003620570067257578,
+ "val_loss": 4.725107378733256,
+ "val_rmse": 2.173731211243298,
+ "val_r2": 0.007936088048790202,
+ "test_loss": 0.16518649160410892,
+ "test_rmse": 0.4064314107006358,
+ "test_r2": -0.695816320888351,
+ "experiment": "tuning",
+ "dataset": "forest_fires",
+ "task": "regression",
+ "data_id": 44962,
+ "config_index": 9,
+ "seed": 0
+}

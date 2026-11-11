@@ -1,0 +1,31 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.004140255182751024,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 417,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 118.121,
+ "best_val_loss": 0.057579814010684745,
+ "best_at_units": 1680.019,
+ "handoff_units": null,
+ "train_loss": 0.029434154811413486,
+ "train_rmse": 0.17156385053796586,
+ "train_r2": 0.9705658451885865,
+ "val_loss": 0.057579814010684745,
+ "val_rmse": 0.2399579421704661,
+ "val_r2": 0.9517674704723467,
+ "test_loss": 0.1197495776233639,
+ "test_rmse": 0.3460485191752219,
+ "test_r2": 0.9012437264106564,
+ "experiment": "benchmark",
+ "dataset": "video_transcoding",
+ "task": "regression",
+ "data_id": 44974,
+ "config_index": null,
+ "seed": 0
+}

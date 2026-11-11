@@ -1,0 +1,30 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 100,
+  "F": 0.84765573250785,
+  "CR": 0.535064721612179,
+  "init_scale": 0.24263503440518722
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 16.98,
+ "best_val_loss": 1.80231508740491,
+ "best_at_units": 1760.0,
+ "handoff_units": null,
+ "train_loss": 1.7922164073042295,
+ "train_accuracy": 0.37702413687748243,
+ "val_loss": 1.80231508740491,
+ "val_accuracy": 0.40238313473877174,
+ "test_loss": 1.8317988277378123,
+ "test_accuracy": 0.3836996336996337,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 6,
+ "seed": 0
+}

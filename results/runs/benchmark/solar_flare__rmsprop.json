@@ -1,0 +1,31 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.001,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 433,
+ "budget": 10000,
+ "units_used": 10000.202,
+ "stop_reason": "budget",
+ "seconds": 10.093,
+ "best_val_loss": 0.8832545229572636,
+ "best_at_units": 130.202,
+ "handoff_units": null,
+ "train_loss": 0.8112951436648254,
+ "train_rmse": 0.900719236868418,
+ "train_r2": 0.18870485633517464,
+ "val_loss": 0.8832545229572636,
+ "val_rmse": 0.9398162176496336,
+ "val_r2": 0.24333135740075407,
+ "test_loss": 0.48279397922404993,
+ "test_rmse": 0.6948337781254232,
+ "test_r2": 0.04628113021983005,
+ "experiment": "benchmark",
+ "dataset": "solar_flare",
+ "task": "regression",
+ "data_id": 44966,
+ "config_index": null,
+ "seed": 0
+}

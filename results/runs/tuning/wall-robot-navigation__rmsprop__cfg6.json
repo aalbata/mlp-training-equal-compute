@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0007983009552873934,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 468,
+ "budget": 10000,
+ "units_used": 10000.056,
+ "stop_reason": "budget",
+ "seconds": 43.85,
+ "best_val_loss": 0.3745296748428365,
+ "best_at_units": 590.053,
+ "handoff_units": null,
+ "train_loss": 0.1996756886694468,
+ "train_accuracy": 0.9358386801099908,
+ "val_loss": 0.3745296748428365,
+ "val_accuracy": 0.8826764436296975,
+ "test_loss": 0.3418660327201484,
+ "test_accuracy": 0.8873626373626373,
+ "experiment": "tuning",
+ "dataset": "wall-robot-navigation",
+ "task": "classification",
+ "data_id": 1497,
+ "config_index": 6,
+ "seed": 0
+}

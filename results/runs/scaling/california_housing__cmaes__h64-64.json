@@ -1,0 +1,31 @@
+{
+ "method": "cmaes",
+ "config": {
+  "sigma0": 0.013250586840537731,
+  "popsize_factor": 1
+ },
+ "hidden": "64-64",
+ "n_params": 4801,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 267.085,
+ "best_val_loss": 0.28922666001041614,
+ "best_at_units": 9660.0,
+ "handoff_units": null,
+ "train_loss": 0.26302075876058517,
+ "train_rmse": 0.5128554950086673,
+ "train_r2": 0.7369792412394148,
+ "val_loss": 0.28922666001041614,
+ "val_rmse": 0.5377979732301119,
+ "val_r2": 0.7121631021637564,
+ "test_loss": 0.275267529413879,
+ "test_rmse": 0.5246594413654242,
+ "test_r2": 0.7295650189719358,
+ "experiment": "scaling",
+ "dataset": "california_housing",
+ "task": "regression",
+ "data_id": 44977,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,28 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12048571456504047
+ },
+ "hidden": "16",
+ "n_params": 282,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 10.098,
+ "best_val_loss": 0.6098159173543478,
+ "best_at_units": 9990.0,
+ "handoff_units": null,
+ "train_loss": 0.6033029736920534,
+ "train_accuracy": 0.7566666666666667,
+ "val_loss": 0.6098159173543478,
+ "val_accuracy": 0.7625,
+ "test_loss": 0.6885308666635812,
+ "test_accuracy": 0.7225,
+ "experiment": "tuning",
+ "dataset": "mfeat-morphological",
+ "task": "classification",
+ "data_id": 18,
+ "config_index": 9,
+ "seed": 0
+}

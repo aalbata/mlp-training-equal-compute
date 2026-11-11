@@ -1,0 +1,31 @@
+{
+ "method": "lshade",
+ "config": {
+  "pop_size": 20,
+  "init_scale": 0.12171445727115163
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.64,
+ "best_val_loss": 0.04483841123734707,
+ "best_at_units": 9620.0,
+ "handoff_units": null,
+ "train_loss": 0.03371958022654948,
+ "train_rmse": 0.1836289199079205,
+ "train_r2": 0.9662804197734505,
+ "val_loss": 0.04483841123734707,
+ "val_rmse": 0.21175082346320892,
+ "val_r2": 0.9575130991370441,
+ "test_loss": 0.051367062139632984,
+ "test_rmse": 0.22664302799696484,
+ "test_r2": 0.9430049291245475,
+ "experiment": "benchmark",
+ "dataset": "energy_efficiency",
+ "task": "regression",
+ "data_id": 44960,
+ "config_index": null,
+ "seed": 0
+}

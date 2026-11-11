@@ -1,0 +1,28 @@
+{
+ "method": "rmsprop",
+ "config": {
+  "lr": 0.0007983009552873934,
+  "batch_size": 64
+ },
+ "hidden": "16",
+ "n_params": 274,
+ "budget": 10000,
+ "units_used": 10000.037,
+ "stop_reason": "budget",
+ "seconds": 57.443,
+ "best_val_loss": 0.43819798565380524,
+ "best_at_units": 370.037,
+ "handoff_units": null,
+ "train_loss": 0.4282244392818626,
+ "train_accuracy": 0.8036,
+ "val_loss": 0.43819798565380524,
+ "val_accuracy": 0.8008,
+ "test_loss": 0.45566874783275896,
+ "test_accuracy": 0.7842877634337416,
+ "experiment": "tuning",
+ "dataset": "electricity",
+ "task": "classification",
+ "data_id": 151,
+ "config_index": 6,
+ "seed": 0
+}

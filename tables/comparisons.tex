@@ -1,0 +1,59 @@
+\begin{tabular}{lccc}
+\toprule
+Method & Median [95\% CI] & W/T/L & $p$ \\
+\midrule
+\multicolumn{4}{l}{\emph{Classification, against Adam}} \\
+RMSprop & $0.00$ [$-0.32$, $0.00$] & 10/27/20 & 0.548 \\
+SGD with momentum & $-0.28$ [$-0.71$, $0.00$] & 12/20/25 & 0.205 \\
+L-BFGS & $-0.41$ [$-0.65$, $0.00$] & 15/16/26 & 0.206 \\
+GA & $-1.73$ [$-3.47$, $-0.72$] & 9/9/39 & $<0.001$ \\
+PSO & $-2.87$ [$-3.77$, $-1.18$] & 5/9/43 & $<0.001$ \\
+GWO & $-3.68$ [$-7.02$, $-2.08$] & 3/9/45 & $<0.001$ \\
+DE & $-4.00$ [$-6.36$, $-1.88$] & 4/9/44 & $<0.001$ \\
+CMA-ES & $-0.71$ [$-1.37$, $-0.16$] & 9/16/32 & 0.004 \\
+L-SHADE & $-1.90$ [$-3.89$, $-0.83$] & 7/12/38 & $<0.001$ \\
+CSO & $-4.00$ [$-6.49$, $-1.33$] & 5/9/43 & $<0.001$ \\
+PSO then Adam, fixed split & $-0.39$ [$-0.78$, $0.00$] & 10/20/27 & 0.036 \\
+GWO then Adam, fixed split & $-0.25$ [$-1.00$, $0.00$] & 13/20/24 & 0.304 \\
+PSO then Adam, stagnation trigger & $-0.26$ [$-0.60$, $0.00$] & 11/20/26 & 0.040 \\
+GWO then Adam, stagnation trigger & $-0.46$ [$-0.71$, $-0.24$] & 8/21/28 & 0.009 \\
+Multi-start Adam & $0.00$ [$-0.09$, $+0.07$] & 17/24/16 & 1.000 \\
+\midrule
+\multicolumn{4}{l}{\emph{Classification, stagnation trigger against fixed split}} \\
+PSO then Adam, stagnation trigger & $0.00$ [$-0.19$, $+0.20$] & 17/23/17 & 1.000 \\
+GWO then Adam, stagnation trigger & $-0.16$ [$-0.40$, $0.00$] & 15/23/19 & 0.984 \\
+\midrule
+\multicolumn{4}{l}{\emph{Classification, against multi-start Adam}} \\
+PSO then Adam, fixed split & $-0.34$ [$-0.65$, $-0.10$] & 9/23/25 & 0.012 \\
+GWO then Adam, fixed split & $-0.04$ [$-0.49$, $0.00$] & 9/27/21 & 0.304 \\
+PSO then Adam, stagnation trigger & $-0.26$ [$-0.63$, $-0.04$] & 10/22/25 & 0.030 \\
+GWO then Adam, stagnation trigger & $-0.39$ [$-0.75$, $-0.14$] & 9/23/25 & 0.040 \\
+\midrule
+\multicolumn{4}{l}{\emph{Regression, against Adam}} \\
+RMSprop & $-0.005$ [$-0.008$, $0.000$] & 4/12/15 & 0.097 \\
+SGD with momentum & $-0.006$ [$-0.011$, $0.000$] & 7/8/16 & 1.000 \\
+L-BFGS & $0.000$ [$-0.007$, $+0.007$] & 11/8/12 & 1.000 \\
+GA & $-0.108$ [$-0.139$, $-0.081$] & 2/1/28 & $<0.001$ \\
+PSO & $-0.089$ [$-0.148$, $-0.028$] & 2/2/27 & $<0.001$ \\
+GWO & $-0.103$ [$-0.169$, $-0.044$] & 5/1/25 & $<0.001$ \\
+DE & $-0.111$ [$-0.188$, $-0.062$] & 1/1/29 & $<0.001$ \\
+CMA-ES & $-0.054$ [$-0.068$, $-0.011$] & 3/4/24 & $<0.001$ \\
+L-SHADE & $-0.074$ [$-0.116$, $-0.054$] & 3/1/27 & $<0.001$ \\
+CSO & $-0.117$ [$-0.209$, $-0.096$] & 1/1/29 & $<0.001$ \\
+PSO then Adam, fixed split & $-0.013$ [$-0.021$, $-0.008$] & 3/4/24 & 0.002 \\
+GWO then Adam, fixed split & $-0.004$ [$-0.008$, $-0.001$] & 5/11/15 & 0.218 \\
+PSO then Adam, stagnation trigger & $-0.004$ [$-0.006$, $0.000$] & 5/13/13 & 0.402 \\
+GWO then Adam, stagnation trigger & $-0.003$ [$-0.006$, $-0.001$] & 6/14/11 & 1.000 \\
+Multi-start Adam & $-0.002$ [$-0.011$, $+0.001$] & 3/15/13 & 0.321 \\
+\midrule
+\multicolumn{4}{l}{\emph{Regression, stagnation trigger against fixed split}} \\
+PSO then Adam, stagnation trigger & $+0.010$ [$+0.004$, $+0.016$] & 19/9/3 & 0.008 \\
+GWO then Adam, stagnation trigger & $-0.002$ [$-0.004$, $0.000$] & 8/14/9 & 1.000 \\
+\midrule
+\multicolumn{4}{l}{\emph{Regression, against multi-start Adam}} \\
+PSO then Adam, fixed split & $-0.008$ [$-0.020$, $0.000$] & 8/5/18 & 0.321 \\
+GWO then Adam, fixed split & $-0.002$ [$-0.007$, $+0.002$] & 8/11/12 & 1.000 \\
+PSO then Adam, stagnation trigger & $-0.001$ [$-0.007$, $+0.002$] & 10/10/11 & 1.000 \\
+GWO then Adam, stagnation trigger & $0.000$ [$-0.003$, $+0.005$] & 11/12/8 & 1.000 \\
+\bottomrule
+\end{tabular}

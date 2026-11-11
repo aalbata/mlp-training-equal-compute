@@ -1,0 +1,28 @@
+{
+ "method": "adam",
+ "config": {
+  "lr": 0.0002774873760211187,
+  "batch_size": 32
+ },
+ "hidden": "16",
+ "n_params": 818,
+ "budget": 10000,
+ "units_used": 10000.018,
+ "stop_reason": "budget",
+ "seconds": 237.214,
+ "best_val_loss": 0.22854427911527836,
+ "best_at_units": 250.018,
+ "handoff_units": null,
+ "train_loss": 0.18198462729616022,
+ "train_accuracy": 0.9214,
+ "val_loss": 0.22854427911527836,
+ "val_accuracy": 0.898,
+ "test_loss": 0.2206835737325467,
+ "test_accuracy": 0.9014707508570164,
+ "experiment": "tuning",
+ "dataset": "bank-marketing",
+ "task": "classification",
+ "data_id": 1461,
+ "config_index": 1,
+ "seed": 0
+}

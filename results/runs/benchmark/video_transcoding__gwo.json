@@ -1,0 +1,31 @@
+{
+ "method": "gwo",
+ "config": {
+  "pop_size": 80,
+  "init_scale": 0.33831349205752076
+ },
+ "hidden": "16",
+ "n_params": 417,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 12.54,
+ "best_val_loss": 0.36501277886938,
+ "best_at_units": 8830.0,
+ "handoff_units": null,
+ "train_loss": 0.27929475564982176,
+ "train_rmse": 0.5284834487945879,
+ "train_r2": 0.7207052443501782,
+ "val_loss": 0.36501277886938,
+ "val_rmse": 0.604162874454712,
+ "val_r2": 0.6942419850206317,
+ "test_loss": 0.36540650872833985,
+ "test_rmse": 0.6044886340770518,
+ "test_r2": 0.6986529233464107,
+ "experiment": "benchmark",
+ "dataset": "video_transcoding",
+ "task": "regression",
+ "data_id": 44974,
+ "config_index": null,
+ "seed": 0
+}

@@ -1,0 +1,32 @@
+{
+ "method": "pso",
+ "config": {
+  "pop_size": 40,
+  "inertia": 0.7298,
+  "c1": 1.49618,
+  "c2": 1.49618,
+  "init_scale": 0.1,
+  "vmax": 0.2
+ },
+ "hidden": "16",
+ "n_params": 934,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 26.449,
+ "best_val_loss": 1.465815475309319,
+ "best_at_units": 8380.0,
+ "handoff_units": null,
+ "train_loss": 1.42101055340595,
+ "train_accuracy": 0.48119891008174387,
+ "val_loss": 1.465815475309319,
+ "val_accuracy": 0.46078431372549017,
+ "test_loss": 1.4161793996456022,
+ "test_accuracy": 0.4910130718954248,
+ "experiment": "benchmark",
+ "dataset": "first-order-theorem-proving",
+ "task": "classification",
+ "data_id": 1475,
+ "config_index": null,
+ "seed": 0
+}

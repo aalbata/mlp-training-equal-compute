@@ -1,0 +1,33 @@
+{
+ "method": "de",
+ "config": {
+  "pop_size": 50,
+  "F": 0.3035393094846672,
+  "CR": 0.8488906334298801,
+  "init_scale": 0.13606838165442803
+ },
+ "hidden": "16",
+ "n_params": 161,
+ "budget": 10000,
+ "units_used": 10000.0,
+ "stop_reason": "budget",
+ "seconds": 1.588,
+ "best_val_loss": 0.06597918257523233,
+ "best_at_units": 9450.0,
+ "handoff_units": null,
+ "train_loss": 0.06293254790038662,
+ "train_rmse": 0.25086360417642617,
+ "train_r2": 0.9370674520996134,
+ "val_loss": 0.06597918257523233,
+ "val_rmse": 0.2568641325199615,
+ "val_r2": 0.9374810366439151,
+ "test_loss": 0.07464739397580189,
+ "test_rmse": 0.2732167527363611,
+ "test_r2": 0.9171738983484514,
+ "experiment": "benchmark",
+ "dataset": "energy_efficiency",
+ "task": "regression",
+ "data_id": 44960,
+ "config_index": null,
+ "seed": 0
+}
